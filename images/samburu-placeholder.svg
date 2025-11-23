@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="desertSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF8C42;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFA566;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="desertLand" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E69A8D;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D27D6C;stop-opacity:1" />
+    </linearGradient>
+    <pattern id="giraffePattern" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <rect width="40" height="40" fill="#C4965C"/>
+      <rect x="0" y="0" width="18" height="18" fill="#8B6F47"/>
+      <rect x="20" y="0" width="18" height="18" fill="#8B6F47"/>
+      <rect x="0" y="20" width="18" height="18" fill="#8B6F47"/>
+      <rect x="20" y="20" width="18" height="18" fill="#8B6F47"/>
+    </pattern>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="1600" height="600" fill="url(#desertSky)"/>
+
+  <!-- Desert landscape -->
+  <rect y="600" width="1600" height="300" fill="url(#desertLand)"/>
+
+  <!-- Distant hills -->
+  <ellipse cx="400" cy="600" rx="300" ry="80" fill="#A67C52" opacity="0.5"/>
+  <ellipse cx="1200" cy="600" rx="400" ry="100" fill="#A67C52" opacity="0.4"/>
+
+  <!-- Reticulated Giraffe -->
+  <g transform="translate(700, 400)">
+    <!-- Body -->
+    <ellipse cx="0" cy="100" rx="80" ry="60" fill="url(#giraffePattern)"/>
+    <!-- Neck -->
+    <rect x="-15" y="0" width="30" height="100" fill="url(#giraffePattern)"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="-10" rx="25" ry="30" fill="url(#giraffePattern)"/>
+    <!-- Legs -->
+    <rect x="-60" y="140" width="20" height="120" fill="url(#giraffePattern)"/>
+    <rect x="-20" y="140" width="20" height="120" fill="url(#giraffePattern)"/>
+    <rect x="0" y="140" width="20" height="120" fill="url(#giraffePattern)"/>
+    <rect x="40" y="140" width="20" height="120" fill="url(#giraffePattern)"/>
+    <!-- Ossicones (horns) -->
+    <rect x="-15" y="-30" width="8" height="25" fill="#8B6F47"/>
+    <rect x="7" y="-30" width="8" height="25" fill="#8B6F47"/>
+  </g>
+
+  <!-- Doum palms -->
+  <circle cx="200" cy="550" r="40" fill="#2F5233"/>
+  <rect x="195" y="550" width="10" height="100" fill="#6B4423"/>
+
+  <circle cx="1400" cy="580" r="35" fill="#2F5233"/>
+  <rect x="1396" y="580" width="8" height="80" fill="#6B4423"/>
+
+  <!-- Sun -->
+  <circle cx="1400" cy="150" r="80" fill="#FFD700" opacity="0.8"/>
+
+  <!-- Text overlay -->
+  <rect y="800" width="1600" height="100" fill="#000" opacity="0.3"/>
+  <text x="800" y="860" font-family="Arial, sans-serif" font-size="48" fill="white" text-anchor="middle" font-weight="bold">
+    SAMBURU RESERVE
+  </text>
+  <text x="800" y="890" font-family="Arial, sans-serif" font-size="24" fill="white" text-anchor="middle">
+    Home of the Samburu Special Five
+  </text>
+</svg>

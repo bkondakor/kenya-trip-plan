@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="mountainSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4A5568;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#718096;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="forestGreen" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#2D3748;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1A202C;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Sky with mist -->
+  <rect width="1600" height="900" fill="url(#mountainSky)"/>
+
+  <!-- Mountain peaks - Matthews Range -->
+  <polygon points="400,500 650,250 900,500" fill="#4A5568" opacity="0.8"/>
+  <polygon points="650,250 750,350 550,350" fill="#2D3748" opacity="0.6"/>
+
+  <polygon points="700,450 1000,200 1300,450" fill="#4A5568" opacity="0.8"/>
+  <polygon points="1000,200 1100,300 900,300" fill="#2D3748" opacity="0.6"/>
+
+  <polygon points="200,550 500,350 800,550" fill="#4A5568" opacity="0.7"/>
+
+  <!-- Mist layers -->
+  <ellipse cx="800" cy="450" rx="600" ry="100" fill="white" opacity="0.2"/>
+  <ellipse cx="400" cy="550" rx="500" ry="80" fill="white" opacity="0.15"/>
+
+  <!-- Dense forest foreground -->
+  <rect y="650" width="1600" height="250" fill="url(#forestGreen)"/>
+
+  <!-- Cedar trees silhouettes -->
+  <g opacity="0.8">
+    <!-- Large cedar -->
+    <polygon points="300,650 300,500 250,550 250,650" fill="#1A202C"/>
+    <polygon points="300,650 300,500 350,550 350,650" fill="#1A202C"/>
+    <polygon points="270,550 330,550 300,480" fill="#2F4F2F"/>
+
+    <!-- Medium cedars -->
+    <polygon points="600,650 600,550 570,590 570,650" fill="#1A202C"/>
+    <polygon points="600,650 600,550 630,590 630,650" fill="#1A202C"/>
+    <polygon points="585,590 615,590 600,540" fill="#2F4F2F"/>
+
+    <polygon points="900,650 900,570 875,600 875,650" fill="#1A202C"/>
+    <polygon points="900,650 900,570 925,600 925,650" fill="#1A202C"/>
+    <polygon points="887,600 913,600 900,560" fill="#2F4F2F"/>
+
+    <polygon points="1200,650 1200,520 1165,570 1165,650" fill="#1A202C"/>
+    <polygon points="1200,650 1200,520 1235,570 1235,650" fill="#1A202C"/>
+    <polygon points="1180,570 1220,570 1200,510" fill="#2F4F2F"/>
+
+    <polygon points="1450,650 1450,580 1425,610 1425,650" fill="#1A202C"/>
+    <polygon points="1450,650 1450,580 1475,610 1475,650" fill="#1A202C"/>
+    <polygon points="1437,610 1463,610 1450,570" fill="#2F4F2F"/>
+  </g>
+
+  <!-- Ancient cedar trunks -->
+  <rect x="150" y="700" width="30" height="200" fill="#654321"/>
+  <rect x="450" y="720" width="25" height="180" fill="#654321"/>
+  <rect x="1100" y="710" width="28" height="190" fill="#654321"/>
+  <rect x="1380" y="740" width="22" height="160" fill="#654321"/>
+
+  <!-- Birds in sky -->
+  <g fill="#2D3748" opacity="0.5">
+    <path d="M 1100,200 Q 1110,195 1120,200" stroke="#2D3748" stroke-width="2" fill="none"/>
+    <path d="M 1100,200 Q 1090,195 1080,200" stroke="#2D3748" stroke-width="2" fill="none"/>
+
+    <path d="M 1300,250 Q 1310,245 1320,250" stroke="#2D3748" stroke-width="2" fill="none"/>
+    <path d="M 1300,250 Q 1290,245 1280,250" stroke="#2D3748" stroke-width="2" fill="none"/>
+  </g>
+
+  <!-- Text overlay -->
+  <rect y="800" width="1600" height="100" fill="#000" opacity="0.4"/>
+  <text x="800" y="860" font-family="Arial, sans-serif" font-size="48" fill="white" text-anchor="middle" font-weight="bold">
+    MATTHEWS RANGE
+  </text>
+  <text x="800" y="890" font-family="Arial, sans-serif" font-size="24" fill="white" text-anchor="middle">
+    Ancient Cedar Forests &amp; Sky Island Wilderness
+  </text>
+</svg>

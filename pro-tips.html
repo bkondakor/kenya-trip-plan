@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pro Tips - Kenya 2026 Adventure</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        .tab-button {
+            position: relative;
+            padding: 12px 20px;
+            border: none;
+            background: transparent;
+            cursor: pointer;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            color: #6b7280;
+        }
+
+        .tab-button.active {
+            color: #059669;
+            background: rgba(5, 150, 105, 0.1);
+            border-radius: 8px;
+        }
+
+        .tab-button::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            height: 3px;
+            background-color: #059669;
+            transition: width 0.3s ease;
+        }
+
+        .tab-button.active::after {
+            width: 100%;
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+        .tab-content.active {
+            display: block;
+            animation: fadeIn 0.3s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .tip-card {
+            background: white;
+            border-left: 4px solid #059669;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 16px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s ease;
+        }
+
+        .tip-card:hover {
+            box-shadow: 0 4px 16px rgba(5, 150, 105, 0.15);
+            transform: translateX(5px);
+        }
+
+        .tip-card.important {
+            border-left-color: #d97706;
+            background: linear-gradient(135deg, rgba(217, 119, 6, 0.05), rgba(217, 119, 6, 0.02));
+        }
+
+        .tip-icon {
+            font-size: 28px;
+            margin-bottom: 12px;
+        }
+
+        .breadcrumb {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 14px;
+            margin-bottom: 30px;
+        }
+
+        .breadcrumb a {
+            color: #059669;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .breadcrumb a:hover {
+            color: #047857;
+            text-decoration: underline;
+        }
+
+        .breadcrumb span {
+            color: #9ca3af;
+        }
+
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 24px;
+        }
+
+        .section-icon {
+            font-size: 36px;
+        }
+
+        .section-title {
+            font-size: 28px;
+            font-weight: 700;
+            color: #059669;
+        }
+
+        .tabs-container {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            overflow: hidden;
+        }
+
+        .tabs-header {
+            background: linear-gradient(135deg, #f0fdf4 0%, #e0f7f4 100%);
+            border-bottom: 2px solid rgba(5, 150, 105, 0.1);
+            padding: 16px;
+            overflow-x: auto;
+            display: flex;
+            gap: 8px;
+        }
+
+        .tabs-content {
+            padding: 32px;
+        }
+
+        @media (max-width: 768px) {
+            .tabs-header {
+                padding: 12px;
+                gap: 4px;
+            }
+
+            .tab-button {
+                padding: 10px 14px;
+                font-size: 12px;
+            }
+
+            .section-title {
+                font-size: 24px;
+            }
+
+            .section-icon {
+                font-size: 28px;
+            }
+        }
+
+        .hidden-gem-card {
+            background: linear-gradient(135deg, #fef3c7 0%, #fef9f3 100%);
+            border: 2px solid #d97706;
+            padding: 24px;
+            border-radius: 12px;
+            margin-top: 32px;
+        }
+
+        .hidden-gem-icon {
+            font-size: 40px;
+            margin-bottom: 16px;
+        }
+    </style>
+</head>
+<body class="bg-cream">
+    <!-- Navigation Component -->
+    <nav class="navbar sticky top-0 z-50 shadow-lg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <!-- Logo/Brand -->
+                <div class="flex-shrink-0">
+                    <a href="index.html" class="text-2xl font-bold text-white">
+                        <span class="text-emerald-300">🦁</span> Kenya Adventure
+                    </a>
+                </div>
+
+                <!-- Navigation Links -->
+                <div class="hidden md:flex space-x-8">
+                    <a href="index.html" class="nav-link text-white hover:text-emerald-300 transition duration-300">Home</a>
+                    <a href="pro-tips.html" class="nav-link text-white hover:text-emerald-300 transition duration-300">Pro Tips</a>
+                    <a href="places.html" class="nav-link text-white hover:text-emerald-300 transition duration-300">Places to Visit</a>
+                    <a href="map.html" class="nav-link text-white hover:text-emerald-300 transition duration-300">Interactive Map</a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden">
+                    <button id="mobileMenuBtn" class="text-white hover:text-emerald-300 focus:outline-none">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobileMenu" class="hidden md:hidden navbar">
+            <div class="px-2 pt-2 pb-3 space-y-1">
+                <a href="index.html" class="block px-3 py-2 text-white hover:bg-emerald-700 rounded-md transition duration-300">Home</a>
+                <a href="pro-tips.html" class="block px-3 py-2 text-white hover:bg-emerald-700 rounded-md transition duration-300">Pro Tips</a>
+                <a href="places.html" class="block px-3 py-2 text-white hover:bg-emerald-700 rounded-md transition duration-300">Places to Visit</a>
+                <a href="map.html" class="block px-3 py-2 text-white hover:bg-emerald-700 rounded-md transition duration-300">Interactive Map</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Breadcrumbs -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8">
+        <div class="breadcrumb">
+            <a href="index.html">Home</a>
+            <span>/</span>
+            <span class="text-gray-700 font-medium">Pro Tips</span>
+        </div>
+    </div>
+
+    <!-- Page Header -->
+    <section class="py-12 bg-white border-b border-emerald-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h1 class="text-4xl sm:text-5xl font-bold text-emerald-700 mb-4">
+                Pro Tips for Your Kenya Adventure
+            </h1>
+            <p class="text-xl text-gray-700 max-w-3xl">
+                Expert advice to make your January 2026 journey unforgettable. From booking strategies to cultural insights, discover everything you need to know.
+            </p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <section class="py-16 bg-cream">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <!-- Tabs Container -->
+            <div class="tabs-container">
+                <!-- Tabs Header -->
+                <div class="tabs-header">
+                    <button class="tab-button active" onclick="switchTab(0)">
+                        <span>✈️</span> Booking & Logistics
+                    </button>
+                    <button class="tab-button" onclick="switchTab(1)">
+                        <span>💰</span> Money & Costs
+                    </button>
+                    <button class="tab-button" onclick="switchTab(2)">
+                        <span>🎒</span> Packing Essentials
+                    </button>
+                    <button class="tab-button" onclick="switchTab(3)">
+                        <span>🏥</span> Health & Safety
+                    </button>
+                    <button class="tab-button" onclick="switchTab(4)">
+                        <span>☀️</span> Weather Strategy
+                    </button>
+                    <button class="tab-button" onclick="switchTab(5)">
+                        <span>📸</span> Photography
+                    </button>
+                    <button class="tab-button" onclick="switchTab(6)">
+                        <span>🤝</span> Cultural Experiences
+                    </button>
+                    <button class="tab-button" onclick="switchTab(7)">
+                        <span>🔄</span> Alternative Adjustments
+                    </button>
+                    <button class="tab-button" onclick="switchTab(8)">
+                        <span>💎</span> Hidden Gem
+                    </button>
+                </div>
+
+                <!-- Tabs Content -->
+                <div class="tabs-content">
+                    <!-- Tab 1: Booking & Logistics -->
+                    <div class="tab-content active" id="tab-0">
+                        <div class="section-header">
+                            <div class="section-icon">✈️</div>
+                            <div>
+                                <h2 class="section-title">Booking & Logistics</h2>
+                            </div>
+                        </div>
+
+                        <div class="tip-card important">
+                            <h3 class="font-bold text-lg text-amber-900 mb-2">Book NOW</h3>
+                            <p>January is peak season; Il Ngwesi and Saruni properties fill 12+ months ahead. Don't delay!</p>
+                        </div>
+
+                        <div class="tip-card">
+                            <h3 class="font-bold text-lg text-emerald-700 mb-2">Domestic Flights</h3>
+                            <p>Use Safarilink or AirKenya; book with lodge packages for better coordination and peace of mind.</p>
+                        </div>
+
+                        <div class="tip-card">
+                            <h3 class="font-bold text-lg text-emerald-700 mb-2">Luggage Requirements</h3>
+                            <p>Soft-sided luggage only with a 15kg limit on safari planes. Good news: laundry is available at all lodges, so you can pack lighter.</p>
+                        </div>
+
+                        <div class="tip-card">
+                            <h3 class="font-bold text-lg text-emerald-700 mb-2">eTA (Electronic Travel Authorization)</h3>
+                            <p>Apply immediately at <strong>etakenya.go.ke</strong>. Cost: $32.50 and it requires 3+ days processing. Plan ahead!</p>
+                        </div>
+                    </div>
+
+                    <!-- Tab 2: Money & Costs -->
+                    <div class="tab-content" id="tab-1">
+                        <div class="section-header">
+                            <div class="section-icon">💰</div>
+                            <div>
+                                <h2 class="section-title">Money & Costs</h2>
+                            </div>
+                        </div>
+
+                        <div class="tip-card">
+                            <h3 class="font-bold text-lg text-emerald-700 mb-2">Budget Planning</h3>
+                            <p>Plan for $9,000-13,000 per person (mid-range) including domestic flights, accommodation, and most activities. This covers the high season pricing for January.</p>
+                        </div>
+
+                        <div class="tip-card important">
+                            <h3 class="font-bold text-lg text-amber-900 mb-2">Tipping Etiquette</h3>
+                            <p>Bring USD cash for tips:</p>
+                            <ul class="mt-3 ml-4 space-y-2">
+                                <li>• Guides: $10-15 per day</li>
+                                <li>• Camp/lodge staff: $5-10 per day</li>
+                            </ul>
+                        </div>
+
+                        <div class="tip-card">
+                            <h3 class="font-bold text-lg text-emerald-700 mb-2">Payment Methods</h3>
+                            <p>M-Pesa is widely accepted throughout Kenya. Use Nairobi ATMs to withdraw KES cash for smaller purchases and local needs.</p>
+                        </div>
+
+                        <div class="tip-card">
+                            <h3 class="font-bold text-lg text-emerald-700 mb-2">Park Fees Advantage</h3>
+                            <p>January has 50% lower Mara park fees vs. July-Oct. Though you're skipping Mara for hidden gems, you still benefit from lower costs during this period.</p>
+                        </div>
+                    </div>
+
+                    <!-- Tab 3: Packing Essentials -->
+                    <div class="tab-content" id="tab-2">
+                        <div class="section-header">
+                            <div class="section-icon">🎒</div>
+                            <div>
+                                <h2 class="section-title">Packing Essentials</h2>
+                            </div>
+                        </div>
+
+                        <div class="tip-card important">
+                            <h3 class="font-bold text-lg text-amber-900 mb-2">Layering is Critical</h3>
+                            <p>Dawn drives can be 10-12°C, while midday reaches 30+°C. Pack a variety of layers to adapt throughout the day.</p>
+                        </div>
+
+                        <div class="tip-card">
+                            <h3 class="font-bold text-lg text-emerald-700 mb-2">Safari Color Palette</h3>
+                            <p>Stick to neutral colors: khaki, olive, and beige. Bright colors can startle wildlife and affect photography. Less is more!</p>
+                        </div>
+
+                        <div class="tip-card">
+                            <h3 class="font-bold text-lg text-emerald-700 mb-2">Footwear</h3>
+                            <p>Pack good walking shoes for Loita/Matthews hikes. You'll appreciate quality support on uneven terrain.</p>
+                        </div>
+
+                        <div class="tip-card">
+                            <h3 class="font-bold text-lg text-emerald-700 mb-2">Sun & Water Protection</h3>
+                            <p>Use reef-safe sunscreen for the coast—regular sunscreen damages coral. This matters for conservation!</p>
+                        </div>
+
+                        <div class="tip-card">
+                            <h3 class="font-bold text-lg text-emerald-700 mb-2">Additional Items</h3>
+                            <ul class="mt-3 ml-4 space-y-2">
+                                <li>• Headlamp (for Chyulu lava tubes if added)</li>
+                                <li>• Quality binoculars (often provided but bring your own for better views)</li>
+                                <li>• Extra camera batteries (charging not always available during hikes)</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Tab 4: Health & Safety -->
+                    <div class="tab-content" id="tab-3">
+                        <div class="section-header">
+                            <div class="section-icon">🏥</div>
+                            <div>
+                                <h2 class="section-title">Health & Safety</h2>
+                            </div>
+                        </div>
+
+                        <div class="tip-card important">
+                            <h3 class="font-bold text-lg text-amber-900 mb-2">Required Documentation</h3>
+                            <p>Yellow fever certificate is required if coming through endemic countries. Get vaccinated well before departure.</p>
+                        </div>
+
+                        <div class="tip-card">
+                            <h3 class="font-bold text-lg text-emerald-700 mb-2">Malaria Prophylaxis</h3>
+                            <p>Recommended, especially for Samburu and Northern Kenya. Consult your travel doctor 6 weeks before departure to start medication early.</p>
+                        </div>
+
+                        <div class="tip-card">
+                            <h3 class="font-bold text-lg text-emerald-700 mb-2">Regional Risk Levels</h3>
+                            <ul class="mt-3 ml-4 space-y-2">
+                                <li>• <strong>Samburu/Northern Kenya:</strong> Malaria risk present</li>
+                                <li>• <strong>Coast:</strong> Lower malaria risk</li>
+                            </ul>
+                        </div>
+
+                        <div class="tip-card">
+                            <h3 class="font-bold text-lg text-emerald-700 mb-2">Water Safety</h3>
+                            <p>Drink bottled water only. However, lodges provide filtered water, which is safe for brushing teeth and general use.</p>
+                        </div>
+
+                        <div class="tip-card important">
+                            <h3 class="font-bold text-lg text-amber-900 mb-2">Travel Insurance</h3>
+                            <p>Mandatory! Make sure coverage includes emergency evacuation for remote areas. You'll be visiting some isolated locations.</p>
+                        </div>
+                    </div>
+
+                    <!-- Tab 5: Weather Strategy -->
+                    <div class="tab-content" id="tab-4">
+                        <div class="section-header">
+                            <div class="section-icon">☀️</div>
+                            <div>
+                                <h2 class="section-title">Weather Strategy</h2>
+                            </div>
+                        </div>
+
+                        <div class="tip-card">
+                            <h3 class="font-bold text-lg text-emerald-700 mb-2">January Climate</h3>
+                            <p>Dry season overall, but pack one light rain jacket just in case. Rare afternoon showers are possible.</p>
+                        </div>
+
+                        <div class="tip-card important">
+                            <h3 class="font-bold text-lg text-amber-900 mb-2">Samburu Heat</h3>
+                            <p>Expect hot temperatures at 32°C+. Hydrate constantly, wear light-colored clothing, and use high SPF sunscreen.</p>
+                        </div>
+
+                        <div class="tip-card">
+                            <h3 class="font-bold text-lg text-emerald-700 mb-2">Loita Hills Terrain</h3>
+                            <p>Can be muddy from December rains. Bring boots with good tread for secure footing on wet trails.</p>
+                        </div>
+
+                        <div class="tip-card">
+                            <h3 class="font-bold text-lg text-emerald-700 mb-2">Coastal Perfection</h3>
+                            <p>The coast offers ideal conditions: 28°C, low humidity, and calm seas. Pack lighter clothing here.</p>
+                        </div>
+                    </div>
+
+                    <!-- Tab 6: Photography -->
+                    <div class="tab-content" id="tab-5">
+                        <div class="section-header">
+                            <div class="section-icon">📸</div>
+                            <div>
+                                <h2 class="section-title">Photography</h2>
+                            </div>
+                        </div>
+
+                        <div class="tip-card">
+                            <h3 class="font-bold text-lg text-emerald-700 mb-2">Golden Hours</h3>
+                            <p>Dawn and dusk game drives are scheduled game drive times AND they offer perfect golden hour light. You get both adventure and stunning photography!</p>
+                        </div>
+
+                        <div class="tip-card important">
+                            <h3 class="font-bold text-lg text-amber-900 mb-2">Cultural Photography Ethics</h3>
+                            <p>Ask permission before photographing people, especially at Il Ngwesi and Maji Moto. Respect builds relationships.</p>
+                        </div>
+
+                        <div class="tip-card">
+                            <h3 class="font-bold text-lg text-emerald-700 mb-2">Equipment Preparation</h3>
+                            <ul class="mt-3 ml-4 space-y-2">
+                                <li>• Bring extra batteries (charging isn't always available during hikes)</li>
+                                <li>• Dust protection essential for camera gear in Samburu's dusty conditions</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Tab 7: Cultural Experiences -->
+                    <div class="tab-content" id="tab-6">
+                        <div class="section-header">
+                            <div class="section-icon">🤝</div>
+                            <div>
+                                <h2 class="section-title">Maximizing Cultural Experiences</h2>
+                            </div>
+                        </div>
+
+                        <div class="tip-card">
+                            <h3 class="font-bold text-lg text-emerald-700 mb-2">Basic Swahili Phrases</h3>
+                            <p>Learning these will delight locals and enrich your connections:</p>
+                            <ul class="mt-3 ml-4 space-y-2">
+                                <li>• <strong>"Jambo"</strong> - Hello (traditional greeting)</li>
+                                <li>• <strong>"Asante"</strong> - Thank you</li>
+                                <li>• <strong>"Karibu"</strong> - Welcome</li>
+                            </ul>
+                        </div>
+
+                        <div class="tip-card important">
+                            <h3 class="font-bold text-lg text-amber-900 mb-2">Authentic Engagement</h3>
+                            <p>At Il Ngwesi and Maji Moto: engage genuinely, ask real questions, and skip performative photo ops. Authentic connections matter more than Instagram shots.</p>
+                        </div>
+
+                        <div class="tip-card">
+                            <h3 class="font-bold text-lg text-emerald-700 mb-2">Direct Artisan Support</h3>
+                            <p>Purchase crafts directly from artisan cooperatives at lodges. You'll get better prices AND the money goes directly to the makers.</p>
+                        </div>
+
+                        <div class="tip-card">
+                            <h3 class="font-bold text-lg text-emerald-700 mb-2">Conservation Impact Tours</h3>
+                            <p>Request school or clinic visits through lodge managers. Seeing the conservation impact firsthand adds profound meaning to your journey.</p>
+                        </div>
+                    </div>
+
+                    <!-- Tab 8: Alternative Adjustments -->
+                    <div class="tab-content" id="tab-7">
+                        <div class="section-header">
+                            <div class="section-icon">🔄</div>
+                            <div>
+                                <h2 class="section-title">Alternative Adjustments</h2>
+                            </div>
+                        </div>
+
+                        <div class="tip-card">
+                            <h3 class="font-bold text-lg text-emerald-700 mb-2">Skip Matthews Range (Budget Option)</h3>
+                            <p>If budget-tight: skipping Matthews Range saves 1 flight + one expensive lodge night. Instead, extend your Samburu time for deeper immersion.</p>
+                        </div>
+
+                        <div class="tip-card">
+                            <h3 class="font-bold text-lg text-emerald-700 mb-2">Watamu Alternative for Coastal Focus</h3>
+                            <p>Add Watamu instead of Lamu if you want snorkeling/diving focus. Easier access, dedicated marine park, and turtle sanctuary on-site.</p>
+                        </div>
+
+                        <div class="tip-card">
+                            <h3 class="font-bold text-lg text-emerald-700 mb-2">Hell's Gate for Less Hiking</h3>
+                            <p>Swap Loita for Hell's Gate if you're less hiking-inclined. It's an easier day trip from Nairobi with a cycling option through the gorge.</p>
+                        </div>
+                    </div>
+
+                    <!-- Tab 9: Hidden Gem -->
+                    <div class="tab-content" id="tab-8">
+                        <div class="section-header">
+                            <div class="section-icon">💎</div>
+                            <div>
+                                <h2 class="section-title">Hidden Gem Within Your Gem</h2>
+                            </div>
+                        </div>
+
+                        <div class="hidden-gem-card">
+                            <div class="hidden-gem-icon">✨</div>
+                            <h3 class="text-2xl font-bold text-amber-900 mb-4">The Ultimate Hidden Experience</h3>
+                            <p class="text-lg text-gray-800 leading-relaxed">
+                                Ask Sarara or Kitich for a camel-supported camping expedition deep into Matthews Range. You'll sleep under baobabs with zero other tourists.
+                            </p>
+                            <p class="text-gray-700 mt-4">
+                                This is the crown jewel of your journey—a rare opportunity to experience true wilderness solitude in one of Africa's most dramatic landscapes. The silence under the stars, the simplicity of camel travel, and the ancient beauty of the baobab groves create memories that will resonate for a lifetime.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Links Section -->
+    <section class="py-16 bg-white border-t border-emerald-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-emerald-700 mb-8">Ready for Your Adventure?</h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <a href="places.html" class="group feature-card bg-gradient-to-br from-emerald-50 to-teal-50 p-8 rounded-lg">
+                    <div class="text-4xl mb-4">📍</div>
+                    <h3 class="text-2xl font-bold text-emerald-700 mb-3">Places to Visit</h3>
+                    <p class="text-gray-700">Discover all the destinations on your Kenya itinerary, from Samburu to the coast.</p>
+                </a>
+
+                <a href="map.html" class="group feature-card bg-gradient-to-br from-blue-50 to-cyan-50 p-8 rounded-lg">
+                    <div class="text-4xl mb-4">🗺️</div>
+                    <h3 class="text-2xl font-bold text-blue-700 mb-3">Interactive Map</h3>
+                    <p class="text-gray-700">Visualize your route and understand the geography of your journey.</p>
+                </a>
+
+                <a href="index.html" class="group feature-card bg-gradient-to-br from-amber-50 to-orange-50 p-8 rounded-lg">
+                    <div class="text-4xl mb-4">🏠</div>
+                    <h3 class="text-2xl font-bold text-amber-800 mb-3">Back to Home</h3>
+                    <p class="text-gray-700">Return to the main page for an overview of your Kenya adventure.</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-300 py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+                <div>
+                    <h4 class="text-white font-bold mb-4">Kenya 2026 Adventure</h4>
+                    <p>An unforgettable journey through the heart of Africa, January 17-31, 2026. Pro tips to make it extraordinary.</p>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="hover:text-emerald-400 transition">Home</a></li>
+                        <li><a href="places.html" class="hover:text-emerald-400 transition">Places to Visit</a></li>
+                        <li><a href="map.html" class="hover:text-emerald-400 transition">Interactive Map</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold mb-4">Trip Details</h4>
+                    <p>January 17-31, 2026</p>
+                    <p class="mt-2">From Nairobi to the coast, from Samburu to hidden gems.</p>
+                </div>
+            </div>
+
+            <hr class="border-gray-700 mb-8">
+
+            <div class="text-center">
+                <p>&copy; 2026 Kenya Adventure. All rights reserved.</p>
+                <p class="text-sm mt-2">Prepared with love for an unforgettable journey</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Tab Switching Script -->
+    <script>
+        function switchTab(tabIndex) {
+            // Hide all tabs
+            const allTabs = document.querySelectorAll('.tab-content');
+            allTabs.forEach(tab => {
+                tab.classList.remove('active');
+            });
+
+            // Remove active class from all buttons
+            const allButtons = document.querySelectorAll('.tab-button');
+            allButtons.forEach(button => {
+                button.classList.remove('active');
+            });
+
+            // Show selected tab
+            const selectedTab = document.getElementById(`tab-${tabIndex}`);
+            selectedTab.classList.add('active');
+
+            // Add active class to clicked button
+            allButtons[tabIndex].classList.add('active');
+
+            // Scroll to top of content
+            selectedTab.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        }
+
+        // Mobile Menu Toggle
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const mobileMenu = document.getElementById('mobileMenu');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Close mobile menu when a link is clicked
+        const mobileLinks = mobileMenu.querySelectorAll('a');
+        mobileLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+    </script>
+</body>
+</html>

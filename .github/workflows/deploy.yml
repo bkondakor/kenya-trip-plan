@@ -1,0 +1,56 @@
+name: Deploy to GitHub Pages
+
+on:
+  # Trigger on push to main branch or the current development branch
+  push:
+    branches:
+      - main
+      - claude/kenya-trip-webapp-01K9hBpEwGP6CN9K9Z2q4v7f
+
+  # Allow manual trigger via workflow_dispatch
+  workflow_dispatch:
+
+# Set appropriate permissions for GitHub Pages deployment
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Prevent multiple simultaneous deployments
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    # Run on the latest Ubuntu runner
+    runs-on: ubuntu-latest
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      # Step 1: Checkout the repository code
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Step 2: Configure GitHub Pages
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v4
+
+      # Step 3: Upload static files as artifact
+      # This uploads the entire repository root which contains:
+      # - *.html files (index.html, places.html, pro-tips.html, map.html)
+      # - css/ directory with stylesheet
+      # - js/ directory with JavaScript files
+      - name: Upload pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          # Upload the entire repository root as the site root
+          path: '.'
+
+      # Step 4: Deploy to GitHub Pages
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
