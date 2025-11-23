@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nairobi - Kenya 2026 Adventure</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        .hero-destination {
+            background: linear-gradient(135deg, rgba(217, 119, 6, 0.9), rgba(245, 158, 11, 0.9)),
+                        url('images/nairobi.jpg') center/cover;
+            min-height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .breadcrumb {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 14px;
+            margin-bottom: 30px;
+        }
+
+        .breadcrumb a {
+            color: #d97706;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .breadcrumb a:hover {
+            color: #b45309;
+            text-decoration: underline;
+        }
+
+        .breadcrumb span {
+            color: #9ca3af;
+        }
+
+        .content-section {
+            background: white;
+            border-radius: 16px;
+            padding: 40px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        }
+
+        .activity-item {
+            display: flex;
+            align-items: start;
+            gap: 12px;
+            padding: 16px;
+            background: #fef3c7;
+            border-radius: 8px;
+            margin-bottom: 12px;
+            border-left: 4px solid #d97706;
+        }
+
+        .activity-icon {
+            color: #d97706;
+            font-size: 24px;
+        }
+
+        .lodge-card {
+            background: linear-gradient(135deg, #fef3c7, #fef9f3);
+            border: 2px solid #d97706;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 20px;
+            transition: transform 0.3s ease;
+        }
+
+        .lodge-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 20px rgba(217, 119, 6, 0.2);
+        }
+
+        .info-box {
+            background: linear-gradient(135deg, #fef3c7, #fef9f3);
+            border-left: 4px solid #d97706;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body class="bg-cream">
+    <!-- Navigation Component -->
+    <nav class="navbar sticky top-0 z-50 shadow-lg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex-shrink-0">
+                    <a href="index.html" class="text-2xl font-bold text-white">
+                        <span class="text-emerald-300">🦁</span> Kenya Adventure
+                    </a>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="index.html" class="nav-link text-white hover:text-emerald-300 transition duration-300">Home</a>
+                    <a href="pro-tips.html" class="nav-link text-white hover:text-emerald-300 transition duration-300">Pro Tips</a>
+                    <a href="places.html" class="nav-link text-white hover:text-emerald-300 transition duration-300">Places to Visit</a>
+                    <a href="map.html" class="nav-link text-white hover:text-emerald-300 transition duration-300">Interactive Map</a>
+                </div>
+                <div class="md:hidden">
+                    <button id="mobileMenuBtn" class="text-white hover:text-emerald-300 focus:outline-none">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div id="mobileMenu" class="hidden md:hidden navbar">
+            <div class="px-2 pt-2 pb-3 space-y-1">
+                <a href="index.html" class="block px-3 py-2 text-white hover:bg-emerald-700 rounded-md transition duration-300">Home</a>
+                <a href="pro-tips.html" class="block px-3 py-2 text-white hover:bg-emerald-700 rounded-md transition duration-300">Pro Tips</a>
+                <a href="places.html" class="block px-3 py-2 text-white hover:bg-emerald-700 rounded-md transition duration-300">Places to Visit</a>
+                <a href="map.html" class="block px-3 py-2 text-white hover:bg-emerald-700 rounded-md transition duration-300">Interactive Map</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Breadcrumbs -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8">
+        <div class="breadcrumb">
+            <a href="index.html">Home</a>
+            <span>/</span>
+            <a href="places.html">Places to Visit</a>
+            <span>/</span>
+            <span class="text-gray-700 font-medium">Nairobi</span>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero-destination">
+        <div class="max-w-4xl mx-auto">
+            <h1 class="text-5xl font-bold mb-4">🏙️ Nairobi</h1>
+            <p class="text-2xl mb-2">January 17 & 31, 2026</p>
+            <p class="text-xl opacity-90">Kenya's vibrant capital and your gateway to adventure</p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <section class="py-16 bg-cream">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+            <!-- Overview -->
+            <div class="content-section">
+                <h2 class="text-3xl font-bold text-amber-800 mb-6">About Nairobi</h2>
+                <p class="text-lg text-gray-700 leading-relaxed mb-4">
+                    Nairobi, Kenya's bustling capital, serves as the perfect bookend to your adventure. While you won't spend extensive time here, the city offers comfortable airport hotels for your arrival and departure nights. The city's elevation at 1,795m means pleasant year-round temperatures around 25°C during the day and 12°C at night in January.
+                </p>
+                <p class="text-lg text-gray-700 leading-relaxed">
+                    If you have extra time, Nairobi offers several world-class attractions including the Giraffe Centre, David Sheldrick Elephant Orphanage, and the Karen Blixen Museum. The city's restaurants showcase Kenya's diverse cuisine, from nyama choma (grilled meat) to innovative fusion dining.
+                </p>
+            </div>
+
+            <!-- Important Information -->
+            <div class="info-box">
+                <h3 class="text-xl font-bold text-amber-900 mb-3">📅 Visit Dates</h3>
+                <p class="text-gray-800 font-semibold">January 17 & 31, 2026</p>
+                <p class="text-gray-700 mt-2">Your arrival and departure point, bookending your incredible Kenya adventure.</p>
+            </div>
+
+            <!-- Activities -->
+            <div class="content-section">
+                <h2 class="text-3xl font-bold text-amber-800 mb-6">Activities & Experiences</h2>
+                <div class="space-y-3">
+                    <div class="activity-item">
+                        <span class="activity-icon">✈️</span>
+                        <div>
+                            <h4 class="font-bold text-gray-900">Airport Transfers and Rest Before Safari</h4>
+                            <p class="text-gray-700">Comfortable accommodation near the airport to recover from your flight and prepare for adventure.</p>
+                        </div>
+                    </div>
+                    <div class="activity-item">
+                        <span class="activity-icon">🦒</span>
+                        <div>
+                            <h4 class="font-bold text-gray-900">Optional: Giraffe Centre Visit</h4>
+                            <p class="text-gray-700">Feed endangered Rothschild's giraffes at this conservation and education center.</p>
+                        </div>
+                    </div>
+                    <div class="activity-item">
+                        <span class="activity-icon">🐘</span>
+                        <div>
+                            <h4 class="font-bold text-gray-900">Optional: David Sheldrick Elephant Orphanage</h4>
+                            <p class="text-gray-700">Visit baby elephants being rehabilitated before their return to the wild.</p>
+                        </div>
+                    </div>
+                    <div class="activity-item">
+                        <span class="activity-icon">🏛️</span>
+                        <div>
+                            <h4 class="font-bold text-gray-900">Optional: Karen Blixen Museum</h4>
+                            <p class="text-gray-700">Explore the farmhouse of "Out of Africa" author Karen Blixen.</p>
+                        </div>
+                    </div>
+                    <div class="activity-item">
+                        <span class="activity-icon">🍽️</span>
+                        <div>
+                            <h4 class="font-bold text-gray-900">Dining at Local Restaurants</h4>
+                            <p class="text-gray-700">Experience Kenya's diverse cuisine from traditional nyama choma to modern fusion.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Accommodation -->
+            <div class="content-section">
+                <h2 class="text-3xl font-bold text-amber-800 mb-6">Where to Stay</h2>
+
+                <div class="lodge-card">
+                    <h3 class="text-2xl font-bold text-gray-900 mb-3">Eka Hotel</h3>
+                    <p class="text-gray-700 mb-4">Modern airport hotel with excellent amenities including restaurants, spa, and convenient airport shuttle. Perfect for pre-safari rest and post-adventure comfort.</p>
+                    <a href="https://www.eka.co.ke" target="_blank" rel="noopener noreferrer" class="inline-block px-6 py-3 bg-amber-700 text-white rounded-lg font-semibold hover:bg-amber-800 transition">Visit Website →</a>
+                </div>
+
+                <div class="lodge-card">
+                    <h3 class="text-2xl font-bold text-gray-900 mb-3">Boma Nairobi</h3>
+                    <p class="text-gray-700 mb-4">Boutique hotel near airport offering a more intimate experience with personalized service and comfortable accommodations.</p>
+                    <a href="https://www.bomanairobi.com" target="_blank" rel="noopener noreferrer" class="inline-block px-6 py-3 bg-amber-700 text-white rounded-lg font-semibold hover:bg-amber-800 transition">Visit Website →</a>
+                </div>
+            </div>
+
+            <!-- What Makes It Special -->
+            <div class="content-section">
+                <h2 class="text-3xl font-bold text-amber-800 mb-6">What Makes It Special</h2>
+                <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+                    <div class="bg-amber-50 p-4 rounded-lg text-center">
+                        <div class="text-3xl mb-2">✈️</div>
+                        <div class="font-semibold text-gray-900">Airport Access</div>
+                    </div>
+                    <div class="bg-amber-50 p-4 rounded-lg text-center">
+                        <div class="text-3xl mb-2">🏨</div>
+                        <div class="font-semibold text-gray-900">Modern Hotels</div>
+                    </div>
+                    <div class="bg-amber-50 p-4 rounded-lg text-center">
+                        <div class="text-3xl mb-2">🍽️</div>
+                        <div class="font-semibold text-gray-900">City Dining</div>
+                    </div>
+                    <div class="bg-amber-50 p-4 rounded-lg text-center">
+                        <div class="text-3xl mb-2">🦒</div>
+                        <div class="font-semibold text-gray-900">Optional Attractions</div>
+                    </div>
+                    <div class="bg-amber-50 p-4 rounded-lg text-center">
+                        <div class="text-3xl mb-2">🌆</div>
+                        <div class="font-semibold text-gray-900">Gateway Hub</div>
+                    </div>
+                    <div class="bg-amber-50 p-4 rounded-lg text-center">
+                        <div class="text-3xl mb-2">🌡️</div>
+                        <div class="font-semibold text-gray-900">Pleasant Climate</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Useful Links -->
+            <div class="content-section">
+                <h2 class="text-3xl font-bold text-amber-800 mb-6">Useful Links</h2>
+                <div class="flex flex-wrap gap-4">
+                    <a href="https://www.kws.go.ke" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-6 py-3 bg-amber-50 text-amber-700 rounded-lg font-semibold hover:bg-amber-100 transition">
+                        <span>🏙️</span>
+                        <span>Visit Nairobi</span>
+                    </a>
+                    <a href="places.html" class="inline-flex items-center gap-2 px-6 py-3 bg-gray-100 text-gray-700 rounded-lg font-semibold hover:bg-gray-200 transition">
+                        <span>📍</span>
+                        <span>Back to All Places</span>
+                    </a>
+                    <a href="map.html" class="inline-flex items-center gap-2 px-6 py-3 bg-blue-50 text-blue-700 rounded-lg font-semibold hover:bg-blue-100 transition">
+                        <span>🗺️</span>
+                        <span>View on Map</span>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-300 py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+                <div>
+                    <h4 class="text-white font-bold mb-4">Kenya 2026 Adventure</h4>
+                    <p>An unforgettable journey through the heart of Africa, January 17-31, 2026.</p>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="hover:text-emerald-400 transition">Home</a></li>
+                        <li><a href="pro-tips.html" class="hover:text-emerald-400 transition">Pro Tips</a></li>
+                        <li><a href="places.html" class="hover:text-emerald-400 transition">Places to Visit</a></li>
+                        <li><a href="map.html" class="hover:text-emerald-400 transition">Interactive Map</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold mb-4">Conservation Partners</h4>
+                    <p>Supporting community-owned conservancies and sustainable tourism across Kenya.</p>
+                </div>
+            </div>
+            <hr class="border-gray-700 mb-8">
+            <div class="text-center">
+                <p>&copy; 2026 Kenya Adventure. All rights reserved.</p>
+                <p class="text-sm mt-2">Prepared with love for our unforgettable journey</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile Menu Toggle Script -->
+    <script>
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const mobileMenu = document.getElementById('mobileMenu');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        const mobileLinks = mobileMenu.querySelectorAll('a');
+        mobileLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+    </script>
+</body>
+</html>

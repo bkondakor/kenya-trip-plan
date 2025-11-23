@@ -18,12 +18,12 @@ const destinations = [
             {
                 name: "Il Ngwesi Eco-Lodge",
                 description: "100% community-owned lodge with 6 open-sided bandas",
-                link: "#"
+                link: "https://www.ilngwesi.com"
             },
             {
                 name: "Lewa Safari Camp",
                 description: "Conservancy-owned with 13 tented suites",
-                link: "#"
+                link: "https://lewa.org/visit/lewa-safari-camp"
             }
         ],
         links: [
@@ -54,12 +54,12 @@ const destinations = [
             {
                 name: "Saruni Rhino",
                 description: "3-4 rustic stone bandas, exclusive rhino tracking access",
-                link: "#"
+                link: "https://www.sarunirhino.com"
             },
             {
                 name: "Saruni Samburu",
                 description: "6 clifftop villas overlooking 240,000-acre conservancy",
-                link: "#"
+                link: "https://www.sarunisamburu.com"
             }
         ],
         links: [
@@ -95,12 +95,12 @@ const destinations = [
             {
                 name: "Sarara Camp",
                 description: "6 luxury tented suites in pristine wilderness",
-                link: "#"
+                link: "https://www.sararacamp.com"
             },
             {
                 name: "Kitich Camp",
                 description: "6 riverside tents, walking safari specialists",
-                link: "#"
+                link: "https://www.kitichcamp.com"
             }
         ],
         links: [
@@ -131,7 +131,7 @@ const destinations = [
             {
                 name: "Maji Moto Maasai Cultural Camp",
                 description: "Community-owned, traditional manyatta cottages",
-                link: "#"
+                link: "https://www.majimoto.org"
             }
         ],
         links: [
@@ -168,7 +168,7 @@ const destinations = [
             {
                 name: "The Majlis Resort",
                 description: "25-room boutique luxury on Manda Island",
-                link: "#"
+                link: "https://themajlisresort.com"
             }
         ],
         links: [
@@ -204,12 +204,12 @@ const destinations = [
             {
                 name: "Eka Hotel",
                 description: "Modern airport hotel with excellent amenities",
-                link: "#"
+                link: "https://www.eka.co.ke"
             },
             {
                 name: "Boma Nairobi",
                 description: "Boutique hotel near airport",
-                link: "#"
+                link: "https://www.bomanairobi.com"
             }
         ],
         links: [
