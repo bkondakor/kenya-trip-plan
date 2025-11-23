@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lake Naivasha - Kenya 2026 Adventure</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        .hero-destination {
+            background: linear-gradient(135deg, rgba(5, 150, 105, 0.9), rgba(16, 185, 129, 0.9)),
+                        url('images/lake-naivasha.jpg') center/cover;
+            min-height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .breadcrumb {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 14px;
+            margin-bottom: 30px;
+        }
+
+        .breadcrumb a {
+            color: #059669;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .breadcrumb a:hover {
+            color: #047857;
+            text-decoration: underline;
+        }
+
+        .breadcrumb span {
+            color: #9ca3af;
+        }
+
+        .content-section {
+            background: white;
+            border-radius: 16px;
+            padding: 40px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        }
+
+        .activity-item {
+            display: flex;
+            align-items: start;
+            gap: 12px;
+            padding: 16px;
+            background: #f0fdf4;
+            border-radius: 8px;
+            margin-bottom: 12px;
+            border-left: 4px solid #059669;
+        }
+
+        .activity-icon {
+            color: #059669;
+            font-size: 24px;
+        }
+
+        .lodge-card {
+            background: linear-gradient(135deg, #f0fdf4, #ecfdf5);
+            border: 2px solid #059669;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 20px;
+            transition: transform 0.3s ease;
+        }
+
+        .lodge-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 20px rgba(5, 150, 105, 0.2);
+        }
+
+        .info-box {
+            background: linear-gradient(135deg, #fef3c7, #fef9f3);
+            border-left: 4px solid #d97706;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body class="bg-cream">
+    <!-- Navigation Component -->
+    <nav class="navbar sticky top-0 z-50 shadow-lg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex-shrink-0">
+                    <a href="index.html" class="text-2xl font-bold text-white">
+                        <span class="text-emerald-300">🦁</span> Kenya Adventure
+                    </a>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="index.html" class="nav-link text-white hover:text-emerald-300 transition duration-300">Home</a>
+                    <a href="pro-tips.html" class="nav-link text-white hover:text-emerald-300 transition duration-300">Pro Tips</a>
+                    <a href="places.html" class="nav-link text-white hover:text-emerald-300 transition duration-300">Places to Visit</a>
+                    <a href="map.html" class="nav-link text-white hover:text-emerald-300 transition duration-300">Interactive Map</a>
+                </div>
+                <div class="md:hidden">
+                    <button id="mobileMenuBtn" class="text-white hover:text-emerald-300 focus:outline-none">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div id="mobileMenu" class="hidden md:hidden navbar">
+            <div class="px-2 pt-2 pb-3 space-y-1">
+                <a href="index.html" class="block px-3 py-2 text-white hover:bg-emerald-700 rounded-md transition duration-300">Home</a>
+                <a href="pro-tips.html" class="block px-3 py-2 text-white hover:bg-emerald-700 rounded-md transition duration-300">Pro Tips</a>
+                <a href="places.html" class="block px-3 py-2 text-white hover:bg-emerald-700 rounded-md transition duration-300">Places to Visit</a>
+                <a href="map.html" class="block px-3 py-2 text-white hover:bg-emerald-700 rounded-md transition duration-300">Interactive Map</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Breadcrumbs -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8">
+        <div class="breadcrumb">
+            <a href="index.html">Home</a>
+            <span>/</span>
+            <a href="places.html">Places to Visit</a>
+            <span>/</span>
+            <span class="text-gray-700 font-medium">Lake Naivasha</span>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero-destination">
+        <div class="max-w-4xl mx-auto">
+            <h1 class="text-5xl font-bold mb-4">🦛 Lake Naivasha</h1>
+            <p class="text-2xl mb-2">Freshwater Oasis in the Rift Valley</p>
+            <p class="text-xl opacity-90">Boat safaris, Crescent Island walks, and abundant birdlife in a serene lakeside paradise</p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <section class="py-16 bg-cream">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+            <!-- Overview -->
+            <div class="content-section">
+                <h2 class="text-3xl font-bold text-emerald-700 mb-6">About Lake Naivasha</h2>
+                <p class="text-lg text-gray-700 leading-relaxed mb-4">
+                    Lake Naivasha is a stunning freshwater lake nestled in the Great Rift Valley at 1,884 meters elevation, just 90 kilometers northwest of Nairobi. Unlike many Rift Valley lakes, Naivasha's fresh water supports a completely different ecosystem from its alkaline neighbors, creating a verdant oasis teeming with wildlife and birdlife. The name derives from the Maasai "Nai'posha," meaning "rough water," referring to sudden storms that can whip up waves on the otherwise tranquil surface.
+                </p>
+                <p class="text-lg text-gray-700 leading-relaxed mb-4">
+                    The lake's size fluctuates dramatically with rainfall - expanding from 114 to 991 square kilometers over its history - creating a dynamic ecosystem that supports over 400 bird species, making it one of Kenya's premier birding destinations. The papyrus-fringed shores harbor one of East Africa's largest hippo populations, while the clear waters support abundant fish including black bass, tilapia, and crayfish introduced for commercial fishing.
+                </p>
+                <p class="text-lg text-gray-700 leading-relaxed">
+                    What sets Lake Naivasha apart is Crescent Island, a private sanctuary where visitors can walk freely among zebras, wildebeests, giraffes, and waterbucks without fences or vehicles - an extraordinarily rare experience in Kenya. The lake's proximity to Nairobi, combined with the adjacent Hell's Gate National Park, makes it an ideal weekend escape or stopover on longer safaris. The surrounding flower farms produce much of Europe's cut flowers, adding colorful splashes to the lakeside landscape.
+                </p>
+            </div>
+
+            <!-- Important Information -->
+            <div class="info-box">
+                <h3 class="text-xl font-bold text-amber-900 mb-3">📅 Best Time to Visit</h3>
+                <p class="text-gray-800 font-semibold">Year-round destination, November - March for peak bird migration</p>
+                <p class="text-gray-700 mt-2">Pleasant year-round climate. November-March brings European migrant birds joining resident species. June-September offers clearer skies and comfortable temperatures. Morning boat rides provide calmest water and best wildlife viewing.</p>
+            </div>
+
+            <!-- Activities -->
+            <div class="content-section">
+                <h2 class="text-3xl font-bold text-emerald-700 mb-6">Activities & Experiences</h2>
+                <div class="space-y-3">
+                    <div class="activity-item">
+                        <span class="activity-icon">🚤</span>
+                        <div>
+                            <h4 class="font-bold text-gray-900">Boat Safari</h4>
+                            <p class="text-gray-700">Glide across calm waters to observe hippos, watch fish eagles hunt, and explore papyrus channels teeming with birdlife. Sunrise and sunset trips offer magical lighting.</p>
+                        </div>
+                    </div>
+                    <div class="activity-item">
+                        <span class="activity-icon">🦒</span>
+                        <div>
+                            <h4 class="font-bold text-gray-900">Crescent Island Walking Safari</h4>
+                            <p class="text-gray-700">Walk freely among zebras, giraffes, wildebeests, and waterbucks on this private sanctuary peninsula. No fences, no vehicles - just you and the wildlife.</p>
+                        </div>
+                    </div>
+                    <div class="activity-item">
+                        <span class="activity-icon">🦅</span>
+                        <div>
+                            <h4 class="font-bold text-gray-900">Bird Watching Extraordinaire</h4>
+                            <p class="text-gray-700">Spot over 400 bird species including African fish eagles, pelicans, cormorants, herons, kingfishers, and seasonal migrants from Europe.</p>
+                        </div>
+                    </div>
+                    <div class="activity-item">
+                        <span class="activity-icon">🌺</span>
+                        <div>
+                            <h4 class="font-bold text-gray-900">Elsamere Conservation Centre</h4>
+                            <p class="text-gray-700">Visit Joy Adamson's former home (Born Free author), now a conservation center with museum, colobus monkeys in the gardens, and traditional afternoon tea.</p>
+                        </div>
+                    </div>
+                    <div class="activity-item">
+                        <span class="activity-icon">🚴</span>
+                        <div>
+                            <h4 class="font-bold text-gray-900">Hell's Gate National Park</h4>
+                            <p class="text-gray-700">Adjacent park perfect for day trips. Cycle among wildlife, hike through dramatic gorges, and rock climb on Fischer's Tower.</p>
+                        </div>
+                    </div>
+                    <div class="activity-item">
+                        <span class="activity-icon">🎣</span>
+                        <div>
+                            <h4 class="font-bold text-gray-900">Fishing</h4>
+                            <p class="text-gray-700">Try your hand at catching black bass, tilapia, or crayfish. Several camps offer fishing equipment and guided fishing trips.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Accommodation -->
+            <div class="content-section">
+                <h2 class="text-3xl font-bold text-emerald-700 mb-6">Where to Stay</h2>
+
+                <div class="lodge-card">
+                    <h3 class="text-2xl font-bold text-gray-900 mb-3">Loldia House</h3>
+                    <p class="text-gray-700 mb-4">Exclusive boutique retreat with 7 rooms on a 6,500-acre cattle ranch. Historic farmhouse ambiance with exceptional service, organic farm-to-table meals, and private lake access.</p>
+                    <a href="https://www.loldiahouse.com" target="_blank" rel="noopener noreferrer" class="inline-block px-6 py-3 bg-emerald-700 text-white rounded-lg font-semibold hover:bg-emerald-800 transition">Visit Website →</a>
+                </div>
+
+                <div class="lodge-card">
+                    <h3 class="text-2xl font-bold text-gray-900 mb-3">Great Rift Valley Lodge & Golf Resort</h3>
+                    <p class="text-gray-700 mb-4">Luxury resort perched on Eburu escarpment with 45 rooms offering spectacular lake views. Championship golf course, spa, and fine dining overlooking the Rift Valley.</p>
+                    <a href="https://www.grvlodge.com" target="_blank" rel="noopener noreferrer" class="inline-block px-6 py-3 bg-emerald-700 text-white rounded-lg font-semibold hover:bg-emerald-800 transition">Visit Website →</a>
+                </div>
+
+                <div class="lodge-card">
+                    <h3 class="text-2xl font-bold text-gray-900 mb-3">Chui Lodge</h3>
+                    <p class="text-gray-700 mb-4">Intimate 7-cottage boutique lodge directly on the lake shore. Beautiful gardens attract colobus monkeys and birds, with private verandas overlooking the water.</p>
+                    <a href="https://www.chuilodge.com" target="_blank" rel="noopener noreferrer" class="inline-block px-6 py-3 bg-emerald-700 text-white rounded-lg font-semibold hover:bg-emerald-800 transition">Visit Website →</a>
+                </div>
+
+                <div class="lodge-card">
+                    <h3 class="text-2xl font-bold text-gray-900 mb-3">Crater Lake Tented Camp</h3>
+                    <p class="text-gray-700 mb-4">Eco-friendly camp near a stunning volcanic crater lake. 10 luxury tents, guided nature walks, and close to both Naivasha and Hell's Gate.</p>
+                    <a href="https://www.craterlaketentedcamp.com" target="_blank" rel="noopener noreferrer" class="inline-block px-6 py-3 bg-emerald-700 text-white rounded-lg font-semibold hover:bg-emerald-800 transition">Visit Website →</a>
+                </div>
+            </div>
+
+            <!-- What Makes It Special -->
+            <div class="content-section">
+                <h2 class="text-3xl font-bold text-emerald-700 mb-6">What Makes It Special</h2>
+                <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+                    <div class="bg-emerald-50 p-4 rounded-lg text-center">
+                        <div class="text-3xl mb-2">🚤</div>
+                        <div class="font-semibold text-gray-900">Boat Safaris</div>
+                    </div>
+                    <div class="bg-emerald-50 p-4 rounded-lg text-center">
+                        <div class="text-3xl mb-2">🦒</div>
+                        <div class="font-semibold text-gray-900">Walking Safari</div>
+                    </div>
+                    <div class="bg-emerald-50 p-4 rounded-lg text-center">
+                        <div class="text-3xl mb-2">🦅</div>
+                        <div class="font-semibold text-gray-900">400+ Bird Species</div>
+                    </div>
+                    <div class="bg-emerald-50 p-4 rounded-lg text-center">
+                        <div class="text-3xl mb-2">🦛</div>
+                        <div class="font-semibold text-gray-900">Hippo Herds</div>
+                    </div>
+                    <div class="bg-emerald-50 p-4 rounded-lg text-center">
+                        <div class="text-3xl mb-2">🌺</div>
+                        <div class="font-semibold text-gray-900">Elsamere Centre</div>
+                    </div>
+                    <div class="bg-emerald-50 p-4 rounded-lg text-center">
+                        <div class="text-3xl mb-2">🏞️</div>
+                        <div class="font-semibold text-gray-900">Rift Valley Beauty</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Useful Links -->
+            <div class="content-section">
+                <h2 class="text-3xl font-bold text-emerald-700 mb-6">Useful Links</h2>
+                <div class="flex flex-wrap gap-4">
+                    <a href="https://www.magicalkenya.com/destination/lake-naivasha" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-6 py-3 bg-emerald-50 text-emerald-700 rounded-lg font-semibold hover:bg-emerald-100 transition">
+                        <span>🌍</span>
+                        <span>Magical Kenya Guide</span>
+                    </a>
+                    <a href="https://www.elsamere.com" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-6 py-3 bg-emerald-50 text-emerald-700 rounded-lg font-semibold hover:bg-emerald-100 transition">
+                        <span>🌺</span>
+                        <span>Elsamere Conservation</span>
+                    </a>
+                    <a href="places.html" class="inline-flex items-center gap-2 px-6 py-3 bg-gray-100 text-gray-700 rounded-lg font-semibold hover:bg-gray-200 transition">
+                        <span>📍</span>
+                        <span>Back to All Places</span>
+                    </a>
+                    <a href="map.html" class="inline-flex items-center gap-2 px-6 py-3 bg-blue-50 text-blue-700 rounded-lg font-semibold hover:bg-blue-100 transition">
+                        <span>🗺️</span>
+                        <span>View on Map</span>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-300 py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+                <div>
+                    <h4 class="text-white font-bold mb-4">Kenya 2026 Adventure</h4>
+                    <p>An unforgettable journey through the heart of Africa, January 17-31, 2026.</p>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="hover:text-emerald-400 transition">Home</a></li>
+                        <li><a href="pro-tips.html" class="hover:text-emerald-400 transition">Pro Tips</a></li>
+                        <li><a href="places.html" class="hover:text-emerald-400 transition">Places to Visit</a></li>
+                        <li><a href="map.html" class="hover:text-emerald-400 transition">Interactive Map</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold mb-4">Conservation Partners</h4>
+                    <p>Supporting community-owned conservancies and sustainable tourism across Kenya.</p>
+                </div>
+            </div>
+            <hr class="border-gray-700 mb-8">
+            <div class="text-center">
+                <p>&copy; 2026 Kenya Adventure. All rights reserved.</p>
+                <p class="text-sm mt-2">Prepared with love for our unforgettable journey</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile Menu Toggle Script -->
+    <script>
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const mobileMenu = document.getElementById('mobileMenu');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        const mobileLinks = mobileMenu.querySelectorAll('a');
+        mobileLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+    </script>
+</body>
+</html>
