@@ -102,10 +102,38 @@
             width: 100%;
             height: 200px;
             background: linear-gradient(135deg, #059669 0%, #10b981 100%);
+            background-size: cover;
+            background-position: center;
             position: relative;
             overflow: hidden;
         }
 
+        /* Destination-specific images */
+        .card-image[data-destination="laikipia"] {
+            background-image: url('images/laikipia-placeholder.svg');
+        }
+
+        .card-image[data-destination="samburu"] {
+            background-image: url('images/samburu-placeholder.svg');
+        }
+
+        .card-image[data-destination="matthews"] {
+            background-image: url('images/matthews-placeholder.svg');
+        }
+
+        .card-image[data-destination="loita"] {
+            background-image: url('images/loita-placeholder.svg');
+        }
+
+        .card-image[data-destination="lamu"] {
+            background-image: url('images/lamu-placeholder.svg');
+        }
+
+        .card-image[data-destination="nairobi"] {
+            background-image: url('images/nairobi-placeholder.svg');
+        }
+
+        /* Fallback gradients by category */
         .card-image.wildlife {
             background: linear-gradient(135deg, #059669 0%, #10b981 100%);
         }

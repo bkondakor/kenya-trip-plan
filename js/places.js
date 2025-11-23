@@ -323,10 +323,12 @@ function renderDestinations() {
 // Create a destination card HTML
 function createDestinationCard(dest) {
     const categoryName = dest.category.charAt(0).toUpperCase() + dest.category.slice(1);
+    // Map destination names to image identifiers
+    const destSlug = dest.name.toLowerCase().split(' ')[0]; // e.g., "laikipia", "samburu", "matthews", "loita", "lamu", "nairobi"
 
     return `
         <div class="destination-card" data-id="${dest.id}">
-            <div class="card-image ${dest.category}">
+            <div class="card-image ${dest.category}" data-destination="${destSlug}">
                 <div class="category-badge ${dest.category}">${dest.icon} ${categoryName}</div>
             </div>
             <div class="card-content">
@@ -386,7 +388,9 @@ function openModal(destId) {
     const modalBody = document.getElementById('modalBody');
 
     // Set image background
+    const destSlug = dest.name.toLowerCase().split(' ')[0];
     modalImage.className = `modal-image card-image ${dest.category}`;
+    modalImage.setAttribute('data-destination', destSlug);
 
     // Set modal content
     modalBody.innerHTML = `
