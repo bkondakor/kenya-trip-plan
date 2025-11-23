@@ -358,6 +358,241 @@ const destinations = [
         ],
         amenities: ["White Sand Beaches", "Coral Reefs", "Water Sports", "Marine Wildlife", "Sacred Forests", "Fresh Seafood"],
         icon: "🏖️"
+    },
+    {
+        id: 10,
+        name: "Lake Nakuru National Park",
+        dates: "Year-round, June - March peak",
+        category: "wildlife",
+        shortDescription: "The Pink Paradise featuring millions of flamingos and one of Africa's finest rhino sanctuaries in the Great Rift Valley with over 450 bird species.",
+        fullDescription: "Lake Nakuru National Park, nestled in the Great Rift Valley, is one of Kenya's most spectacular bird sanctuaries and rhino reserves. Covering 188 square kilometers, the park surrounds the shallow, alkaline Lake Nakuru, which has become world-famous for its stunning display of millions of flamingos that create a spectacular pink fringe along the shoreline. Beyond the flamingos, Lake Nakuru is recognized as one of Africa's finest rhino sanctuaries, hosting both black and white rhinos with some of the highest rhino densities on the continent. The park's diverse habitats include rocky cliffs, acacia forests, euphorbia forests, and the lake itself, supporting over 450 bird species and a rich variety of wildlife including lions, leopards, endangered Rothschild's giraffes, waterbucks, and buffaloes. The stunning viewpoints from Baboon Cliff and Lion Hill offer breathtaking panoramas of the lake and the surrounding Rift Valley escarpment.",
+        activities: [
+            "Flamingo spectacle viewing with millions of birds",
+            "Rhino tracking in premier sanctuary",
+            "Bird watching paradise with 450+ species",
+            "Scenic viewpoints at Baboon Cliff and Lion Hill",
+            "Wildlife game drives for Big Five",
+            "Photography safari opportunities"
+        ],
+        lodges: [
+            {
+                name: "Lake Nakuru Lodge",
+                description: "Historic lodge within the park with stunning lake views",
+                link: "https://www.lakenakurulodge.com"
+            },
+            {
+                name: "Sarova Lion Hill Game Lodge",
+                description: "Hilltop lodge with panoramic views and infinity pool",
+                link: "https://www.sarovahotels.com/lionhill-nakuru"
+            },
+            {
+                name: "Flamingo Hill Camp",
+                description: "Intimate tented camp with spectacular lake views",
+                link: "https://www.flamingohillcamp.com"
+            }
+        ],
+        links: [
+            {
+                text: "Kenya Wildlife Service",
+                url: "https://www.kws.go.ke/content/lake-nakuru-national-park",
+                icon: "🌍"
+            },
+            {
+                text: "UNESCO World Heritage",
+                url: "https://whc.unesco.org/en/list/1060",
+                icon: "🏛️"
+            }
+        ],
+        amenities: ["Flamingo Paradise", "Rhino Sanctuary", "450+ Bird Species", "Rift Valley Views", "Rothschild's Giraffes", "Photography Heaven"],
+        icon: "🦩"
+    },
+    {
+        id: 11,
+        name: "Tsavo National Parks",
+        dates: "June - October & January - March",
+        category: "wildlife",
+        shortDescription: "Kenya's largest wilderness featuring the legendary red elephants and untamed African landscapes across nearly 22,000 square kilometers.",
+        fullDescription: "Tsavo National Parks, divided into Tsavo East and Tsavo West, together form one of the world's largest wildlife sanctuaries covering nearly 22,000 square kilometers. This vast wilderness represents one of Africa's last great untamed frontiers where wildlife roams across seemingly endless horizons. Tsavo is world-famous for its legendary 'red elephants' - so named because they dust-bathe in the park's distinctive red volcanic soil. With over 12,000 elephants, Tsavo hosts Kenya's largest elephant population. Tsavo East features vast, flat, semi-arid plains dotted with baobab trees, while Tsavo West showcases more varied topography including the stunning Mzima Springs, volcanic landscapes, and the dramatic Sheitani lava flows. Together, these parks offer an authentic wilderness experience with fewer crowds than Kenya's more famous reserves, allowing visitors to experience the raw, untamed beauty of Africa.",
+        activities: [
+            "Red elephant encounters in vast herds",
+            "Mzima Springs exploration with underwater viewing",
+            "Volcanic landscapes and Sheitani lava flows",
+            "Big cat tracking including legendary lions",
+            "Lugard Falls and Galana River visits",
+            "Bird watching with 500+ species"
+        ],
+        lodges: [
+            {
+                name: "Finch Hattons Luxury Safari Camp",
+                description: "Exclusive tented camp in Tsavo West with spring views",
+                link: "https://www.finchattons.com"
+            },
+            {
+                name: "Satao Camp",
+                description: "Authentic camp in Tsavo East overlooking waterhole",
+                link: "https://www.sataocamp.com"
+            },
+            {
+                name: "Kilaguni Serena Safari Lodge",
+                description: "Historic 1962 lodge with Kilimanjaro views",
+                link: "https://www.serenahotels.com/tsavo-west"
+            }
+        ],
+        links: [
+            {
+                text: "Tsavo East - KWS",
+                url: "https://www.kws.go.ke/content/tsavo-east-national-park",
+                icon: "🌍"
+            },
+            {
+                text: "Tsavo West - KWS",
+                url: "https://www.kws.go.ke/content/tsavo-west-national-park",
+                icon: "🌍"
+            }
+        ],
+        amenities: ["Red Elephants", "Largest Park", "Big Five", "Mzima Springs", "Volcanic Landscapes", "500+ Bird Species"],
+        icon: "🐘"
+    },
+    {
+        id: 12,
+        name: "Mount Kenya",
+        dates: "January - February & July - October",
+        category: "mountains",
+        shortDescription: "Africa's second-highest mountain, a UNESCO World Heritage Site with glaciers, alpine lakes, and unique afro-alpine ecosystems found nowhere else on Earth.",
+        fullDescription: "Mount Kenya, rising to 5,199 meters at its highest peak Batian, is Africa's second-highest mountain and a UNESCO World Heritage Site. This ancient volcano has been sculpted by millions of years of glacial erosion into a spectacular alpine landscape featuring jagged peaks, hanging valleys, glacial lakes, and unique afro-alpine vegetation. The mountain is sacred to Kenya's Kikuyu people, and the name 'Kenya' itself derives from 'Kirinyaga,' meaning 'mountain of whiteness.' The park features 11 distinct vegetation zones from lowland forest through bamboo, heath, moorland, and finally to the glacial peaks. While the twin peaks of Batian and Nelion require technical rock climbing, Point Lenana (4,985m) can be reached by trekkers without climbing experience. The mountain's lower slopes harbor elephants, buffaloes, giant forest hogs, and the rare bongo antelope.",
+        activities: [
+            "Point Lenana summit trek (4,985m)",
+            "Technical climbing to Batian and Nelion peaks",
+            "Afro-alpine ecosystem exploration",
+            "Glaciers and alpine lakes viewing",
+            "Wildlife encounters in montane forests",
+            "High-altitude bird watching with 130+ species"
+        ],
+        lodges: [
+            {
+                name: "Fairmont Mount Kenya Safari Club",
+                description: "Luxury base with 120 rooms and animal orphanage",
+                link: "https://www.fairmont.com/mount-kenya-safari"
+            },
+            {
+                name: "Serena Mountain Lodge",
+                description: "Tree lodge at 2,194m with wildlife viewing bunker",
+                link: "https://www.serenahotels.com/mountain-lodge"
+            },
+            {
+                name: "Mountain Huts",
+                description: "Trek accommodations at various altitudes",
+                link: "https://www.kws.go.ke/content/mount-kenya-national-park"
+            }
+        ],
+        links: [
+            {
+                text: "Kenya Wildlife Service",
+                url: "https://www.kws.go.ke/content/mount-kenya-national-park",
+                icon: "🌍"
+            },
+            {
+                text: "UNESCO World Heritage",
+                url: "https://whc.unesco.org/en/list/800",
+                icon: "🏛️"
+            }
+        ],
+        amenities: ["Africa's 2nd Highest", "UNESCO Heritage", "Equatorial Glaciers", "Afro-Alpine Flora", "Epic Trekking", "Unique Wildlife"],
+        icon: "🏔️"
+    },
+    {
+        id: 13,
+        name: "Hell's Gate National Park",
+        dates: "Year-round, June - March ideal",
+        category: "wildlife",
+        shortDescription: "Kenya's only park where you can walk, cycle, and climb among wild animals. Dramatic gorges, geothermal activity, and the inspiration for The Lion King scenery.",
+        fullDescription: "Hell's Gate National Park is one of Kenya's most unique and adventurous destinations. Named for the intense geothermal activity beneath its surface, this 68-square-kilometer park is the only Kenyan national park where visitors can walk, cycle, and rock climb freely among wildlife. The park's dramatic landscape of towering red cliffs, volcanic rock formations, and geothermal steam vents inspired the scenery in Disney's 'The Lion King.' The two massive red-tinged cliffs forming the 'Hell's Gate' gorge rise dramatically from the valley floor, while Fischer's Tower and Central Tower provide world-class rock climbing routes. The narrow Hell's Gate Gorge, with its towering walls and naturally-heated springs, offers an unforgettable hiking experience through water-carved passages barely three meters wide.",
+        activities: [
+            "Cycling safari among zebras and giraffes",
+            "Hell's Gate Gorge hiking through narrow canyon",
+            "Rock climbing on Fischer's Tower and Central Tower",
+            "Bird watching with 100+ species",
+            "Geothermal exploration of steam vents",
+            "Wildlife photography on foot"
+        ],
+        lodges: [
+            {
+                name: "Hell's Gate Cottages & Campsite",
+                description: "KWS-operated accommodation inside the park",
+                link: "https://www.kws.go.ke/content/hells-gate-national-park"
+            },
+            {
+                name: "Lake Naivasha Sopa Resort",
+                description: "Luxury resort 15 minutes from park entrance",
+                link: "https://www.sopalodges.com/lake-naivasha-sopa-resort"
+            },
+            {
+                name: "Naivasha Kongoni Lodge",
+                description: "Eco-friendly tented camp adjacent to park",
+                link: "https://www.kongonilodge.com"
+            }
+        ],
+        links: [
+            {
+                text: "Kenya Wildlife Service",
+                url: "https://www.kws.go.ke/content/hells-gate-national-park",
+                icon: "🌍"
+            },
+            {
+                text: "Magical Kenya Guide",
+                url: "https://www.magicalkenya.com",
+                icon: "🇰🇪"
+            }
+        ],
+        amenities: ["Cycling Among Wildlife", "Walking Safaris", "Rock Climbing", "Dramatic Gorge", "Geothermal Activity", "Lion King Scenery"],
+        icon: "🚴"
+    },
+    {
+        id: 14,
+        name: "Lake Naivasha",
+        dates: "Year-round, November - March peak birds",
+        category: "wildlife",
+        shortDescription: "Freshwater oasis in the Rift Valley with boat safaris, Crescent Island walks among wildlife, and over 400 bird species in a serene lakeside paradise.",
+        fullDescription: "Lake Naivasha is a stunning freshwater lake nestled in the Great Rift Valley at 1,884 meters elevation, just 90 kilometers northwest of Nairobi. Unlike many Rift Valley lakes, Naivasha's fresh water supports a completely different ecosystem, creating a verdant oasis teeming with wildlife and birdlife. The lake supports over 400 bird species, making it one of Kenya's premier birding destinations. The papyrus-fringed shores harbor one of East Africa's largest hippo populations. What sets Lake Naivasha apart is Crescent Island, a private sanctuary where visitors can walk freely among zebras, wildebeests, giraffes, and waterbucks without fences or vehicles - an extraordinarily rare experience in Kenya. The lake's proximity to Nairobi and adjacent Hell's Gate National Park makes it an ideal weekend escape.",
+        activities: [
+            "Boat safari to observe hippos and birdlife",
+            "Crescent Island walking safari among wildlife",
+            "Bird watching with 400+ species",
+            "Elsamere Conservation Centre visit",
+            "Hell's Gate National Park day trips",
+            "Fishing for black bass and tilapia"
+        ],
+        lodges: [
+            {
+                name: "Loldia House",
+                description: "Exclusive boutique retreat with 7 rooms on cattle ranch",
+                link: "https://www.loldiahouse.com"
+            },
+            {
+                name: "Great Rift Valley Lodge & Golf Resort",
+                description: "Luxury resort with spectacular lake views and golf",
+                link: "https://www.grvlodge.com"
+            },
+            {
+                name: "Chui Lodge",
+                description: "Intimate 7-cottage lodge on lake shore",
+                link: "https://www.chuilodge.com"
+            }
+        ],
+        links: [
+            {
+                text: "Magical Kenya Guide",
+                url: "https://www.magicalkenya.com/destination/lake-naivasha",
+                icon: "🌍"
+            },
+            {
+                text: "Elsamere Conservation",
+                url: "https://www.elsamere.com",
+                icon: "🌺"
+            }
+        ],
+        amenities: ["Boat Safaris", "Walking Safari", "400+ Bird Species", "Hippo Herds", "Elsamere Centre", "Rift Valley Beauty"],
+        icon: "🦛"
     }
 ];
 
