@@ -208,6 +208,16 @@ function addMarkers() {
         });
 
         // Create popup content
+        // Map destination IDs to their dedicated page URLs
+        const destinationPages = {
+            1: 'nairobi.html',
+            2: 'laikipia.html',
+            3: 'samburu.html',
+            4: 'matthews.html',
+            5: 'loita.html',
+            6: 'lamu.html'
+        };
+
         const popupContent = `
             <div class="popup-content">
                 <div class="popup-title">${dest.icon} ${dest.name}</div>
@@ -223,7 +233,7 @@ function addMarkers() {
                         : ''
                     }
                 </div>
-                <a href="places.html#${dest.id}" class="popup-link">View Full Details →</a>
+                <a href="${destinationPages[dest.id]}" class="popup-link">View Full Details →</a>
             </div>
         `;
 
