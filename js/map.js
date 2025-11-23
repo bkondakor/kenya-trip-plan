@@ -100,6 +100,150 @@ const destinations = [
             "Swahili cooking class"
         ],
         icon: "⛵"
+    },
+    {
+        id: 7,
+        name: "Masai Mara National Reserve",
+        coordinates: [-1.5, 35.15],
+        dates: "July - October (Great Migration)",
+        category: "wildlife",
+        order: 7,
+        shortDescription: "Kenya's most celebrated safari destination, home to the world-famous Great Migration and exceptional Big Five sightings.",
+        activities: [
+            "Game drives tracking the Big Five",
+            "Great Migration river crossings (July-October)",
+            "Hot air balloon safari at sunrise",
+            "Maasai village cultural visits",
+            "Photography safaris with expert guides",
+            "Sundowner bush dinners under the stars"
+        ],
+        icon: "🦁"
+    },
+    {
+        id: 8,
+        name: "Amboseli National Park",
+        coordinates: [-2.65, 37.25],
+        dates: "June - October & January - February",
+        category: "wildlife",
+        order: 8,
+        shortDescription: "Land of the Giants featuring iconic elephant herds against the backdrop of Mount Kilimanjaro. Home to over 1,000 elephants.",
+        activities: [
+            "Elephant watching with the largest herds in Kenya",
+            "Kilimanjaro photography at sunrise and sunset",
+            "Bird watching with over 400 species",
+            "Maasai cultural experiences",
+            "Observation Hill hikes for panoramic views",
+            "Game drives through diverse habitats"
+        ],
+        icon: "🐘"
+    },
+    {
+        id: 9,
+        name: "Diani Beach",
+        coordinates: [-4.29, 39.58],
+        dates: "July - March",
+        category: "coastal",
+        order: 9,
+        shortDescription: "Kenya's tropical paradise featuring 17 kilometers of pristine white sand beaches and crystal-clear turquoise waters.",
+        activities: [
+            "Snorkeling and diving on vibrant coral reefs",
+            "Kitesurfing with world-class conditions",
+            "Dolphin spotting and marine wildlife encounters",
+            "Kaya Kinondo sacred forest walks",
+            "Colobus Conservation sanctuary visits",
+            "Deep sea fishing expeditions"
+        ],
+        icon: "🏖️"
+    },
+    {
+        id: 10,
+        name: "Lake Nakuru National Park",
+        coordinates: [-0.3667, 36.0833],
+        dates: "Year-round, June - March peak",
+        category: "wildlife",
+        order: 10,
+        shortDescription: "The Pink Paradise featuring millions of flamingos and one of Africa's finest rhino sanctuaries in the Great Rift Valley.",
+        activities: [
+            "Flamingo spectacle viewing with millions of birds",
+            "Rhino tracking in premier sanctuary",
+            "Bird watching paradise with 450+ species",
+            "Scenic viewpoints at Baboon Cliff and Lion Hill",
+            "Wildlife game drives for Big Five",
+            "Photography safari opportunities"
+        ],
+        icon: "🦩"
+    },
+    {
+        id: 11,
+        name: "Tsavo National Parks",
+        coordinates: [-3.0, 38.5],
+        dates: "June - October & January - March",
+        category: "wildlife",
+        order: 11,
+        shortDescription: "Kenya's largest wilderness featuring the legendary red elephants and untamed African landscapes across nearly 22,000 square kilometers.",
+        activities: [
+            "Red elephant encounters in vast herds",
+            "Mzima Springs exploration with underwater viewing",
+            "Volcanic landscapes and Sheitani lava flows",
+            "Big cat tracking including legendary lions",
+            "Lugard Falls and Galana River visits",
+            "Bird watching with 500+ species"
+        ],
+        icon: "🐘"
+    },
+    {
+        id: 12,
+        name: "Mount Kenya",
+        coordinates: [-0.1521, 37.3084],
+        dates: "January - February & July - October",
+        category: "mountains",
+        order: 12,
+        shortDescription: "Africa's second-highest mountain, a UNESCO World Heritage Site with glaciers, alpine lakes, and unique afro-alpine ecosystems.",
+        activities: [
+            "Point Lenana summit trek (4,985m)",
+            "Technical climbing to Batian and Nelion peaks",
+            "Afro-alpine ecosystem exploration",
+            "Glaciers and alpine lakes viewing",
+            "Wildlife encounters in montane forests",
+            "High-altitude bird watching with 130+ species"
+        ],
+        icon: "🏔️"
+    },
+    {
+        id: 13,
+        name: "Hell's Gate National Park",
+        coordinates: [-0.9167, 36.3167],
+        dates: "Year-round, June - March ideal",
+        category: "wildlife",
+        order: 13,
+        shortDescription: "Kenya's only park where you can walk, cycle, and climb among wild animals. Dramatic gorges and geothermal activity.",
+        activities: [
+            "Cycling safari among zebras and giraffes",
+            "Hell's Gate Gorge hiking through narrow canyon",
+            "Rock climbing on Fischer's Tower and Central Tower",
+            "Bird watching with 100+ species",
+            "Geothermal exploration of steam vents",
+            "Wildlife photography on foot"
+        ],
+        icon: "🚴"
+    },
+    {
+        id: 14,
+        name: "Lake Naivasha",
+        coordinates: [-0.7667, 36.3667],
+        dates: "Year-round, November - March peak birds",
+        category: "wildlife",
+        order: 14,
+        shortDescription: "Freshwater oasis in the Rift Valley with boat safaris, Crescent Island walks among wildlife, and over 400 bird species.",
+        activities: [
+            "Boat safari to observe hippos and birdlife",
+            "Crescent Island walking safari among wildlife",
+            "Bird watching with 400+ species",
+            "Elsamere Conservation Centre visit",
+            "Hell's Gate National Park day trips",
+            "Fishing for black bass and tilapia"
+        ],
+        icon: "🦛"
     }
 ];
 
@@ -215,7 +359,15 @@ function addMarkers() {
             3: 'samburu.html',
             4: 'matthews.html',
             5: 'loita.html',
-            6: 'lamu.html'
+            6: 'lamu.html',
+            7: 'masai-mara.html',
+            8: 'amboseli.html',
+            9: 'diani.html',
+            10: 'lake-nakuru.html',
+            11: 'tsavo.html',
+            12: 'mount-kenya.html',
+            13: 'hells-gate.html',
+            14: 'lake-naivasha.html'
         };
 
         const popupContent = `
