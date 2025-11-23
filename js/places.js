@@ -296,11 +296,11 @@ function renderDestinations() {
 
     if (filtered.length === 0) {
         grid.innerHTML = '';
-        noResults.classList.remove('hidden');
+        noResults.classList.remove('is-hidden');
         return;
     }
 
-    noResults.classList.add('hidden');
+    noResults.classList.add('is-hidden');
     grid.innerHTML = filtered.map(dest => createDestinationCard(dest)).join('');
 
     // Add event listeners to cards
