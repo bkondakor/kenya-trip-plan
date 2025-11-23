@@ -221,6 +221,143 @@ const destinations = [
         ],
         amenities: ["Airport Access", "Modern Hotels", "City Dining", "Optional Attractions", "Gateway Hub"],
         icon: "🏙️"
+    },
+    {
+        id: 7,
+        name: "Masai Mara National Reserve",
+        dates: "July - October (Great Migration)",
+        category: "wildlife",
+        shortDescription: "Kenya's most celebrated safari destination, home to the world-famous Great Migration and exceptional Big Five sightings. Witness millions of wildebeest crossing the crocodile-filled Mara River.",
+        fullDescription: "The Masai Mara National Reserve is Kenya's most celebrated safari destination, covering 1,510 square kilometers of pristine savannah in southwestern Kenya. Named after the ancestral inhabitants, the Maasai people, and the Mara River which cuts through it, this reserve is globally renowned for hosting the spectacular Great Migration between July and October. Home to over 95 species of mammals and 570 bird species, the Mara offers unparalleled wildlife viewing year-round. The reserve boasts exceptional concentrations of lions, cheetahs, and leopards, making it one of the best places in Africa to see big cats. The endless golden plains, dotted with acacia trees and crossed by the life-giving Mara River, create the quintessential African landscape. Beyond wildlife, the Mara offers authentic cultural encounters with Maasai communities who have coexisted with wildlife for centuries.",
+        activities: [
+            "Game drives tracking the Big Five",
+            "Great Migration river crossings (July-October)",
+            "Hot air balloon safari at sunrise",
+            "Maasai village cultural visits",
+            "Photography safaris with expert guides",
+            "Sundowner bush dinners under the stars"
+        ],
+        lodges: [
+            {
+                name: "Governors' Camp",
+                description: "Legendary tented camp on the Mara River since 1972",
+                link: "https://www.governorscamp.com"
+            },
+            {
+                name: "Angama Mara",
+                description: "Perched 1,000 feet above the Mara floor with spectacular views",
+                link: "https://www.angama.com"
+            },
+            {
+                name: "Mara Plains Camp",
+                description: "Intimate 7-tent camp in exclusive conservancy",
+                link: "https://www.greatplainsconservation.com/mara-plains"
+            }
+        ],
+        links: [
+            {
+                text: "Masai Mara Official Site",
+                url: "https://www.maasaimara.com",
+                icon: "🌍"
+            }
+        ],
+        amenities: ["Big Five", "Great Migration", "Big Cat Capital", "Hot Air Balloons", "Maasai Culture", "Photography Paradise"],
+        icon: "🦁"
+    },
+    {
+        id: 8,
+        name: "Amboseli National Park",
+        dates: "June - October & January - February",
+        category: "wildlife",
+        shortDescription: "Land of the Giants featuring iconic elephant herds against the backdrop of Mount Kilimanjaro. Home to over 1,000 elephants and the longest-running elephant research project in the world.",
+        fullDescription: "Amboseli National Park, situated at the foot of Africa's highest peak, Mount Kilimanjaro, offers one of the most iconic safari experiences in Kenya. The park's name comes from the Maasai word 'Empusel,' meaning 'salty dust,' referring to the dry lake bed that dominates the landscape during dry seasons. The park is world-renowned for its large elephant herds, often numbering over 1,000 individuals. These magnificent creatures can be photographed against the stunning backdrop of snow-capped Kilimanjaro, creating Africa's most recognizable safari image. The elephants of Amboseli have been studied continuously since 1972, making this one of the longest-running wildlife research projects in the world. Beyond elephants, Amboseli hosts over 400 bird species, including numerous waterbirds in the swamps fed by Kilimanjaro's melting snows. The park's diverse habitats support lions, cheetahs, buffalo, and rare opportunities to spot all of Africa's Big Five.",
+        activities: [
+            "Elephant watching with the largest herds in Kenya",
+            "Kilimanjaro photography at sunrise and sunset",
+            "Bird watching with over 400 species",
+            "Maasai cultural experiences",
+            "Observation Hill hikes for panoramic views",
+            "Game drives through diverse habitats"
+        ],
+        lodges: [
+            {
+                name: "Tortilis Camp",
+                description: "Award-winning tented camp with unobstructed Kilimanjaro views",
+                link: "https://www.tortilis.com"
+            },
+            {
+                name: "Amboseli Serena Safari Lodge",
+                description: "Maasai-inspired architecture with natural spring waterhole",
+                link: "https://www.serenahotels.com/amboseli"
+            },
+            {
+                name: "Tawi Lodge",
+                description: "Intimate eco-lodge on 6,000-acre private conservancy",
+                link: "https://www.tawi.co.ke"
+            }
+        ],
+        links: [
+            {
+                text: "Kenya Wildlife Service",
+                url: "https://www.kws.go.ke/amboseli-national-park",
+                icon: "🌍"
+            },
+            {
+                text: "Amboseli Elephant Research",
+                url: "https://www.amboseliresearch.com",
+                icon: "🐘"
+            }
+        ],
+        amenities: ["Elephant Paradise", "Kilimanjaro Views", "Big Five", "400+ Bird Species", "Maasai Culture", "Iconic Photography"],
+        icon: "🐘"
+    },
+    {
+        id: 9,
+        name: "Diani Beach",
+        dates: "July - March",
+        category: "coastal",
+        shortDescription: "Kenya's tropical paradise featuring 17 kilometers of pristine white sand beaches and crystal-clear turquoise waters. Perfect coastal retreat combining relaxation with water sports and marine adventures.",
+        fullDescription: "Diani Beach, located 30 kilometers south of Mombasa on Kenya's Indian Ocean coastline, consistently ranks among Africa's best beaches. Stretching for 17 kilometers, this pristine paradise features powdery white coral sand, crystal-clear turquoise waters protected by coral reefs, and swaying palm trees. Beyond its postcard-perfect beaches, Diani offers diverse ecosystems. The ancient Kaya Kinondo sacred forest, just inland, protects rare coastal forest and represents the spiritual heritage of the Digo people. The coral reefs teem with marine life attracting snorkelers and divers, while warm waters host dolphins, sea turtles, and seasonally whale sharks and humpback whales. Diani seamlessly blends relaxation with adventure, offering kite surfing, skydiving, deep-sea fishing, and visits to the Colobus Conservation Center protecting endangered monkeys. The blend of Swahili culture, fresh seafood, and warm hospitality makes Diani the perfect coastal retreat.",
+        activities: [
+            "Snorkeling and diving on vibrant coral reefs",
+            "Kitesurfing with world-class conditions",
+            "Dolphin spotting and marine wildlife encounters",
+            "Kaya Kinondo sacred forest walks",
+            "Colobus Conservation sanctuary visits",
+            "Deep sea fishing expeditions",
+            "Traditional dhow sailing at sunset"
+        ],
+        lodges: [
+            {
+                name: "The Sands at Nomad",
+                description: "Boutique beachfront hotel with 42 rooms and infinity pool",
+                link: "https://www.thesandskenya.com"
+            },
+            {
+                name: "Almanara Luxury Resort",
+                description: "Exclusive adults-only resort with 12 private villas",
+                link: "https://www.almanaraluxuryresort.com"
+            },
+            {
+                name: "Leopard Beach Resort",
+                description: "Family-friendly resort with 158 rooms in tropical gardens",
+                link: "https://www.leopardbeachresort.com"
+            }
+        ],
+        links: [
+            {
+                text: "Magical Kenya Guide",
+                url: "https://www.magicalkenya.com/destination/diani-beach",
+                icon: "🌍"
+            },
+            {
+                text: "Colobus Conservation",
+                url: "https://www.colobusconservation.org",
+                icon: "🐒"
+            }
+        ],
+        amenities: ["White Sand Beaches", "Coral Reefs", "Water Sports", "Marine Wildlife", "Sacred Forests", "Fresh Seafood"],
+        icon: "🏖️"
     }
 ];
 
