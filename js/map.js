@@ -268,25 +268,6 @@ function updateRouteLine() {
         dashArray: '10, 10',
         lineJoin: 'round'
     }).addTo(map);
-
-    // Add arrow decorators for direction
-    const arrowDecorator = L.polylineDecorator(routeLine, {
-        patterns: [
-            {
-                offset: '50%',
-                repeat: 200,
-                symbol: L.Symbol.arrowHead({
-                    pixelSize: 12,
-                    polygon: false,
-                    pathOptions: {
-                        stroke: true,
-                        weight: 2,
-                        color: '#047857'
-                    }
-                })
-            }
-        ]
-    }).addTo(map);
 }
 
 // Fit map to show all visible markers
