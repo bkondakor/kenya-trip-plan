@@ -1,0 +1,49 @@
+{
+  "id": 25,
+  "slug": "mount-longonot",
+  "name": "Mount Longonot National Park",
+  "coordinates": [-0.9167, 36.4417],
+  "dates": "Year-round; early morning climbs best",
+  "category": "mountains",
+  "order": 25,
+  "icon": "🌋",
+  "shortDescription": "Stratovolcano with last eruption in 1860s, featuring a challenging 2-hour hike to the crater rim at 2,776m, and a spectacular 7.2km loop trail around the crater with Rift Valley panoramas - perfect day trip from Nairobi (60km).",
+  "fullDescription": "Mount Longonot is a stratovolcano located southeast of Lake Naivasha in the Great Rift Valley of Kenya. Its name is derived from the Maasai word 'Olongongot,' meaning 'mountains of many spurs' or 'steep ridges.' The volcano is thought to have last erupted in the 1860s, and its distinctive cone shape dominates the landscape, rising to 2,776 meters (9,108 feet) above sea level.\n\nMount Longonot is located just 60 kilometres northwest of Nairobi and may be reached by a well-maintained tarmac road, making it one of the most accessible mountain hiking experiences in Kenya. The proximity to Nairobi makes it a perfect day-trip destination, easily completed in an afternoon without the need for overnight accommodation.\n\nA 3.1 km trail runs from the park entrance up to the crater rim, requiring approximately 1–2 hours to ascend, depending on fitness level. The trail climbs approximately 630 meters in elevation and can be quite steep in sections. When you reach the rim of the crater, the reward is stunning views of the Great Rift Valley floor, the nearby freshwater Lake Naivasha shimmering in the distance, and the surrounding volcanic landscape stretching to the horizon.\n\nOnce at the rim, a 7.2 km loop trail encircles the entire crater, taking approximately 4–5 hours to complete including breaks. The crater rim walk offers constantly changing perspectives of the densely forested crater floor below, which is home to its very own unique ecosystem. Parts of the trail along the rim are heavily eroded and very steep, requiring good fitness and proper hiking boots.\n\nThis adventurous day hike isn't an easy walk, but with a good level of physical fitness, reaching the summit is an achievable and rewarding challenge offering some of Kenya's best hiking and volcanic landscapes.",
+  "activities": [
+    "Hike to crater rim (3.1km, 1-2 hours, 630m elevation gain)",
+    "Complete crater rim loop trail (7.2km, 4-5 hours)",
+    "Panoramic photography of Rift Valley and Lake Naivasha",
+    "Wildlife spotting (buffalos, zebras, giraffes on lower slopes)",
+    "Bird watching along the trail",
+    "View the densely forested crater floor ecosystem",
+    "Picnicking at the crater rim",
+    "Combine with Lake Naivasha visit",
+    "Sunrise or sunset hikes",
+    "Geology education about volcanic formations"
+  ],
+  "lodges": [
+    {
+      "name": "Stay in Naivasha",
+      "description": "Most visitors stay in nearby Naivasha (15km away) - see Lake Naivasha lodges",
+      "link": "https://www.kws.go.ke"
+    },
+    {
+      "name": "Crater Lake Camp",
+      "description": "Budget camp near Lake Naivasha, 20 minutes from Longonot",
+      "link": "https://craterlakecamp.com"
+    }
+  ],
+  "links": [
+    {
+      "text": "Mount Longonot National Park (KWS)",
+      "url": "https://mtlongonot.org",
+      "icon": "🌋"
+    },
+    {
+      "text": "Hiking Guide & Tips",
+      "url": "https://mtlongonot.org/mount-longonot-hiking-guide",
+      "icon": "🥾"
+    }
+  ],
+  "amenities": ["Perfect Day Trip from Nairobi", "60km from Nairobi", "2,776m Summit", "Crater Rim Trail", "7.2km Loop", "Rift Valley Views", "Lake Naivasha Views", "Active Volcano", "Challenging Hike", "No Accommodation Needed"]
+}

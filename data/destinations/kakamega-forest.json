@@ -1,0 +1,56 @@
+{
+  "id": 17,
+  "slug": "kakamega-forest",
+  "name": "Kakamega Forest",
+  "coordinates": [0.2833, 34.85],
+  "dates": "Year-round; June-September & December-February best",
+  "category": "cultural",
+  "order": 17,
+  "icon": "🌳",
+  "shortDescription": "Kenya's only tropical rainforest and last remnant of the ancient Guineo-Congolian rainforest, home to 367 bird species including 16 found nowhere else in Kenya, and rare primates.",
+  "fullDescription": "Kakamega Forest is a tropical rainforest situated in Kakamega, Vihiga, and Nandi counties of Kenya, northwest of the capital Nairobi and near the border with Uganda. It is Kenya's only tropical rainforest and is said to be Kenya's last remnant of the ancient Guineo-Congolian rainforest that once spanned the African continent, making it an irreplaceable biodiversity hotspot.\n\nThe forest is currently most famous as a bird sanctuary, with 367 bird species recorded including the spectacular West African Great Blue Turaco and black-and-white-casqued hornbill. At least 16 species are found in Kakamega and nowhere else in Kenya, making it a must-visit destination for serious birdwatchers and ornithologists.\n\nMammals that occur in the park include bush pig, duikers, bushbuck, African clawless otter, mongoose, giant African water shrew, tree pangolin, porcupine, bats and a remarkable variety of primates including the blue monkey, redtail monkey, De Brazza's monkey, baboon, potto and the occasional vervet monkey. The forest also features 489 species of butterflies and over 380 tree species.\n\nThe dense canopy and misty trails create an atmosphere unlike anywhere else in Kenya - a true rainforest experience where the calls of hornbills and turacos echo through ancient trees draped in vines and orchids.",
+  "activities": [
+    "Guided forest walks on established hiking trails",
+    "Bird watching for 367 species including 16 endemics",
+    "Primate tracking (monkeys, baboons, pottos)",
+    "Butterfly watching (489 species recorded)",
+    "Visit Crying Stone of Ilesi landmark",
+    "Canopy walks and tree identification",
+    "Photography in lush rainforest settings",
+    "Cultural village tours in Western Kenya communities",
+    "Camping in the forest",
+    "Nature education at visitor centers",
+    "Cycling through forest periphery",
+    "Picnicking in designated areas"
+  ],
+  "lodges": [
+    {
+      "name": "Rondo Retreat Centre",
+      "description": "Eco-lodge within the forest with guided nature walks",
+      "link": "https://kakamegaforest.com"
+    },
+    {
+      "name": "Udo's Bandas & Campsite",
+      "description": "Budget-friendly accommodation popular with birdwatchers",
+      "link": "https://kakamegaforest.com"
+    },
+    {
+      "name": "KEEP (Kakamega Environmental Education Programme)",
+      "description": "Community-run eco-tourism center with bandas",
+      "link": "https://kakamegaforest.com"
+    }
+  ],
+  "links": [
+    {
+      "text": "Kakamega Forest National Reserve (KWS)",
+      "url": "https://www.kws.go.ke/kakamega-forest-national-reserve",
+      "icon": "🌳"
+    },
+    {
+      "text": "Kakamega Forest Official Site",
+      "url": "https://kakamegaforest.com",
+      "icon": "🌍"
+    }
+  ],
+  "amenities": ["Kenya's Only Rainforest", "367 Bird Species", "16 Endemic Birds", "Great Blue Turaco", "De Brazza's Monkey", "489 Butterfly Species", "380 Tree Species", "Ancient Forest", "Western Kenya Culture", "Eco-Tourism"]
+}

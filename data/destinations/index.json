@@ -139,6 +139,146 @@
       "order": 14,
       "icon": "🦛",
       "shortDescription": "Freshwater oasis in the Rift Valley with boat safaris, Crescent Island walks among wildlife, and over 400 bird species in a serene lakeside paradise."
+    },
+    {
+      "id": 15,
+      "slug": "ol-pejeta",
+      "name": "Ol Pejeta Conservancy",
+      "coordinates": [0.0103, 37.0046],
+      "category": "wildlife",
+      "order": 15,
+      "icon": "🦏",
+      "shortDescription": "East Africa's largest black rhino sanctuary with the world's last two northern white rhinos, the only place in Kenya to see chimpanzees, and the most diverse activities of any conservancy."
+    },
+    {
+      "id": 16,
+      "slug": "watamu",
+      "name": "Watamu",
+      "coordinates": [-3.3612, 40.0351],
+      "category": "coastal",
+      "order": 16,
+      "icon": "🐢",
+      "shortDescription": "UNESCO Biosphere Reserve with pristine coral reefs, endangered sea turtle nesting sites, and some of Kenya's most spectacular snorkeling and diving in crystal-clear waters."
+    },
+    {
+      "id": 17,
+      "slug": "kakamega-forest",
+      "name": "Kakamega Forest",
+      "coordinates": [0.2833, 34.85],
+      "category": "cultural",
+      "order": 17,
+      "icon": "🌳",
+      "shortDescription": "Kenya's only tropical rainforest and last remnant of the ancient Guineo-Congolian rainforest, home to 367 bird species including 16 found nowhere else in Kenya, and rare primates."
+    },
+    {
+      "id": 18,
+      "slug": "meru",
+      "name": "Meru National Park",
+      "coordinates": [0.0536, 38.1908],
+      "category": "wildlife",
+      "order": 18,
+      "icon": "🦁",
+      "shortDescription": "Remote wilderness park made famous by 'Born Free,' home to Elsa the lioness's grave, featuring an 84km² rhino sanctuary with 100+ rhinos and minimal tourist traffic for authentic safari experiences."
+    },
+    {
+      "id": 19,
+      "slug": "lake-bogoria",
+      "name": "Lake Bogoria National Reserve",
+      "coordinates": [-0.2667, 36.0833],
+      "category": "wildlife",
+      "order": 19,
+      "icon": "🦩",
+      "shortDescription": "Dramatic Rift Valley lake with Africa's highest concentration of true geysers (18+ active), boiling hot springs reaching 98.5°C, and tens of thousands of flamingos painting the shores pink."
+    },
+    {
+      "id": 20,
+      "slug": "aberdare",
+      "name": "Aberdare National Park",
+      "coordinates": [-0.4, 36.7],
+      "category": "mountains",
+      "order": 20,
+      "icon": "🏔️",
+      "shortDescription": "Misty mountain park at 2,286m altitude featuring The Ark lodge overlooking floodlit waterholes, spectacular waterfalls including Karuru Falls, and unique afro-alpine moorlands with rare wildlife."
+    },
+    {
+      "id": 21,
+      "slug": "chyulu-hills",
+      "name": "Chyulu Hills National Park",
+      "coordinates": [-2.6667, 37.8833],
+      "category": "mountains",
+      "order": 21,
+      "icon": "🌋",
+      "shortDescription": "One of Earth's youngest volcanic mountain ranges (under 500 years old) featuring Leviathan Cave - Africa's longest lava tube at 11km - with stunning Kilimanjaro views and grassland elephants."
+    },
+    {
+      "id": 22,
+      "slug": "shimba-hills",
+      "name": "Shimba Hills National Reserve",
+      "coordinates": [-4.2333, 39.4],
+      "category": "wildlife",
+      "order": 22,
+      "icon": "🐘",
+      "shortDescription": "Kenya's largest coastal rainforest with 700 elephants (the country's highest density), rare sable antelopes found nowhere else in Kenya, and Shimba Hills Lodge - the only tree lodge on the coast."
+    },
+    {
+      "id": 23,
+      "slug": "mombasa",
+      "name": "Mombasa",
+      "coordinates": [-4.0435, 39.6682],
+      "category": "cultural",
+      "order": 23,
+      "icon": "🏛️",
+      "shortDescription": "Kenya's historic coastal city featuring UNESCO World Heritage Fort Jesus (built 1593), the atmospheric Old Town with carved Swahili doors, pristine beaches at Nyali and Bamburi, and vibrant Swahili culture."
+    },
+    {
+      "id": 24,
+      "slug": "lake-baringo",
+      "name": "Lake Baringo",
+      "coordinates": [0.6333, 36.1],
+      "category": "wildlife",
+      "order": 24,
+      "icon": "🦅",
+      "shortDescription": "Freshwater Rift Valley lake hosting over 470 bird species (one-third of Kenya's total), with Gibraltar Island's famous Goliath heronry, resident hippos and Nile crocodiles, and peaceful boat safaris."
+    },
+    {
+      "id": 25,
+      "slug": "mount-longonot",
+      "name": "Mount Longonot National Park",
+      "coordinates": [-0.9167, 36.4417],
+      "category": "mountains",
+      "order": 25,
+      "icon": "🌋",
+      "shortDescription": "Stratovolcano with last eruption in 1860s, featuring a challenging 2-hour hike to the crater rim at 2,776m, and a spectacular 7.2km loop trail around the crater with Rift Valley panoramas - perfect day trip from Nairobi (60km)."
+    },
+    {
+      "id": 26,
+      "slug": "malindi",
+      "name": "Malindi",
+      "coordinates": [-3.2167, 40.1167],
+      "category": "coastal",
+      "order": 26,
+      "icon": "⛵",
+      "shortDescription": "Historic coastal town featuring Vasco da Gama Pillar (erected 1498 - Kenya's oldest European monument), UNESCO Biosphere Reserve marine park with pristine coral reefs, and stunning white sand beaches."
+    },
+    {
+      "id": 27,
+      "slug": "solio-ranch",
+      "name": "Solio Ranch Conservancy",
+      "coordinates": [-0.2333, 37.0333],
+      "category": "wildlife",
+      "order": 27,
+      "icon": "🦏",
+      "shortDescription": "Kenya's first private rhino sanctuary (established 1970) with over 200 black and white rhinos - the most rhino-dense area in Kenya. Has bred and translocated 145+ rhinos to stock reserves across Africa, plus four of the Big Five."
+    },
+    {
+      "id": 28,
+      "slug": "lake-turkana",
+      "name": "Lake Turkana",
+      "coordinates": [3.5, 36.0],
+      "category": "cultural",
+      "order": 28,
+      "icon": "🏜️",
+      "shortDescription": "The 'Jade Sea' - world's largest desert lake and largest alkaline lake, UNESCO World Heritage Site featuring Koobi Fora fossil beds with groundbreaking human evolution discoveries, the world's largest Nile crocodile population, and remote authentic adventure."
     }
   ]
 }

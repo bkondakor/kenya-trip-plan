@@ -1,0 +1,66 @@
+{
+  "id": 16,
+  "slug": "watamu",
+  "name": "Watamu",
+  "coordinates": [-3.3612, 40.0351],
+  "dates": "October - March (best weather & diving)",
+  "category": "coastal",
+  "order": 16,
+  "icon": "🐢",
+  "shortDescription": "UNESCO Biosphere Reserve with pristine coral reefs, endangered sea turtle nesting sites, and some of Kenya's most spectacular snorkeling and diving in crystal-clear waters.",
+  "fullDescription": "Watamu is a small coastal paradise located 90 miles north of Mombasa, renowned for its stunning white sand beaches and vibrant marine life. Established in 1968, Watamu Marine National Park was one of Kenya's first marine parks and was designated as a UNESCO Biosphere Reserve in 1979, recognized internationally for its exceptional marine ecosystem.\n\nThe park is renowned for its spectacular coral formations, with over 150 species of hard and soft corals including brain corals, fan corals and sponges. Its coral gardens, located just 300 metres from shore, provide abundant nutrients for approximately 600 species of fish, 110 species of stony coral, and countless invertebrates, crustaceans and molluscs, creating one of the most biodiverse marine environments on Kenya's coast.\n\nWatamu is particularly famous for its sea turtle conservation efforts. The area hosts different species of endangered turtles including green, hawksbill and olive ridley turtles. The Turtle Watch program has successfully secured the main park's beach as a 99% viable sea turtle nesting site. At the Turtle Watch Center, visitors learn about these magnificent creatures and the vital conservation work protecting them from extinction.\n\nWatamu's three main beaches - Watamu Bay, Turtle Bay, and Blue Lagoon - offer pristine sand and crystal-clear waters perfect for swimming, snorkeling, and simply relaxing in one of Kenya's most beautiful coastal settings.",
+  "activities": [
+    "Snorkeling with colorful tropical fish and sea turtles",
+    "Scuba diving in pristine coral reefs",
+    "Glass-bottom boat tours over coral gardens",
+    "Visit Turtle Watch Center and learn about conservation",
+    "Kayaking through mangrove forests",
+    "Stand-up paddleboarding in calm coastal waters",
+    "Dhow sailing excursions at sunset",
+    "Visit nearby Gede Ruins (ancient Swahili settlement)",
+    "Mida Creek kayaking and birdwatching",
+    "Deep sea fishing expeditions",
+    "Water skiing and windsurfing",
+    "Beach relaxation on three pristine beaches"
+  ],
+  "lodges": [
+    {
+      "name": "Hemingways Watamu",
+      "description": "Boutique beachfront resort with 76 rooms and PADI dive center",
+      "link": "https://www.hemingways-collection.com/watamu"
+    },
+    {
+      "name": "Turtle Bay Beach Club",
+      "description": "Family-friendly all-inclusive resort on Turtle Bay beach",
+      "link": "https://www.turtlebay-kenya.com"
+    },
+    {
+      "name": "Medina Palms",
+      "description": "Luxury boutique resort with Swahili-inspired design",
+      "link": "https://www.medinapalms.com"
+    },
+    {
+      "name": "Watamu Beach Cottages",
+      "description": "Charming eco-lodge with personalized service",
+      "link": "https://www.watamucottages.com"
+    }
+  ],
+  "links": [
+    {
+      "text": "Watamu Marine National Park (KWS)",
+      "url": "https://www.kws.go.ke/oldweb/content/watamu-marine-national-park-reserve",
+      "icon": "🌊"
+    },
+    {
+      "text": "Watamu Marine Association",
+      "url": "https://www.watamumarine.co.ke",
+      "icon": "🐢"
+    },
+    {
+      "text": "Local Ocean Trust (Turtle Conservation)",
+      "url": "https://www.localocean.org",
+      "icon": "🌍"
+    }
+  ],
+  "amenities": ["UNESCO Biosphere Reserve", "150+ Coral Species", "600+ Fish Species", "Sea Turtle Nesting", "Turtle Watch Center", "Pristine Beaches", "Mangrove Forests", "Gede Ruins Nearby", "World-Class Diving", "Crystal Waters"]
+}

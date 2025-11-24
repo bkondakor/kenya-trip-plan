@@ -1,0 +1,61 @@
+{
+  "id": 20,
+  "slug": "aberdare",
+  "name": "Aberdare National Park",
+  "coordinates": [-0.4, 36.7],
+  "dates": "Year-round; June-October & January-February best",
+  "category": "mountains",
+  "order": 20,
+  "icon": "🏔️",
+  "shortDescription": "Misty mountain park at 2,286m altitude featuring The Ark lodge overlooking floodlit waterholes, spectacular waterfalls including Karuru Falls, and unique afro-alpine moorlands with rare wildlife.",
+  "fullDescription": "Aberdare National Park is a highland wilderness located 197km north of Nairobi in the dramatic Aberdare Mountain Range. The park encompasses diverse landscapes ranging from bamboo forests and rainforests at lower elevations to open moorlands and peaks rising above 4,000 meters, creating multiple distinct ecosystems within a single park.\n\nThe park is most famous for The Ark Lodge, built to resemble Noah's Ark and 'floating' amid the forests at an altitude of 2,286 meters (7,500 feet). This unique lodge overlooks a floodlit waterhole and salt lick, meaning game viewing is literally on your doorstep 24 hours a day. The Ark comprises three decks from which numerous balconies and lounges provide superb wildlife viewing locations. A night guard will buzz your room when special animals like leopards or the rare bongo antelope come to the waterhole.\n\nAberdare National Park is dotted with numerous picturesque waterfalls cascading down rocky cliffs. The most famous are Karuru Falls (Kenya's second-highest at 273 meters), Chania Falls, and Gura Falls. Trips to the high moorlands allow visitors to see these magnificent waterfalls and experience the unique afro-alpine vegetation found at high altitudes.\n\nThe park is home to elephants, black rhinos, leopards, spotted hyenas, olive baboons, black and white colobus monkeys, buffalos, warthogs and bushbucks, and the rare bongo - the largest and most colorful forest antelope, critically endangered and very elusive. The park's varied altitudes support over 250 species of birds, making it excellent for birdwatching.",
+  "activities": [
+    "24-hour wildlife viewing from The Ark lodge",
+    "Visit Karuru Falls (273m, Kenya's 2nd highest)",
+    "Explore Chania Falls and Gura Falls",
+    "Moorland hikes to see afro-alpine vegetation",
+    "Trout fishing in mountain streams",
+    "Mountain climbing and hiking",
+    "Bird watching for 250+ species",
+    "Night wildlife viewing at floodlit waterholes",
+    "Search for rare bongo antelopes",
+    "Photography of waterfalls and mountain landscapes",
+    "Cultural visits to local villages",
+    "Visit caves and rock formations"
+  ],
+  "lodges": [
+    {
+      "name": "The Ark",
+      "description": "Iconic Noah's Ark-shaped lodge with 24-hour waterhole viewing",
+      "link": "https://thearkkenya.com"
+    },
+    {
+      "name": "Treetops Lodge",
+      "description": "Historic tree lodge where Princess Elizabeth became Queen",
+      "link": "https://www.aberdaresafarilodges.com"
+    },
+    {
+      "name": "Aberdare Country Club",
+      "description": "Colonial-style base hotel in the foothills",
+      "link": "https://www.aberdaresafarilodges.com"
+    },
+    {
+      "name": "KWS Bandas & Campsites",
+      "description": "Budget self-catering options within the park",
+      "link": "https://www.kws.go.ke"
+    }
+  ],
+  "links": [
+    {
+      "text": "Aberdare National Park",
+      "url": "https://www.kws.go.ke",
+      "icon": "🏔️"
+    },
+    {
+      "text": "The Ark Lodge Official",
+      "url": "https://thearkkenya.com",
+      "icon": "🌍"
+    }
+  ],
+  "amenities": ["The Ark Lodge", "24hr Wildlife Viewing", "Karuru Falls (273m)", "Mountain Streams", "Rare Bongo Antelope", "Afro-Alpine Moorlands", "Trout Fishing", "250+ Bird Species", "Black Rhinos", "Bamboo Forests"]
+}

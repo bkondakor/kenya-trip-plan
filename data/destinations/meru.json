@@ -1,0 +1,61 @@
+{
+  "id": 18,
+  "slug": "meru",
+  "name": "Meru National Park",
+  "coordinates": [0.0536, 38.1908],
+  "dates": "June - October & January - March",
+  "category": "wildlife",
+  "order": 18,
+  "icon": "🦁",
+  "shortDescription": "Remote wilderness park made famous by 'Born Free,' home to Elsa the lioness's grave, featuring an 84km² rhino sanctuary with 100+ rhinos and minimal tourist traffic for authentic safari experiences.",
+  "fullDescription": "Meru National Park is where Elsa the lioness was released into the wild, and the park was made famous in the 1960s by Joy & George Adamson, who reintroduced their beloved lioness 'Elsa' into the wild here. The movie 'Born Free,' based on the true story of Elsa - an orphaned cub they had rescued, raised and later released into the wild - brought international attention to this remote wilderness. Both Joy Adamson and Elsa the lioness are buried in Meru National Park, making it a pilgrimage site for wildlife conservation enthusiasts.\n\nThis 870-square-kilometer park, located east of Meru Town, is one of Kenya's lesser-known gems. It offers an authentic wilderness experience with minimal tourist traffic, allowing visitors to enjoy game drives with very few other vehicles. The park incorporates an 84km² rhino sanctuary, home to over 70 white and 30 black rhinos, making Meru one of the best areas in Kenya to see rhinos in their natural habitat.\n\nThe park teems with diverse wildlife including elephant, Grevy's zebra, lion, cheetah, leopard, black rhino, hartebeest, hippo, buffalo and the reticulated giraffe among others. The landscape varies dramatically from woodlands and grasslands to riverine forests along the Tana River, with the magnificent Adamson's Falls, Rojewero River rapids, and the Tana River providing scenic beauty beyond the wildlife.\n\nMeru offers over 400 bird species, pristine landscapes unmarred by crowds, and the profound historical connection to the birth of modern wildlife conservation efforts in Kenya.",
+  "activities": [
+    "Visit Elsa's grave at her release site",
+    "Game drives with minimal vehicle congestion",
+    "Rhino tracking in the 84km² sanctuary",
+    "Visit Adamson's Falls on the Rojewero River",
+    "Bush walks with armed ranger escorts",
+    "Bird watching with 400+ species",
+    "Photography in pristine wilderness settings",
+    "Cultural visits to local communities",
+    "Fishing in designated areas",
+    "Visit George Adamson's original campsite",
+    "Explore riverine forests along Tana River",
+    "Night game drives (where permitted)"
+  ],
+  "lodges": [
+    {
+      "name": "Elsa's Kopje",
+      "description": "Award-winning luxury lodge built into Mughwango Hill with stunning views",
+      "link": "https://www.elewanacollection.com/elsa-s-kopje-meru"
+    },
+    {
+      "name": "Rhino River Camp",
+      "description": "Intimate tented camp along the Kindani River",
+      "link": "https://www.rhinorivercamp.com"
+    },
+    {
+      "name": "Offbeat Meru",
+      "description": "Luxury mobile camp offering exclusive experiences",
+      "link": "https://offbeatsafaris.com/meru"
+    },
+    {
+      "name": "KWS Bandas",
+      "description": "Budget self-catering accommodation within the park",
+      "link": "https://www.kws.go.ke/meru-national-park"
+    }
+  ],
+  "links": [
+    {
+      "text": "Meru National Park (KWS)",
+      "url": "https://www.kws.go.ke/meru-national-park",
+      "icon": "🦁"
+    },
+    {
+      "text": "Born Free Foundation",
+      "url": "https://www.bornfree.org.uk",
+      "icon": "🌍"
+    }
+  ],
+  "amenities": ["Born Free History", "Elsa's Grave", "100+ Rhinos", "Low Tourism", "Big Five", "Pristine Wilderness", "400+ Birds", "Adamson's Falls", "Riverine Forests", "Conservation Legacy"]
+}

@@ -1,0 +1,61 @@
+{
+  "id": 19,
+  "slug": "lake-bogoria",
+  "name": "Lake Bogoria National Reserve",
+  "coordinates": [-0.2667, 36.0833],
+  "dates": "June - October & January - March (peak flamingos)",
+  "category": "wildlife",
+  "order": 19,
+  "icon": "🦩",
+  "shortDescription": "Dramatic Rift Valley lake with Africa's highest concentration of true geysers (18+ active), boiling hot springs reaching 98.5°C, and tens of thousands of flamingos painting the shores pink.",
+  "fullDescription": "Lake Bogoria features one of the most dramatic landscapes in the Great Rift Valley, where steam hisses from natural geysers along the shore while tens of thousands of flamingos paint the soda waters pink. The geothermal hot springs and volcanic activity create a surreal, otherworldly environment that offers one of Kenya's most unique natural spectacles.\n\nThere are around 200 hot springs around the lake, with water temperatures ranging from 39°C to an incredible 98.5°C. Lake Bogoria contains the highest concentration of true geysers in Africa, with at least 18 having been active. The three currently active geysers include the Loburu geyser in the southern half (the largest and most active, erupting up to 5 meters high), Chermurkeu (the second biggest), and Losaramat (the least active).\n\nLake Bogoria National Park is famed worldwide for its spectacular flamingo populations, with tens of thousands of these vibrant birds converging each year, turning the shores into an awe-inspiring pink panorama. Flamingos can usually be found at Lake Bogoria throughout the year, though their numbers vary significantly, with peak seasons occurring between late August and early October. The sight of flamingos gathering near geothermal hot springs provides unique opportunities for spectacular and surreal photography.\n\nOver 300 bird species other than flamingoes have been recorded in the area, making it an exceptional birdwatching destination beyond the iconic pink populations. The combination of geothermal activity, abundant birdlife, and stunning Rift Valley scenery makes Lake Bogoria a truly unforgettable experience.",
+  "activities": [
+    "Flamingo watching (tens of thousands seasonally)",
+    "Geyser viewing at three active sites",
+    "Egg cooking in hot springs (local tradition)",
+    "Bicycle safaris around the lake",
+    "Birdwatching for 300+ species",
+    "Photography of flamingos and geysers together",
+    "Nature walks along the shoreline",
+    "Hot springs bathing (designated areas)",
+    "Greater Kudu spotting (resident population)",
+    "Picnicking with dramatic Rift Valley views",
+    "Sunrise and sunset photography",
+    "Educational tours about geothermal activity"
+  ],
+  "lodges": [
+    {
+      "name": "Lake Bogoria Spa Resort",
+      "description": "Resort with naturally heated pool, views and spa facilities",
+      "link": "https://lakebogoria.org"
+    },
+    {
+      "name": "Fig Tree Camp",
+      "description": "Comfortable camp with excellent flamingo viewing access",
+      "link": "https://lakebogoria.org"
+    },
+    {
+      "name": "Netbon Bogaria Kudu Camp",
+      "description": "Back-to-basics camping with lake views",
+      "link": "https://lakebogoria.org"
+    },
+    {
+      "name": "Kiborgoch Camp",
+      "description": "Popular campsite with basic facilities",
+      "link": "https://lakebogoria.org"
+    }
+  ],
+  "links": [
+    {
+      "text": "Lake Bogoria Official Site",
+      "url": "https://lakebogoria.org",
+      "icon": "🦩"
+    },
+    {
+      "text": "Visit Kenya - Lake Bogoria",
+      "url": "https://www.magicalkenya.com",
+      "icon": "🌍"
+    }
+  ],
+  "amenities": ["18+ Active Geysers", "200 Hot Springs", "Tens of Thousands of Flamingos", "300+ Bird Species", "Greater Kudu", "Bicycle Safaris", "Egg Cooking", "Rift Valley Views", "Geothermal Wonders", "Photography Paradise"]
+}

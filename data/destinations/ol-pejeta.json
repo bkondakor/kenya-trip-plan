@@ -1,0 +1,59 @@
+{
+  "id": 15,
+  "slug": "ol-pejeta",
+  "name": "Ol Pejeta Conservancy",
+  "coordinates": [0.0103, 37.0046],
+  "dates": "Year-round; June-October & January-March best",
+  "category": "wildlife",
+  "order": 15,
+  "icon": "🦏",
+  "shortDescription": "East Africa's largest black rhino sanctuary with the world's last two northern white rhinos, the only place in Kenya to see chimpanzees, and the most diverse activities of any conservancy.",
+  "fullDescription": "Ol Pejeta Conservancy is a 360 km² not-for-profit wildlife conservancy in Central Kenya's Laikipia County, situated on the equator west of Nanyuki, between the foothills of the Aberdares and Mount Kenya. The Conservancy works to conserve wildlife, provide a sanctuary for great apes, and generate income through wildlife tourism for re-investment in conservation and community development.\n\nThe Conservancy boasts the largest black rhinoceros sanctuary in East Africa, with over 130 critically endangered black rhinos roaming within a secure and monitored habitat. Most notably, it also houses the two last remaining northern white rhinos in the world, who were moved here from Dvůr Králové Zoo in the Czech Republic, making Ol Pejeta a critical frontline in the fight against extinction.\n\nThe Sweetwaters Chimpanzee Sanctuary is situated here, providing a haven for orphaned, abandoned, and rescued chimpanzees. It is the only place in Kenya where chimpanzees can be seen. The Sanctuary opened in 1993 through a partnership between the Ol Pejeta Conservancy, Kenya Wildlife Service, and the Jane Goodall Institute, and currently provides lifelong refuge to 43 chimpanzees rescued from traumatic situations across west and central Africa.\n\nOl Pejeta offers the most activities available of all the parks and conservancies in Kenya, making it perfect for active travelers seeking diverse wildlife experiences beyond traditional game drives.",
+  "activities": [
+    "Visit the Endangered Species Enclosure with the last northern white rhinos",
+    "Tour the Sweetwaters Chimpanzee Sanctuary",
+    "Lion tracking with expert guides and GPS equipment",
+    "Night game drives to spot nocturnal predators",
+    "Guided bush walks with armed rangers",
+    "Mountain biking through wildlife areas",
+    "Horse riding across open plains",
+    "Running with rangers at sunrise",
+    "Cycling safaris through the conservancy",
+    "Community visits to local schools and projects"
+  ],
+  "lodges": [
+    {
+      "name": "Sweetwaters Serena Camp",
+      "description": "Luxury tented camp near a waterhole frequented by wildlife",
+      "link": "https://www.serenahotels.com/sweetwaters"
+    },
+    {
+      "name": "Ol Pejeta Bush Camp",
+      "description": "Intimate camp with spectacular Mount Kenya views",
+      "link": "https://www.olpejetaconservancy.org/accommodation/bush-camp"
+    },
+    {
+      "name": "Porini Rhino Camp",
+      "description": "Eco-friendly camp with exclusive conservancy access",
+      "link": "https://www.porini.com/porini-rhino-camp"
+    },
+    {
+      "name": "Kicheche Laikipia Camp",
+      "description": "Small, exclusive camp focused on personalized service",
+      "link": "https://kicheche.com/laikipia"
+    }
+  ],
+  "links": [
+    {
+      "text": "Ol Pejeta Conservancy Official Site",
+      "url": "https://www.olpejetaconservancy.org",
+      "icon": "🦏"
+    },
+    {
+      "text": "Book Your Visit",
+      "url": "https://olpejetakenya.org",
+      "icon": "🎫"
+    }
+  ],
+  "amenities": ["Last 2 Northern White Rhinos", "130+ Black Rhinos", "Chimpanzee Sanctuary", "Big Five", "Lion Tracking", "Mountain Biking", "Horse Riding", "Night Drives", "Community Tourism", "Equator Crossing"]
+}

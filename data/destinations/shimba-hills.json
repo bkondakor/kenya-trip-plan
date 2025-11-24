@@ -1,0 +1,61 @@
+{
+  "id": 22,
+  "slug": "shimba-hills",
+  "name": "Shimba Hills National Reserve",
+  "coordinates": [-4.2333, 39.4],
+  "dates": "Year-round; June-September & January-March best",
+  "category": "wildlife",
+  "order": 22,
+  "icon": "🐘",
+  "shortDescription": "Kenya's largest coastal rainforest with 700 elephants (the country's highest density), rare sable antelopes found nowhere else in Kenya, and Shimba Hills Lodge - the only tree lodge on the coast.",
+  "fullDescription": "Shimba Hills National Reserve features elephants and sable antelopes in one of the largest coastal rainforests remaining in East Africa. Located in Kwale County, approximately 33 kilometers southwest of Mombasa, the reserve provides a lush, green contrast to the nearby beaches and offers a completely different ecosystem just a short drive from the coast.\n\nShimba Hills is home to about 700 elephants, representing the greatest density of African elephants in Kenya. The reserve serves as a vital migration corridor for elephants as it borders Mwaluganje Elephant Sanctuary, ensuring these majestic animals have protected routes between feeding and watering areas. Visitors have excellent chances of close elephant encounters in the dense forest settings.\n\nThe park has unique numbers of sable antelope - a magnificent creature with long curved horns found in no other park in Kenya. These rare and beautiful antelopes are critically endangered, making Shimba Hills their last refuge in the country. The combination of coastal rainforest habitat and protected status provides crucial sanctuary for this species.\n\nShimba Hills Lodge is the only tree lodge on Kenya's coast, built on stilts and overlooking a waterhole that attracts elephants, buffaloes, and antelopes throughout the day and night. The lodge is nestled in the tropical rainforest with a large veranda overlooking the waterhole, giving visitors a unique opportunity to enjoy breathtaking wildlife viewing without leaving the comfort of the lodge.\n\nBeyond elephants and sable antelopes, the reserve supports leopards, buffalos, warthogs, bushpigs, waterbucks, and over 250 bird species, making it an exceptional destination for wildlife enthusiasts seeking a rainforest safari experience.",
+  "activities": [
+    "Elephant viewing (700 elephants, Kenya's highest density)",
+    "Sable antelope tracking (found nowhere else in Kenya)",
+    "24-hour wildlife viewing from Shimba Hills Lodge",
+    "Guided rainforest walks",
+    "Visit Sheldrick Falls (25m waterfall)",
+    "Bird watching for 250+ species",
+    "Butterfly watching in the rainforest",
+    "Photography in coastal forest settings",
+    "Night game drives",
+    "Hiking through indigenous forest trails",
+    "Cultural visits to local communities",
+    "Combine with nearby beach resorts"
+  ],
+  "lodges": [
+    {
+      "name": "Shimba Hills Lodge",
+      "description": "Kenya's only coastal tree lodge overlooking rainforest waterhole",
+      "link": "https://www.kws.go.ke/shimba-hills-national-reserve"
+    },
+    {
+      "name": "Mukurumuji Tented Camp",
+      "description": "Eco-friendly tented camp in the forest",
+      "link": "https://mukurumuji.com"
+    },
+    {
+      "name": "Shimba Rainforest Lodge",
+      "description": "Comfortable lodge with forest views",
+      "link": "https://www.shimbarainforestlodge.com"
+    },
+    {
+      "name": "KWS Bandas & Campsites",
+      "description": "Budget camping and self-catering options",
+      "link": "https://www.kws.go.ke/shimba-hills-national-reserve"
+    }
+  ],
+  "links": [
+    {
+      "text": "Shimba Hills National Reserve (KWS)",
+      "url": "https://www.kws.go.ke/shimba-hills-national-reserve",
+      "icon": "🐘"
+    },
+    {
+      "text": "Mwaluganje Elephant Sanctuary",
+      "url": "https://www.kws.go.ke",
+      "icon": "🌍"
+    }
+  ],
+  "amenities": ["700 Elephants", "Kenya's Highest Elephant Density", "Rare Sable Antelope", "Coastal Rainforest", "Tree Lodge", "Sheldrick Falls", "250+ Bird Species", "Elephant Corridor", "Tropical Forest", "Near Beaches"]
+}

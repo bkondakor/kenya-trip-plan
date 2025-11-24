@@ -1,0 +1,67 @@
+{
+  "id": 28,
+  "slug": "lake-turkana",
+  "name": "Lake Turkana",
+  "coordinates": [3.5, 36.0],
+  "dates": "June - September & December - February",
+  "category": "cultural",
+  "order": 28,
+  "icon": "🏜️",
+  "shortDescription": "The 'Jade Sea' - world's largest desert lake and largest alkaline lake, UNESCO World Heritage Site featuring Koobi Fora fossil beds with groundbreaking human evolution discoveries, the world's largest Nile crocodile population, and remote authentic adventure.",
+  "fullDescription": "Lake Turkana, often called the 'Jade Sea' for its striking green-blue waters, is the world's largest desert lake and the largest alkaline lake on Earth. It stretches across Kenya's far north, bordering Ethiopia, mainly in Marsabit and Turkana Counties. This vast body of water extends approximately 290 kilometers north to south and covers roughly 6,405 square kilometers, creating an otherworldly oasis in the harsh northern desert landscapes.\n\nLake Turkana is a UNESCO World Heritage Site recognized for its ecosystems, fossils, and cultural heritage. The Koobi Fora Fossil Beds on the eastern shore contain groundbreaking paleontological discoveries that have shaped our understanding of human evolution, with fossils dating back millions of years providing crucial insights into early hominid development. This area is often called the 'Cradle of Mankind' for its extraordinary contributions to evolutionary science.\n\nLake Turkana has the biggest Nile crocodile population in the world, with thousands of these ancient reptiles inhabiting its waters. Central Island, a volcanic formation in the middle of the lake, features three small jade-colored crater lakes and serves as a major crocodile breeding ground. The island's volcanic features and dramatic landscapes make it one of the most unique destinations in Kenya.\n\nAccess is by road (a true expedition taking about 2–3 days from Nairobi through remote landscapes) or by charter flights to Lodwar, Kalokol, or Loiyangalani airstrips. The Chalbi Desert, lying to the east of the lake, is Kenya's 'Mini Sahara' and offers opportunities for camel expeditions and desert safaris.\n\nThis is a remote, authentic adventure destination rather than a luxury safari experience. Visitors come for the dramatic desert-lake landscapes, cultural encounters with the Turkana, Samburu, El Molo, and Rendille peoples, and the profound sense of exploration in one of Kenya's most isolated regions.",
+  "activities": [
+    "Visit Koobi Fora fossil beds (human evolution site)",
+    "Boat trips to Central Island volcanic crater lakes",
+    "Crocodile viewing (world's largest population)",
+    "Fishing for giant Nile Perch",
+    "Cultural tours with Turkana, El Molo, Samburu peoples",
+    "Desert safaris in Chalbi Desert",
+    "Camel expeditions",
+    "Birdwatching along the lakeshore",
+    "Photography of desert and lake landscapes",
+    "Swimming in designated safe areas",
+    "Visit South Island National Park",
+    "Explore remote fishing villages",
+    "Adventure overland expedition from Nairobi"
+  ],
+  "lodges": [
+    {
+      "name": "Oasis Lodge Loiyangalani",
+      "description": "Hidden gem in the semi-desert region with lake access",
+      "link": "https://www.oasislodgeloiyangalani.com"
+    },
+    {
+      "name": "Eliye Springs Resort",
+      "description": "Beachfront cottages with swimming pool on western shore",
+      "link": "https://www.eliyespringsresort.com"
+    },
+    {
+      "name": "Lobolo Camp",
+      "description": "Luxury tents and cottages with stunning lake views",
+      "link": "https://www.lobolocamp.com"
+    },
+    {
+      "name": "Palm Shade Camp",
+      "description": "Community-run eco-camp with basic facilities",
+      "link": "https://www.turkanabasin.org"
+    }
+  ],
+  "links": [
+    {
+      "text": "Lake Turkana UNESCO Heritage",
+      "url": "https://whc.unesco.org/en/list/801",
+      "icon": "🏛️"
+    },
+    {
+      "text": "Koobi Fora Museum",
+      "url": "https://nmk.go.ke",
+      "icon": "🦴"
+    },
+    {
+      "text": "Lake Turkana Safari Guide",
+      "url": "https://www.safari.co.za/Kenya_Safari_Guide-travel/the-jade-sea-lake-turkana.html",
+      "icon": "🌍"
+    }
+  ],
+  "amenities": ["World's Largest Desert Lake", "The Jade Sea", "UNESCO World Heritage", "Koobi Fora Fossils", "Cradle of Mankind", "Largest Crocodile Population", "Central Island Volcano", "Chalbi Desert", "Remote Adventure", "Indigenous Cultures"]
+}
