@@ -1,0 +1,45 @@
+{
+  "id": 7,
+  "slug": "masai-mara",
+  "name": "Masai Mara National Reserve",
+  "coordinates": [-1.5, 35.15],
+  "dates": "July - October (Great Migration)",
+  "category": "wildlife",
+  "order": 7,
+  "icon": "🦁",
+  "shortDescription": "Kenya's most celebrated safari destination, home to the world-famous Great Migration and exceptional Big Five sightings. Witness millions of wildebeest crossing the crocodile-filled Mara River.",
+  "fullDescription": "The Masai Mara National Reserve is Kenya's most celebrated safari destination, covering 1,510 square kilometers of pristine savannah in southwestern Kenya. Named after the ancestral inhabitants, the Maasai people, and the Mara River which cuts through it, this reserve is globally renowned for hosting the spectacular Great Migration between July and October. Home to over 95 species of mammals and 570 bird species, the Mara offers unparalleled wildlife viewing year-round. The reserve boasts exceptional concentrations of lions, cheetahs, and leopards, making it one of the best places in Africa to see big cats. The endless golden plains, dotted with acacia trees and crossed by the life-giving Mara River, create the quintessential African landscape. Beyond wildlife, the Mara offers authentic cultural encounters with Maasai communities who have coexisted with wildlife for centuries.",
+  "activities": [
+    "Game drives tracking the Big Five",
+    "Great Migration river crossings (July-October)",
+    "Hot air balloon safari at sunrise",
+    "Maasai village cultural visits",
+    "Photography safaris with expert guides",
+    "Sundowner bush dinners under the stars"
+  ],
+  "lodges": [
+    {
+      "name": "Governors' Camp",
+      "description": "Legendary tented camp on the Mara River since 1972",
+      "link": "https://www.governorscamp.com"
+    },
+    {
+      "name": "Angama Mara",
+      "description": "Perched 1,000 feet above the Mara floor with spectacular views",
+      "link": "https://www.angama.com"
+    },
+    {
+      "name": "Mara Plains Camp",
+      "description": "Intimate 7-tent camp in exclusive conservancy",
+      "link": "https://www.greatplainsconservation.com/mara-plains"
+    }
+  ],
+  "links": [
+    {
+      "text": "Masai Mara Official Site",
+      "url": "https://www.maasaimara.com",
+      "icon": "🌍"
+    }
+  ],
+  "amenities": ["Big Five", "Great Migration", "Big Cat Capital", "Hot Air Balloons", "Maasai Culture", "Photography Paradise"]
+}

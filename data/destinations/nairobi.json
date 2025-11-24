@@ -1,0 +1,39 @@
+{
+  "id": 1,
+  "slug": "nairobi",
+  "name": "Nairobi",
+  "coordinates": [-1.2921, 36.8219],
+  "dates": "January 17 & 31, 2026",
+  "category": "cultural",
+  "order": 1,
+  "icon": "🏙️",
+  "shortDescription": "Kenya's vibrant capital serves as your gateway. Modern hotels provide comfortable rest before and after your wilderness adventures through the Northern conservancies and coast.",
+  "fullDescription": "Nairobi, Kenya's bustling capital, serves as the perfect bookend to your adventure. While you won't spend extensive time here, the city offers comfortable airport hotels for your arrival and departure nights. Eka Hotel provides modern amenities close to the airport, while Boma Nairobi offers a more boutique experience. If you have extra time, consider visiting the Giraffe Centre, David Sheldrick Elephant Orphanage, or the Karen Blixen Museum. The city's restaurants showcase Kenya's diverse cuisine, from nyama choma (grilled meat) to innovative fusion dining. Nairobi's elevation at 1,795m means pleasant year-round temperatures around 25°C during the day and 12°C at night in January.",
+  "activities": [
+    "Airport transfers and rest before safari",
+    "Optional: Giraffe Centre visit",
+    "Optional: David Sheldrick Elephant Orphanage",
+    "Optional: Karen Blixen Museum",
+    "Dining at local restaurants"
+  ],
+  "lodges": [
+    {
+      "name": "Eka Hotel",
+      "description": "Modern airport hotel with excellent amenities",
+      "link": "https://www.eka.co.ke"
+    },
+    {
+      "name": "Boma Nairobi",
+      "description": "Boutique hotel near airport",
+      "link": "https://www.bomanairobi.com"
+    }
+  ],
+  "links": [
+    {
+      "text": "Visit Nairobi",
+      "url": "https://www.kws.go.ke",
+      "icon": "🏙️"
+    }
+  ],
+  "amenities": ["Airport Access", "Modern Hotels", "City Dining", "Optional Attractions", "Gateway Hub"]
+}

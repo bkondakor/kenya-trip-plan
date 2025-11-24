@@ -1,0 +1,39 @@
+{
+  "id": 4,
+  "slug": "matthews",
+  "name": "Matthews Range",
+  "coordinates": [1.4500, 37.4000],
+  "dates": "January 24, 2026",
+  "category": "mountains",
+  "order": 4,
+  "icon": "⛰️",
+  "shortDescription": "A pristine 'sky island' with tropical highland forest evolved in isolation for 10,000+ years. Home to 400+ forest elephants, rare De Brazza's monkeys, melanistic leopards, and over 200 bird species.",
+  "fullDescription": "Matthews Range rises as a 'sky island' - a tropical highland forest evolved in isolation for 10,000+ years, creating unique endemic species. The range stretches 150 km through Samburu territory with Warges Peak (2,688m) offering challenging treks. The route traverses dense cedar forests (some trees over 1,000 years old), crystal-clear mountain streams with swim-worthy rock pools, and dramatic crags. Wildlife includes 400+ forest elephants that returned after conservation efforts, rare De Brazza's monkeys, melanistic leopards (black panthers), African wild dogs, and over 200 bird species including the stunning Hartlaub's turaco. Access requires flying to Ngelai airstrip followed by road transfer. Camel-supported treks carry camping equipment for extended expeditions, allowing deep wilderness immersion impossible on day hikes.",
+  "activities": [
+    "Guided forest walks through ancient cedar forests",
+    "Wildlife viewing including forest elephants and leopards",
+    "Mountain stream swimming in crystal-clear pools",
+    "Bird watching (200+ species)",
+    "Camel-supported camping expeditions"
+  ],
+  "lodges": [
+    {
+      "name": "Sarara Camp",
+      "description": "6 luxury tented suites in pristine wilderness",
+      "link": "https://www.sararacamp.com"
+    },
+    {
+      "name": "Kitich Camp",
+      "description": "6 riverside tents, walking safari specialists",
+      "link": "https://www.kitichcamp.com"
+    }
+  ],
+  "links": [
+    {
+      "text": "Namunyak Conservancy",
+      "url": "https://www.kws.go.ke",
+      "icon": "🌲"
+    }
+  ],
+  "amenities": ["Forest Elephants", "Ancient Forests", "Mountain Streams", "Endemic Species", "Camel Treks"]
+}

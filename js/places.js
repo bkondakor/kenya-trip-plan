@@ -1,10 +1,10 @@
 // Destinations Data - Loaded from JSON file
 let destinations = [];
 
-// Load destinations from JSON file
+// Load destinations from index file
 async function loadDestinations() {
     try {
-        const response = await fetch('data/destinations.json');
+        const response = await fetch('data/destinations/index.json');
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }

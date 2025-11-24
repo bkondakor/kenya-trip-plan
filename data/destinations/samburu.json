@@ -1,0 +1,44 @@
+{
+  "id": 3,
+  "slug": "samburu",
+  "name": "Samburu & Sera Conservancy",
+  "coordinates": [0.9333, 37.5333],
+  "dates": "January 21-23, 2026",
+  "category": "wildlife",
+  "order": 3,
+  "icon": "🦒",
+  "shortDescription": "Home to East Africa's first and only community-owned black rhino sanctuary. Track rhinos on foot through doum palm groves and witness the 'Samburu Special Five' found nowhere else in Kenya.",
+  "fullDescription": "Samburu National Reserve showcases species found nowhere else in Kenya: the 'Samburu Special Five' including Grevy's zebra, reticulated giraffe, gerenuk, Beisa oryx, and Somali ostrich. The most extraordinary experience lies in Sera Community Conservancy, where the Samburu community welcomed 10 black rhinos back in 2015; today 23 rhinos roam the sanctuary with 12 calves born since reintroduction and zero poaching incidents. Saruni Rhino lodge offers the only on-foot black rhino tracking in East Africa. Accompanied by armed rangers and expert Samburu trackers using GPS monitoring technology, you'll track rhinos on foot - an intense, participatory conservation experience impossible anywhere else on the continent. January's hot, dry conditions concentrate wildlife spectacularly at the Ewaso Nyiro River.",
+  "activities": [
+    "On-foot black rhino tracking (only place in East Africa)",
+    "Samburu Special Five wildlife viewing",
+    "Reteti Elephant Sanctuary visit (community-owned orphanage)",
+    "Singing Wells - ancient Samburu warrior tradition",
+    "Game drives along Ewaso Nyiro River"
+  ],
+  "lodges": [
+    {
+      "name": "Saruni Rhino",
+      "description": "3-4 rustic stone bandas, exclusive rhino tracking access",
+      "link": "https://www.sarunirhino.com"
+    },
+    {
+      "name": "Saruni Samburu",
+      "description": "6 clifftop villas overlooking 240,000-acre conservancy",
+      "link": "https://www.sarunisamburu.com"
+    }
+  ],
+  "links": [
+    {
+      "text": "Reteti Elephant Sanctuary",
+      "url": "https://reteti.org",
+      "icon": "🐘"
+    },
+    {
+      "text": "Kenya Wildlife Service",
+      "url": "https://www.kws.go.ke",
+      "icon": "🌍"
+    }
+  ],
+  "amenities": ["Rhino Tracking", "Samburu Special Five", "Elephant Orphanage", "Community Conservation", "River Wildlife"]
+}

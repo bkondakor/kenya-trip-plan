@@ -1,0 +1,144 @@
+{
+  "destinations": [
+    {
+      "id": 1,
+      "slug": "nairobi",
+      "name": "Nairobi",
+      "coordinates": [-1.2921, 36.8219],
+      "category": "cultural",
+      "order": 1,
+      "icon": "🏙️",
+      "shortDescription": "Kenya's vibrant capital serves as your gateway. Modern hotels provide comfortable rest before and after your wilderness adventures through the Northern conservancies and coast."
+    },
+    {
+      "id": 2,
+      "slug": "laikipia",
+      "name": "Laikipia Plateau / Lewa",
+      "coordinates": [0.2167, 37.4500],
+      "category": "wildlife",
+      "order": 2,
+      "icon": "🦏",
+      "shortDescription": "A UNESCO World Heritage Site protecting 10% of Kenya's entire rhino population and 20% of critically endangered Grevy's zebra. Experience exclusive wildlife encounters with only 2-3 other vehicles maximum."
+    },
+    {
+      "id": 3,
+      "slug": "samburu",
+      "name": "Samburu & Sera Conservancy",
+      "coordinates": [0.9333, 37.5333],
+      "category": "wildlife",
+      "order": 3,
+      "icon": "🦒",
+      "shortDescription": "Home to East Africa's first and only community-owned black rhino sanctuary. Track rhinos on foot through doum palm groves and witness the 'Samburu Special Five' found nowhere else in Kenya."
+    },
+    {
+      "id": 4,
+      "slug": "matthews",
+      "name": "Matthews Range",
+      "coordinates": [1.4500, 37.4000],
+      "category": "mountains",
+      "order": 4,
+      "icon": "⛰️",
+      "shortDescription": "A pristine 'sky island' with tropical highland forest evolved in isolation for 10,000+ years. Home to 400+ forest elephants, rare De Brazza's monkeys, melanistic leopards, and over 200 bird species."
+    },
+    {
+      "id": 5,
+      "slug": "loita",
+      "name": "Loita Hills",
+      "coordinates": [-1.5833, 35.6667],
+      "category": "cultural",
+      "order": 5,
+      "icon": "🌳",
+      "shortDescription": "Experience the sacred 'Forest of the Lost Child' with authentic Maasai cultural immersion. 100% community-owned where tourism revenue directly funds schools and women's empowerment programs."
+    },
+    {
+      "id": 6,
+      "slug": "lamu",
+      "name": "Lamu Archipelago",
+      "coordinates": [-2.2717, 40.9020],
+      "category": "coastal",
+      "order": 6,
+      "icon": "⛵",
+      "shortDescription": "A UNESCO World Heritage Site with over 700 years of Swahili culture. Lamu Old Town remains car-free, navigated only by donkeys and dhows with pristine beaches and perfect diving conditions."
+    },
+    {
+      "id": 7,
+      "slug": "masai-mara",
+      "name": "Masai Mara National Reserve",
+      "coordinates": [-1.5, 35.15],
+      "category": "wildlife",
+      "order": 7,
+      "icon": "🦁",
+      "shortDescription": "Kenya's most celebrated safari destination, home to the world-famous Great Migration and exceptional Big Five sightings. Witness millions of wildebeest crossing the crocodile-filled Mara River."
+    },
+    {
+      "id": 8,
+      "slug": "amboseli",
+      "name": "Amboseli National Park",
+      "coordinates": [-2.65, 37.25],
+      "category": "wildlife",
+      "order": 8,
+      "icon": "🐘",
+      "shortDescription": "Land of the Giants featuring iconic elephant herds against the backdrop of Mount Kilimanjaro. Home to over 1,000 elephants and the longest-running elephant research project in the world."
+    },
+    {
+      "id": 9,
+      "slug": "diani",
+      "name": "Diani Beach",
+      "coordinates": [-4.29, 39.58],
+      "category": "coastal",
+      "order": 9,
+      "icon": "🏖️",
+      "shortDescription": "Kenya's tropical paradise featuring 17 kilometers of pristine white sand beaches and crystal-clear turquoise waters. Perfect coastal retreat combining relaxation with water sports and marine adventures."
+    },
+    {
+      "id": 10,
+      "slug": "lake-nakuru",
+      "name": "Lake Nakuru National Park",
+      "coordinates": [-0.3667, 36.0833],
+      "category": "wildlife",
+      "order": 10,
+      "icon": "🦩",
+      "shortDescription": "The Pink Paradise featuring millions of flamingos and one of Africa's finest rhino sanctuaries in the Great Rift Valley with over 450 bird species."
+    },
+    {
+      "id": 11,
+      "slug": "tsavo",
+      "name": "Tsavo National Parks",
+      "coordinates": [-3.0, 38.5],
+      "category": "wildlife",
+      "order": 11,
+      "icon": "🐘",
+      "shortDescription": "Kenya's largest wilderness featuring the legendary red elephants and untamed African landscapes across nearly 22,000 square kilometers."
+    },
+    {
+      "id": 12,
+      "slug": "mount-kenya",
+      "name": "Mount Kenya",
+      "coordinates": [-0.1521, 37.3084],
+      "category": "mountains",
+      "order": 12,
+      "icon": "🏔️",
+      "shortDescription": "Africa's second-highest mountain, a UNESCO World Heritage Site with glaciers, alpine lakes, and unique afro-alpine ecosystems found nowhere else on Earth."
+    },
+    {
+      "id": 13,
+      "slug": "hells-gate",
+      "name": "Hell's Gate National Park",
+      "coordinates": [-0.9167, 36.3167],
+      "category": "wildlife",
+      "order": 13,
+      "icon": "🚴",
+      "shortDescription": "Kenya's only park where you can walk, cycle, and climb among wild animals. Dramatic gorges, geothermal activity, and the inspiration for The Lion King scenery."
+    },
+    {
+      "id": 14,
+      "slug": "lake-naivasha",
+      "name": "Lake Naivasha",
+      "coordinates": [-0.7667, 36.3667],
+      "category": "wildlife",
+      "order": 14,
+      "icon": "🦛",
+      "shortDescription": "Freshwater oasis in the Rift Valley with boat safaris, Crescent Island walks among wildlife, and over 400 bird species in a serene lakeside paradise."
+    }
+  ]
+}
