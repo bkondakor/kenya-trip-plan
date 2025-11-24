@@ -36,32 +36,23 @@ kenya-trip-plan/
 ├── map.html                   # Interactive Leaflet map with markers
 ├── places.html                # Directory of destinations
 ├── pro-tips.html              # Travel advice page
-├── [destination].html         # Individual destination pages:
-│   ├── nairobi.html
-│   ├── masai-mara.html
-│   ├── amboseli.html
-│   ├── lake-nakuru.html
-│   ├── lake-naivasha.html
-│   ├── hells-gate.html
-│   ├── mount-kenya.html
-│   ├── laikipia.html
-│   ├── samburu.html
-│   ├── matthews.html
-│   ├── loita.html
-│   ├── tsavo.html
-│   ├── diani.html
-│   └── lamu.html
+├── destination.html           # ✨ Dynamic destination page (all destinations)
+├── data/
+│   └── destinations.json      # 📝 All destination data (EDIT THIS FILE)
 ├── css/
 │   └── styles.css             # Custom styles and responsive design
 ├── js/
-│   ├── map.js                 # Leaflet map configuration and markers
-│   └── places.js              # Places page logic
+│   ├── destination-loader.js  # ✨ Dynamic content loader
+│   ├── map.js                 # Leaflet map (loads from JSON)
+│   └── places.js              # Places page (loads from JSON)
 ├── images/                    # Destination images
 ├── .github/
 │   └── workflows/
 │       └── deploy.yml         # GitHub Pages deployment workflow
 └── Documentation:
     ├── README.md              # User-facing documentation
+    ├── CLAUDE.md              # This file - AI assistant guide
+    ├── CONTENT_GUIDE.md       # 📖 How to add/edit destinations
     ├── PROJECT_PLAN.md        # Original project plan and status
     ├── DEPLOYMENT_GUIDE.md    # Deployment instructions
     ├── IMAGE_SOURCES.md       # Image attribution
@@ -69,6 +60,8 @@ kenya-trip-plan/
     ├── pro-tips.md            # Source content for travel tips
     └── itinerary-plan-1.md    # Trip itinerary data
 ```
+
+**Important**: This project has been refactored to use dynamic content loading. Individual destination HTML files (nairobi.html, masai-mara.html, etc.) are no longer used. All destinations are now managed through a single `data/destinations.json` file.
 
 ## Key Features
 
@@ -79,10 +72,11 @@ kenya-trip-plan/
 - Coordinates and data for destinations
 
 ### 2. Destination Pages
-- Individual HTML pages for each location
-- Consistent structure across all pages
+- **Dynamic single-page system**: All destinations use `destination.html`
+- Content loaded from `data/destinations.json` based on URL parameter
+- URL format: `destination.html?slug=destination-name`
 - Images stored in `/images/` directory
-- Links to accommodations and activities
+- No code changes needed to add new destinations
 
 ### 3. Places Directory (places.html)
 - Card-based layout of all destinations
@@ -108,22 +102,27 @@ npx http-server
 
 ### Making Changes
 
-1. **Adding a New Destination**:
-   - Create new `[destination].html` file following existing templates
-   - Add destination to `js/places.js` array
-   - Add marker to `js/map.js` with coordinates
-   - Add image to `images/` directory
-   - Update `places.html` if needed
+1. **Adding a New Destination** (NO CODE CHANGES REQUIRED):
+   - Edit `data/destinations.json` only
+   - Add new destination object to the `destinations` array
+   - Follow the structure documented in `CONTENT_GUIDE.md`
+   - Add image to `images/` directory (named `{slug}.jpg`)
+   - Destination automatically appears on map, places page, and has its own page
+   - **See `CONTENT_GUIDE.md` for complete instructions**
 
-2. **Modifying Styles**:
+2. **Modifying Existing Destination**:
+   - Edit the destination object in `data/destinations.json`
+   - Changes apply immediately to all pages (map, places, destination page)
+
+3. **Modifying Styles**:
    - Edit `css/styles.css`
    - Follow existing CSS conventions
    - Test responsiveness on mobile and desktop
 
-3. **Updating Map**:
-   - Edit `js/map.js`
-   - Add/modify markers in the `locations` array
-   - Adjust map center and zoom as needed
+4. **Advanced Changes** (requires code modification):
+   - Adding new features: Edit relevant HTML/JS files
+   - Modifying page layouts: Edit HTML templates
+   - Changing map behavior: Edit `js/map.js`
 
 ### Git Workflow
 

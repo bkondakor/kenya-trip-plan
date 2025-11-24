@@ -1,8 +1,31 @@
-// Destinations Data
-const destinations = [
+// Destinations Data - Loaded from JSON file
+let destinations = [];
+
+// Load destinations from JSON file
+async function loadDestinations() {
+    try {
+        const response = await fetch('data/destinations.json');
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        const data = await response.json();
+        destinations = data.destinations;
+        return true;
+    } catch (error) {
+        console.error('Error loading destinations:', error);
+        alert('Error loading destination data. Please refresh the page.');
+        return false;
+    }
+}
+
+// Destinations now loaded dynamically from JSON
+// (Old hardcoded array removed)
+
+// Remove this block when convenient
+const _toRemove = [
     {
         id: 1,
-        name: "Laikipia Plateau",
+        name: "Placeholder",
         dates: "January 18-20, 2026",
         category: "wildlife",
         shortDescription: "A UNESCO World Heritage Site protecting 10% of Kenya's entire rhino population and 20% of critically endangered Grevy's zebra. Experience exclusive wildlife encounters with only 2-3 other vehicles maximum.",
@@ -601,7 +624,14 @@ let currentFilter = 'all';
 let currentSearch = '';
 
 // Initialize the page
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', async () => {
+    // Load destinations from JSON first
+    const loaded = await loadDestinations();
+    if (!loaded) {
+        return; // Error already handled in loadDestinations
+    }
+
+    // Now render with loaded data
     renderDestinations();
     setupEventListeners();
 });
@@ -675,10 +705,17 @@ function renderDestinations() {
     noResults.classList.add('is-hidden');
     grid.innerHTML = filtered.map(dest => createDestinationCard(dest)).join('');
 
-    // Add event listeners to cards
+    // Add event listeners to cards - navigate to dynamic destination page
     document.querySelectorAll('.destination-card').forEach(card => {
         const destId = parseInt(card.dataset.id);
-        card.addEventListener('click', () => openModal(destId));
+        const dest = destinations.find(d => d.id === destId);
+        if (dest) {
+            card.addEventListener('click', () => {
+                window.location.href = `destination.html?slug=${dest.slug}`;
+            });
+            // Make card look clickable
+            card.style.cursor = 'pointer';
+        }
     });
 
     // Add event listeners to read more buttons
