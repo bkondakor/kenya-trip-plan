@@ -1,0 +1,67 @@
+{
+  "id": 26,
+  "slug": "malindi",
+  "name": "Malindi",
+  "coordinates": [-3.2167, 40.1167],
+  "dates": "October - March (best weather & marine conditions)",
+  "category": "coastal",
+  "order": 26,
+  "icon": "⛵",
+  "shortDescription": "Historic coastal town featuring Vasco da Gama Pillar (erected 1498 - Kenya's oldest European monument), UNESCO Biosphere Reserve marine park with pristine coral reefs, and stunning white sand beaches.",
+  "fullDescription": "Malindi is a historic coastal town located in Kilifi County along Kenya's coast, notable for its stunning natural beauty, vibrant marine life, pristine white sand beaches and crystal-clear waters. The town has played a significant role in Indian Ocean trade for centuries and retains a charming blend of Swahili, Arab, Portuguese, and Italian influences.\n\nThe Vasco da Gama Pillar was erected in 1498 by the Portuguese explorer Vasco da Gama during his pioneering voyage to India. Standing atop a bluff overlooking the Indian Ocean, it is among Kenya's oldest remaining European-built monuments and marks a turning point in global exploration and the beginning of European contact with East Africa. The pillar is one of the most significant historical attractions around Malindi and symbolizes the town's strategic importance in maritime history.\n\nMalindi Marine National Park & Reserve was the first Marine Protected Area established in Kenya in 1968 and was designated as a UNESCO Biosphere Reserve in 1979. The Park is well endowed with fringing reefs, spectacular coral gardens in the lagoons, sea-grass beds, mangroves, mudflats, and a high diversity of fish and marine mammals. The marine park is located south of Malindi town and offers some of the best snorkeling and diving on Kenya's coast.\n\nVisitors can enjoy snorkeling, diving, boat trips, fishing, and glass-bottom boat tours at the marine park, marveling at underwater beauty including sea turtles feeding on seagrass beds and dolphins feeding on schools of sardines. The combination of historical significance, marine biodiversity, and beautiful beaches makes Malindi an excellent coastal destination.",
+  "activities": [
+    "Visit Vasco da Gama Pillar (erected 1498)",
+    "Snorkeling and diving in Marine National Park",
+    "Glass-bottom boat tours over coral gardens",
+    "Visit nearby Gede Ruins (13th-century Swahili town)",
+    "Deep sea fishing expeditions",
+    "Dolphin watching tours",
+    "Sea turtle spotting",
+    "Visit Malindi Museum",
+    "Explore Portuguese Chapel",
+    "Beach relaxation on white sand beaches",
+    "Dhow sailing excursions",
+    "Visit local markets and crafts",
+    "Kitesurfing and windsurfing"
+  ],
+  "lodges": [
+    {
+      "name": "Diamonds Dream of Africa",
+      "description": "Luxury all-inclusive resort on pristine beach",
+      "link": "https://www.diamonds-resorts.com"
+    },
+    {
+      "name": "Che Shale",
+      "description": "Boutique beachfront hotel with Italian influence",
+      "link": "https://www.cheshale.com"
+    },
+    {
+      "name": "Kilili Baharini Resort",
+      "description": "Family-friendly resort with water sports",
+      "link": "https://www.kililibaharini.com"
+    },
+    {
+      "name": "Ocean Beach Resort & Spa",
+      "description": "Comfortable beachfront resort with good value",
+      "link": "https://www.oceanbeachkenya.com"
+    }
+  ],
+  "links": [
+    {
+      "text": "Malindi Marine National Park (KWS)",
+      "url": "https://www.kws.go.ke/malindi-marine-national-park-reserve",
+      "icon": "⛵"
+    },
+    {
+      "text": "Vasco da Gama Pillar (National Museums)",
+      "url": "https://nmk.go.ke/vasco-da-gama-pillar",
+      "icon": "🏛️"
+    },
+    {
+      "text": "Visit Malindi",
+      "url": "https://malindians.com",
+      "icon": "🌍"
+    }
+  ],
+  "amenities": ["Vasco da Gama Pillar (1498)", "UNESCO Biosphere Reserve", "First Marine Park in Kenya", "Coral Gardens", "Gede Ruins", "Portuguese History", "White Sand Beaches", "Sea Turtles", "Dolphins", "Italian Influence"]
+}

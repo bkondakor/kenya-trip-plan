@@ -1,0 +1,66 @@
+{
+  "id": 23,
+  "slug": "mombasa",
+  "name": "Mombasa",
+  "coordinates": [-4.0435, 39.6682],
+  "dates": "Year-round; October-March best weather",
+  "category": "cultural",
+  "order": 23,
+  "icon": "🏛️",
+  "shortDescription": "Kenya's historic coastal city featuring UNESCO World Heritage Fort Jesus (built 1593), the atmospheric Old Town with carved Swahili doors, pristine beaches at Nyali and Bamburi, and vibrant Swahili culture.",
+  "fullDescription": "Mombasa is Kenya's second-largest city and main coastal hub, serving as a gateway to the Indian Ocean beaches while offering rich historical and cultural experiences. This ancient port city has been a crossroads of civilizations for over a thousand years, with Arab, Portuguese, British, and Swahili influences creating a unique cultural tapestry.\n\nFort Jesus is Mombasa's most popular tourist attraction and a UNESCO World Heritage Site. This 16th-century fort was built by the Portuguese in 1593 to serve as both symbol and headquarters of their permanent presence in this corner of the Indian Ocean. The monumental piece of military architecture overlooks the coastline near the Old Town and features walls up to 15 meters high. The museum, which opened in 1962, displays an intriguing collection of archaeological artifacts from the fort, as well as items from Manda, Ungwana, Gede and other historical sites along the coast.\n\nMombasa Old Town is a historical and cultural treasure featuring narrow winding streets, ancient buildings with intricately carved wooden doors and balconies hanging over the streets. Located just 0.8 miles from Fort Jesus, the Old Town is a neighborhood bursting with character, where you can wander through centuries of Swahili coastal culture, browse spice markets, and experience authentic coastal cuisine.\n\nThe city's white sandy beaches, including Diani (to the south), Nyali, and Bamburi (to the north), offer perfect settings for relaxation, water sports, and encounters with marine life. Mombasa Marine National Park is just 1 mile from Fort Jesus and offers thrilling adventures like snorkeling and diving, with breathtaking coastal scenery and rich marine biodiversity.",
+  "activities": [
+    "Tour Fort Jesus Museum (UNESCO World Heritage Site)",
+    "Explore Old Town's narrow streets and carved doors",
+    "Visit spice markets and bazaars",
+    "Snorkeling and diving in Mombasa Marine National Park",
+    "Relax on Nyali and Bamburi beaches",
+    "Dhow sunset cruises",
+    "Visit Haller Park wildlife sanctuary",
+    "Experience Swahili cuisine and culture",
+    "Shopping for crafts and textiles",
+    "Visit Mama Ngina Waterfront park",
+    "Deep sea fishing excursions",
+    "Glass-bottom boat tours"
+  ],
+  "lodges": [
+    {
+      "name": "PrideInn Paradise Beach Resort & Spa",
+      "description": "5-star luxury resort with beach access and spa",
+      "link": "https://www.prideinn.co.ke"
+    },
+    {
+      "name": "Serena Beach Resort & Spa",
+      "description": "Elegant beachfront resort with Swahili architecture",
+      "link": "https://www.serenahotels.com"
+    },
+    {
+      "name": "Cocoa Boutique Hotel",
+      "description": "Stylish boutique hotel near airport",
+      "link": "https://www.cocoaboutiquehotel.com"
+    },
+    {
+      "name": "Tamarind Village",
+      "description": "Heritage hotel in the heart of Mombasa",
+      "link": "https://tamarind.co.ke"
+    }
+  ],
+  "links": [
+    {
+      "text": "Fort Jesus Museum (National Museums)",
+      "url": "https://nmk.go.ke/fort-jesus",
+      "icon": "🏛️"
+    },
+    {
+      "text": "Mombasa Marine National Park (KWS)",
+      "url": "https://www.kws.go.ke",
+      "icon": "🌊"
+    },
+    {
+      "text": "Visit Mombasa",
+      "url": "https://www.magicalkenya.com",
+      "icon": "🌍"
+    }
+  ],
+  "amenities": ["UNESCO Fort Jesus", "16th Century History", "Old Town", "Swahili Culture", "Pristine Beaches", "Marine National Park", "Carved Doors", "Spice Markets", "Coastal Cuisine", "Dhow Cruises"]
+}

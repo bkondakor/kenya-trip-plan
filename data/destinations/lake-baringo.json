@@ -1,0 +1,62 @@
+{
+  "id": 24,
+  "slug": "lake-baringo",
+  "name": "Lake Baringo",
+  "coordinates": [0.6333, 36.1],
+  "dates": "Year-round; best June-March",
+  "category": "wildlife",
+  "order": 24,
+  "icon": "🦅",
+  "shortDescription": "Freshwater Rift Valley lake hosting over 470 bird species (one-third of Kenya's total), with Gibraltar Island's famous Goliath heronry, resident hippos and Nile crocodiles, and peaceful boat safaris.",
+  "fullDescription": "Lake Baringo is a freshwater lake located in Kenya's northern Rift Valley, about 270 kilometers northwest of Nairobi. Surrounded by cliffs, savannah grasslands, and small fishing villages, Lake Baringo is one of Kenya's most rewarding off-the-beaten-path destinations. This peaceful wetland habitat offers a quintessential Rift Valley experience away from tourist crowds.\n\nWith over 470 recorded bird species, Lake Baringo offers one of the most diverse avian ecosystems in East Africa, attracting birdwatchers from around the world. This represents over one-third of all Kenya's native bird species concentrated in one area. Species like the Goliath heron, African fish eagle, various hornbills, and Verreaux's eagle call the area home. The Goliath Heronry on Gibraltar Island is home to the largest population of these incredible birds anywhere in East Africa - a spectacular sight for any birdwatcher.\n\nThe lake has a large population of Nile crocodiles and hippos, often seen near shore during boat rides or evening shoreline walks. Crocodiles bask on rocks during the day, while hippos emerge at dusk to graze along the shore, creating exciting wildlife viewing opportunities from the safety of boats.\n\nLake Baringo has several small islands worth exploring. Ol Kokwe Island, the largest in the centre of the lake, is an extinct volcano dotted with hot springs. Gibraltar Island is famous for its rich birdlife, especially Goliath herons. Visitors can take boat excursions to Giraffe Island, where they can view endangered Rothschild's Giraffes, Ostrich, Warthogs, Impala, and Hyrax - providing unique walking safari opportunities among wildlife.",
+  "activities": [
+    "Bird watching for 470+ species (one-third of Kenya's birds)",
+    "Boat safaris to see hippos and crocodiles up close",
+    "Visit Gibraltar Island's famous Goliath heronry",
+    "Giraffe Island walking safaris with Rothschild's giraffes",
+    "Explore Ol Kokwe Island's hot springs and volcano",
+    "Fishing in the freshwater lake",
+    "Water skiing and windsurfing",
+    "Camel trekking in surrounding areas",
+    "Cultural tours of Njemps fishing villages",
+    "Visit Lake Baringo Reptile Park",
+    "Walking and hiking around the lake",
+    "Sunset boat cruises",
+    "Photography of birds and landscapes"
+  ],
+  "lodges": [
+    {
+      "name": "Island Camp Baringo",
+      "description": "Luxurious tented camp on a private island in the lake",
+      "link": "https://www.islandcampkenya.com"
+    },
+    {
+      "name": "Tumbili Cliff Lodge",
+      "description": "Lodge with stunning panoramic views of the lake",
+      "link": "https://www.tumbilicliff.com"
+    },
+    {
+      "name": "Soi Safari Lodge",
+      "description": "Lakefront lodge ideal for birdwatching",
+      "link": "https://www.soisafarilodge.com"
+    },
+    {
+      "name": "Roberts Camp",
+      "description": "Budget-friendly camp popular with birdwatchers",
+      "link": "https://www.robertscamp.com"
+    }
+  ],
+  "links": [
+    {
+      "text": "Lake Baringo Information",
+      "url": "https://www.kenyawildlifetours.com/lake-baringo",
+      "icon": "🦅"
+    },
+    {
+      "text": "Birdwatching Guide",
+      "url": "https://birdwatchingkenya.com",
+      "icon": "🌍"
+    }
+  ],
+  "amenities": ["470+ Bird Species", "Goliath Heronry", "Gibraltar Island", "Giraffe Island", "Rothschild's Giraffes", "Nile Crocodiles", "Hippos", "Boat Safaris", "Freshwater Lake", "Volcanic Islands"]
+}

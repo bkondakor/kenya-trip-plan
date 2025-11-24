@@ -1,0 +1,56 @@
+{
+  "id": 21,
+  "slug": "chyulu-hills",
+  "name": "Chyulu Hills National Park",
+  "coordinates": [-2.6667, 37.8833],
+  "dates": "Year-round; June-October dry season ideal",
+  "category": "mountains",
+  "order": 21,
+  "icon": "🌋",
+  "shortDescription": "One of Earth's youngest volcanic mountain ranges (under 500 years old) featuring Leviathan Cave - Africa's longest lava tube at 11km - with stunning Kilimanjaro views and grassland elephants.",
+  "fullDescription": "The Chyulu Hills are a picturesque range of volcanic hills stretching southeast from Nairobi, situated between Amboseli and Tsavo National Parks. These are some of the youngest mountains on Earth, formed by volcanic activity less than 500 years ago, with the last eruption occurring in 1855. The hills are a string of dormant and extinct volcanoes creating verdant rolling landscapes unlike anywhere else in Kenya.\n\nThe hills contain Leviathan Cave (also known as Kisula caves), considered the longest and deepest lava tube in Africa at approximately 11 kilometers (6.8 miles) long. These lava tubes - cylindrical passages hollowed out by hot molten lava - are found throughout the hills and offer unique spelunking opportunities with expert guides. The cave system was segmented by the movement of tectonic plates, creating one of the world's most remarkable subterranean landscapes.\n\nWith stunning landscapes and views of Mount Kilimanjaro dominating the southern horizon, the Chyulu Hills is one of the best places in Kenya for hiking and mountain activities. On clear mornings, Kilimanjaro's snowcapped peak creates breathtaking photography opportunities, while to the north, Mount Kenya is visible. Chyulu Hills National Park protects rolling grasslands, indigenous forests, and remarkable biodiversity.\n\nChyulu Hills is primarily known for its magnificent bull elephants roaming the grasslands, picturesque views of Kilimanjaro, and exclusivity - the area receives very few tourists, providing an intimate wilderness experience. The combination of volcanic landscapes, mountain hiking, cave exploration, and world-class lodges makes Chyulu Hills a perfect addition to any Kenya itinerary.",
+  "activities": [
+    "Leviathan Cave exploration (11km lava tube)",
+    "Multi-day hiking through volcanic landscapes",
+    "Mount Kilimanjaro photography from grasslands",
+    "Mountain biking on park trails",
+    "Wildlife viewing including elephants and buffalo",
+    "Guided walks through indigenous forests",
+    "Camping under the stars",
+    "Birdwatching in diverse habitats",
+    "Cultural visits to Maasai communities",
+    "Horse riding safaris",
+    "Volcanic crater exploration",
+    "Scenic fly-camping expeditions"
+  ],
+  "lodges": [
+    {
+      "name": "Ol Donyo Lodge",
+      "description": "Ultra-luxury eco-lodge with private plunge pools and Kilimanjaro views",
+      "link": "https://www.greatplainsconservation.com/ol-donyo"
+    },
+    {
+      "name": "Campi ya Kanzi",
+      "description": "Maasai-owned eco-lodge with spectacular mountain and Kilimanjaro views",
+      "link": "https://www.maasai.com"
+    },
+    {
+      "name": "Finch Hattons",
+      "description": "Luxury tented camp in the foothills",
+      "link": "https://www.finchhatt ons.com"
+    }
+  ],
+  "links": [
+    {
+      "text": "Chyulu Hills National Park (KWS)",
+      "url": "https://www.kws.go.ke/content/chyulu-hills-national-park",
+      "icon": "🌋"
+    },
+    {
+      "text": "Conservation Information",
+      "url": "https://www.andbeyond.com/destinations/africa/kenya/chyulu-national-park",
+      "icon": "🌍"
+    }
+  ],
+  "amenities": ["Youngest Mountains on Earth", "11km Lava Tube", "Kilimanjaro Views", "Mountain Biking", "Bull Elephants", "Volcanic Craters", "Low Tourism", "Eco-Lodges", "Maasai Culture", "Cave Exploration"]
+}

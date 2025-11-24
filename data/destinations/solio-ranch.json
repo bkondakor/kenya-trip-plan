@@ -1,0 +1,51 @@
+{
+  "id": 27,
+  "slug": "solio-ranch",
+  "name": "Solio Ranch Conservancy",
+  "coordinates": [-0.2333, 37.0333],
+  "dates": "Year-round; June-October & January-March best",
+  "category": "wildlife",
+  "order": 27,
+  "icon": "🦏",
+  "shortDescription": "Kenya's first private rhino sanctuary (established 1970) with over 200 black and white rhinos - the most rhino-dense area in Kenya. Has bred and translocated 145+ rhinos to stock reserves across Africa, plus four of the Big Five.",
+  "fullDescription": "Solio Game Reserve was started in 1970 when Courtland Parfet, the owner of Solio cattle ranch, fenced off a large section of land and dedicated it to conservation, making it Kenya's first private rhino sanctuary and a pioneer in wildlife conservation. The 7,100-hectare (17,500-acre) reserve is located 22 km north of Nyeri Town, nestled between Mount Kenya and the Aberdare Mountains in the Greater Laikipia Region.\n\nThe sanctuary is famous for its pioneering rhino conservation efforts and is home to one of the largest populations of black and white rhinos in Africa, with over 200 rhinos roaming the protected landscape. The sanctuary has been remarkably successful - it has bred and translocated over 145 rhinos to stock game reserves all over Africa, making it a cornerstone of rhino conservation on the continent. Since the 1970s, breeding has been so successful that rhinos from Solio have helped establish and repopulate protected areas across Kenya and beyond.\n\nSightings of up to 40 rhinos at once are not uncommon, making Solio one of the best places in the world to see these magnificent endangered animals in their natural habitat. A baby white rhino named Njamba became the first resident of Solio's new orphanage, which was officially built to provide specialized care for orphaned and vulnerable rhino calves, furthering the conservancy's commitment to species preservation.\n\nBeyond rhinos, Solio is home to four of Africa's Big Five (excluding elephants due to habitat suitability). Wildlife includes buffalo, zebra, giraffe and plains game such as eland, oryx, impala, waterbuck, Thompson's gazelle and warthog. Over 300 bird species have been recorded, making Solio Conservancy an ideal destination for bird watchers as well.\n\nThe conservancy provides an exclusive, uncrowded safari experience with exceptional opportunities to observe rhinos and other African wildlife in their natural habitat, set against the stunning backdrop of Mount Kenya and the Aberdares.",
+  "activities": [
+    "Rhino tracking with expert guides (200+ rhinos)",
+    "Game drives to see four of the Big Five",
+    "Walking safaris outside the main rhino sanctuary",
+    "Horse riding across open plains",
+    "Scenic guided walks with armed rangers",
+    "Cycling through the conservancy",
+    "Birdwatching for 300+ species",
+    "Photography of rhinos and Mount Kenya backdrop",
+    "Bush dinners and sundowners under acacia trees",
+    "Visit rhino orphanage (Njamba and others)",
+    "Helicopter excursions to Mount Kenya and Aberdares",
+    "Trout fishing (for avid anglers)"
+  ],
+  "lodges": [
+    {
+      "name": "Solio Lodge",
+      "description": "Luxury lodge with private verandas overlooking rhino-filled plains",
+      "link": "https://www.thesafaricollection.com/properties/solio-lodge"
+    },
+    {
+      "name": "Rhino Watch Safari Lodge",
+      "description": "Comfortable lodge on conservancy edge with rhino viewing",
+      "link": "https://www.rhinowatchlodge.com"
+    }
+  ],
+  "links": [
+    {
+      "text": "Solio Game Reserve Official",
+      "url": "https://www.soliogamereserve.org",
+      "icon": "🦏"
+    },
+    {
+      "text": "Sheldrick Wildlife Trust - Solio",
+      "url": "https://www.sheldrickwildlifetrust.org/orphans/solio",
+      "icon": "🌍"
+    }
+  ],
+  "amenities": ["Kenya's First Private Rhino Sanctuary", "200+ Rhinos", "145 Rhinos Translocated", "Rhino Orphanage", "4 of Big Five", "300+ Bird Species", "Horse Riding", "Exclusive Access", "Mount Kenya Views", "Conservation Pioneer"]
+}
