@@ -1,251 +1,35 @@
-// Destinations Data with Coordinates
-const destinations = [
-    {
-        id: 1,
-        name: "Nairobi",
-        coordinates: [-1.2921, 36.8219],
-        dates: "January 17 & 31, 2026",
-        category: "cultural",
-        order: 1,
-        shortDescription: "Kenya's vibrant capital serves as your gateway. Modern hotels provide comfortable rest before and after your wilderness adventures.",
-        activities: [
-            "Airport transfers and rest before safari",
-            "Optional: Giraffe Centre visit",
-            "Optional: David Sheldrick Elephant Orphanage",
-            "Dining at local restaurants"
-        ],
-        icon: "🏙️"
-    },
-    {
-        id: 2,
-        name: "Laikipia Plateau / Lewa",
-        coordinates: [0.2167, 37.4500],
-        dates: "January 18-20, 2026",
-        category: "wildlife",
-        order: 2,
-        shortDescription: "A UNESCO World Heritage Site protecting 10% of Kenya's entire rhino population. Experience exclusive wildlife encounters with minimal vehicle congestion.",
-        activities: [
-            "Rhino tracking on foot with expert guides",
-            "Game drives across 65,000 acres",
-            "Camel walks through conservancy",
-            "Samburu cultural visits",
-            "Horseback safari at Lewa Wilderness"
-        ],
-        icon: "🦏"
-    },
-    {
-        id: 3,
-        name: "Samburu / Sera",
-        coordinates: [0.9333, 37.5333],
-        dates: "January 21-23, 2026",
-        category: "wildlife",
-        order: 3,
-        shortDescription: "Home to East Africa's first and only community-owned black rhino sanctuary. Track rhinos on foot through doum palm groves.",
-        activities: [
-            "On-foot black rhino tracking (only place in East Africa)",
-            "Samburu Special Five wildlife viewing",
-            "Reteti Elephant Sanctuary visit",
-            "Singing Wells - ancient Samburu tradition",
-            "Game drives along Ewaso Nyiro River"
-        ],
-        icon: "🦒"
-    },
-    {
-        id: 4,
-        name: "Matthews Range",
-        coordinates: [1.4500, 37.4000],
-        dates: "January 24, 2026",
-        category: "mountains",
-        order: 4,
-        shortDescription: "A pristine 'sky island' with tropical highland forest evolved in isolation for 10,000+ years. Home to 400+ forest elephants and melanistic leopards.",
-        activities: [
-            "Guided forest walks through ancient cedar forests",
-            "Wildlife viewing including forest elephants",
-            "Mountain stream swimming in crystal-clear pools",
-            "Bird watching (200+ species)",
-            "Camel-supported camping expeditions"
-        ],
-        icon: "⛰️"
-    },
-    {
-        id: 5,
-        name: "Loita Hills",
-        coordinates: [-1.5833, 35.6667],
-        dates: "January 25-26, 2026",
-        category: "cultural",
-        order: 5,
-        shortDescription: "Experience the sacred 'Forest of the Lost Child' with authentic Maasai cultural immersion. 100% community-owned tourism.",
-        activities: [
-            "Multi-day hiking through sacred Maasai forest",
-            "Maasai cultural immersion",
-            "Entasopia Falls swimming and exploration",
-            "Medicinal plant identification with healers",
-            "Traditional ceremonies (when timing allows)"
-        ],
-        icon: "🌳"
-    },
-    {
-        id: 6,
-        name: "Lamu",
-        coordinates: [-2.2717, 40.9020],
-        dates: "January 27-31, 2026",
-        category: "coastal",
-        order: 6,
-        shortDescription: "A UNESCO World Heritage Site with over 700 years of Swahili culture. Lamu Old Town remains car-free, navigated only by donkeys and dhows.",
-        activities: [
-            "Dhow sailing on traditional wooden vessels",
-            "Lamu Old Town UNESCO heritage exploration",
-            "Shela Beach relaxation and swimming",
-            "Snorkeling in crystal-clear waters",
-            "Swahili cooking class"
-        ],
-        icon: "⛵"
-    },
-    {
-        id: 7,
-        name: "Masai Mara National Reserve",
-        coordinates: [-1.5, 35.15],
-        dates: "July - October (Great Migration)",
-        category: "wildlife",
-        order: 7,
-        shortDescription: "Kenya's most celebrated safari destination, home to the world-famous Great Migration and exceptional Big Five sightings.",
-        activities: [
-            "Game drives tracking the Big Five",
-            "Great Migration river crossings (July-October)",
-            "Hot air balloon safari at sunrise",
-            "Maasai village cultural visits",
-            "Photography safaris with expert guides",
-            "Sundowner bush dinners under the stars"
-        ],
-        icon: "🦁"
-    },
-    {
-        id: 8,
-        name: "Amboseli National Park",
-        coordinates: [-2.65, 37.25],
-        dates: "June - October & January - February",
-        category: "wildlife",
-        order: 8,
-        shortDescription: "Land of the Giants featuring iconic elephant herds against the backdrop of Mount Kilimanjaro. Home to over 1,000 elephants.",
-        activities: [
-            "Elephant watching with the largest herds in Kenya",
-            "Kilimanjaro photography at sunrise and sunset",
-            "Bird watching with over 400 species",
-            "Maasai cultural experiences",
-            "Observation Hill hikes for panoramic views",
-            "Game drives through diverse habitats"
-        ],
-        icon: "🐘"
-    },
-    {
-        id: 9,
-        name: "Diani Beach",
-        coordinates: [-4.29, 39.58],
-        dates: "July - March",
-        category: "coastal",
-        order: 9,
-        shortDescription: "Kenya's tropical paradise featuring 17 kilometers of pristine white sand beaches and crystal-clear turquoise waters.",
-        activities: [
-            "Snorkeling and diving on vibrant coral reefs",
-            "Kitesurfing with world-class conditions",
-            "Dolphin spotting and marine wildlife encounters",
-            "Kaya Kinondo sacred forest walks",
-            "Colobus Conservation sanctuary visits",
-            "Deep sea fishing expeditions"
-        ],
-        icon: "🏖️"
-    },
-    {
-        id: 10,
-        name: "Lake Nakuru National Park",
-        coordinates: [-0.3667, 36.0833],
-        dates: "Year-round, June - March peak",
-        category: "wildlife",
-        order: 10,
-        shortDescription: "The Pink Paradise featuring millions of flamingos and one of Africa's finest rhino sanctuaries in the Great Rift Valley.",
-        activities: [
-            "Flamingo spectacle viewing with millions of birds",
-            "Rhino tracking in premier sanctuary",
-            "Bird watching paradise with 450+ species",
-            "Scenic viewpoints at Baboon Cliff and Lion Hill",
-            "Wildlife game drives for Big Five",
-            "Photography safari opportunities"
-        ],
-        icon: "🦩"
-    },
-    {
-        id: 11,
-        name: "Tsavo National Parks",
-        coordinates: [-3.0, 38.5],
-        dates: "June - October & January - March",
-        category: "wildlife",
-        order: 11,
-        shortDescription: "Kenya's largest wilderness featuring the legendary red elephants and untamed African landscapes across nearly 22,000 square kilometers.",
-        activities: [
-            "Red elephant encounters in vast herds",
-            "Mzima Springs exploration with underwater viewing",
-            "Volcanic landscapes and Sheitani lava flows",
-            "Big cat tracking including legendary lions",
-            "Lugard Falls and Galana River visits",
-            "Bird watching with 500+ species"
-        ],
-        icon: "🐘"
-    },
-    {
-        id: 12,
-        name: "Mount Kenya",
-        coordinates: [-0.1521, 37.3084],
-        dates: "January - February & July - October",
-        category: "mountains",
-        order: 12,
-        shortDescription: "Africa's second-highest mountain, a UNESCO World Heritage Site with glaciers, alpine lakes, and unique afro-alpine ecosystems.",
-        activities: [
-            "Point Lenana summit trek (4,985m)",
-            "Technical climbing to Batian and Nelion peaks",
-            "Afro-alpine ecosystem exploration",
-            "Glaciers and alpine lakes viewing",
-            "Wildlife encounters in montane forests",
-            "High-altitude bird watching with 130+ species"
-        ],
-        icon: "🏔️"
-    },
-    {
-        id: 13,
-        name: "Hell's Gate National Park",
-        coordinates: [-0.9167, 36.3167],
-        dates: "Year-round, June - March ideal",
-        category: "wildlife",
-        order: 13,
-        shortDescription: "Kenya's only park where you can walk, cycle, and climb among wild animals. Dramatic gorges and geothermal activity.",
-        activities: [
-            "Cycling safari among zebras and giraffes",
-            "Hell's Gate Gorge hiking through narrow canyon",
-            "Rock climbing on Fischer's Tower and Central Tower",
-            "Bird watching with 100+ species",
-            "Geothermal exploration of steam vents",
-            "Wildlife photography on foot"
-        ],
-        icon: "🚴"
-    },
-    {
-        id: 14,
-        name: "Lake Naivasha",
-        coordinates: [-0.7667, 36.3667],
-        dates: "Year-round, November - March peak birds",
-        category: "wildlife",
-        order: 14,
-        shortDescription: "Freshwater oasis in the Rift Valley with boat safaris, Crescent Island walks among wildlife, and over 400 bird species.",
-        activities: [
-            "Boat safari to observe hippos and birdlife",
-            "Crescent Island walking safari among wildlife",
-            "Bird watching with 400+ species",
-            "Elsamere Conservation Centre visit",
-            "Hell's Gate National Park day trips",
-            "Fishing for black bass and tilapia"
-        ],
-        icon: "🦛"
+// Destinations Data - Loaded from JSON file
+let destinations = [];
+let categoriesData = {};
+
+// Load destinations from JSON file
+async function loadDestinations() {
+    try {
+        const response = await fetch('data/destinations.json');
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        const data = await response.json();
+        destinations = data.destinations;
+        categoriesData = data.categories;
+
+        // Calculate category counts
+        Object.keys(categories).forEach(key => {
+            categories[key].count = 0;
+        });
+        destinations.forEach(dest => {
+            if (categories[dest.category]) {
+                categories[dest.category].count++;
+            }
+        });
+
+        return true;
+    } catch (error) {
+        console.error('Error loading destinations:', error);
+        alert('Error loading destination data. Please refresh the page.');
+        return false;
     }
-];
+}
 
 // Category configurations
 const categories = {
@@ -274,11 +58,6 @@ const categories = {
         icon: "⛰️"
     }
 };
-
-// Calculate category counts
-destinations.forEach(dest => {
-    categories[dest.category].count++;
-});
 
 // Map state
 let map;
@@ -359,25 +138,7 @@ function addMarkers() {
             title: dest.name
         });
 
-        // Create popup content
-        // Map destination IDs to their dedicated page URLs
-        const destinationPages = {
-            1: 'nairobi.html',
-            2: 'laikipia.html',
-            3: 'samburu.html',
-            4: 'matthews.html',
-            5: 'loita.html',
-            6: 'lamu.html',
-            7: 'masai-mara.html',
-            8: 'amboseli.html',
-            9: 'diani.html',
-            10: 'lake-nakuru.html',
-            11: 'tsavo.html',
-            12: 'mount-kenya.html',
-            13: 'hells-gate.html',
-            14: 'lake-naivasha.html'
-        };
-
+        // Create popup content with dynamic destination page link
         const popupContent = `
             <div class="popup-content">
                 <div class="popup-title">${dest.icon} ${dest.name}</div>
@@ -401,7 +162,7 @@ function addMarkers() {
                     <span class="trip-btn-icon">✈️</span>
                     <span class="trip-btn-text">Add to My Trip</span>
                 </button>
-                <a href="${destinationPages[dest.id]}" class="popup-link">View Full Details →</a>
+                <a href="destination.html?slug=${dest.slug}" class="popup-link">View Full Details →</a>
             </div>
         `;
 
@@ -1239,7 +1000,13 @@ function loadTripFromURL() {
 // ========================================
 
 // Initialize everything when DOM is loaded
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', async () => {
+    // Load destinations from JSON first
+    const loaded = await loadDestinations();
+    if (!loaded) {
+        return; // Error already handled in loadDestinations
+    }
+
     // Initialize map
     initMap();
 
