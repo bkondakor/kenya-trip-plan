@@ -1,15 +1,33 @@
 // Destinations Data - Loaded from JSON file
 let destinations = [];
 
-// Load destinations from index file
+// Load destinations from index file and then load full data for each
 async function loadDestinations() {
     try {
-        const response = await fetch('data/destinations/index.json');
-        if (!response.ok) {
-            throw new Error(`HTTP error! status: ${response.status}`);
+        // First, load the index to get the list of destinations
+        const indexResponse = await fetch('data/destinations/index.json');
+        if (!indexResponse.ok) {
+            throw new Error(`HTTP error loading index! status: ${indexResponse.status}`);
         }
-        const data = await response.json();
-        destinations = data.destinations;
+        const indexData = await indexResponse.json();
+
+        // Now load the full data for each destination
+        const loadPromises = indexData.destinations.map(async (dest) => {
+            try {
+                const response = await fetch(`data/destinations/${dest.slug}.json`);
+                if (!response.ok) {
+                    console.warn(`Could not load ${dest.slug}.json, using index data only`);
+                    return dest; // Fallback to index data
+                }
+                return await response.json();
+            } catch (error) {
+                console.warn(`Error loading ${dest.slug}.json:`, error);
+                return dest; // Fallback to index data
+            }
+        });
+
+        // Wait for all destinations to load
+        destinations = await Promise.all(loadPromises);
         return true;
     } catch (error) {
         console.error('Error loading destinations:', error);
