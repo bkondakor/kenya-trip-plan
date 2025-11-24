@@ -117,29 +117,39 @@ function initMap() {
 }
 
 // Create custom marker icon
-function createCustomIcon(category, icon) {
+function createCustomIcon(category, icon, isSelected = false) {
     const color = categories[category].color;
+    const size = isSelected ? 48 : 40;
+    const borderColor = isSelected ? '#3b82f6' : 'white';
+    const borderWidth = isSelected ? '4px' : '3px';
+    const boxShadow = isSelected ? '0 4px 20px rgba(59, 130, 246, 0.6), 0 0 0 3px rgba(59, 130, 246, 0.3)' : '0 3px 10px rgba(0,0,0,0.3)';
+    const transform = isSelected ? 'scale(1.1)' : 'scale(1)';
+    const badge = isSelected ? '<div style="position: absolute; top: -5px; right: -5px; background: #3b82f6; color: white; width: 20px; height: 20px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: bold; border: 2px solid white; box-shadow: 0 2px 4px rgba(0,0,0,0.3);">✓</div>' : '';
+
     const iconHtml = `
         <div style="
             background: ${color};
-            width: 40px;
-            height: 40px;
+            width: ${size}px;
+            height: ${size}px;
             border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 20px;
-            border: 3px solid white;
-            box-shadow: 0 3px 10px rgba(0,0,0,0.3);
-        ">${icon}</div>
+            font-size: ${isSelected ? 24 : 20}px;
+            border: ${borderWidth} solid ${borderColor};
+            box-shadow: ${boxShadow};
+            transform: ${transform};
+            transition: all 0.3s ease;
+            position: relative;
+        ">${icon}${badge}</div>
     `;
 
     return L.divIcon({
         html: iconHtml,
-        className: 'custom-marker',
-        iconSize: [40, 40],
-        iconAnchor: [20, 20],
-        popupAnchor: [0, -20]
+        className: 'custom-marker' + (isSelected ? ' marker-selected' : ''),
+        iconSize: [size, size],
+        iconAnchor: [size / 2, size / 2],
+        popupAnchor: [0, -size / 2]
     });
 }
 
@@ -662,15 +672,9 @@ function updateMarkerStyles() {
         const marker = markers[dest.id];
         if (marker) {
             const isSelected = isInTrip(dest.id);
-            const markerElement = marker.getElement();
-
-            if (markerElement) {
-                if (isSelected) {
-                    markerElement.classList.add('marker-selected');
-                } else {
-                    markerElement.classList.remove('marker-selected');
-                }
-            }
+            // Update the marker icon to reflect selection state
+            const newIcon = createCustomIcon(dest.category, dest.icon, isSelected);
+            marker.setIcon(newIcon);
         }
     });
 
