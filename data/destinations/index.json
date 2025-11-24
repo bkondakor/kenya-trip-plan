@@ -279,6 +279,106 @@
       "order": 28,
       "icon": "🏜️",
       "shortDescription": "The 'Jade Sea' - world's largest desert lake and largest alkaline lake, UNESCO World Heritage Site featuring Koobi Fora fossil beds with groundbreaking human evolution discoveries, the world's largest Nile crocodile population, and remote authentic adventure."
+    },
+    {
+      "id": 29,
+      "slug": "kisumu",
+      "name": "Kisumu",
+      "coordinates": [0.0917, 34.7680],
+      "category": "cultural",
+      "order": 29,
+      "icon": "🌅",
+      "shortDescription": "Kenya's lakeside gem on Lake Victoria's shores, offering sunset boat cruises, fresh tilapia, Kit Mikayi rock formations, and authentic Luo culture - all at budget-friendly prices."
+    },
+    {
+      "id": 30,
+      "slug": "kericho",
+      "name": "Kericho Tea Plantations",
+      "coordinates": [-0.3676, 35.2838],
+      "category": "cultural",
+      "order": 30,
+      "icon": "🍵",
+      "shortDescription": "Kenya's tea capital with rolling green plantations, factory tours from picking to processing, budget camping at Chesumot for 1000 KSH, and authentic agro-tourism experiences in the highlands."
+    },
+    {
+      "id": 31,
+      "slug": "menengai-crater",
+      "name": "Menengai Crater",
+      "coordinates": [0.2, 36.0667],
+      "category": "mountains",
+      "order": 31,
+      "icon": "🌋",
+      "shortDescription": "One of the world's largest volcanic calderas just 10km from Nakuru, with budget-friendly KFS entrance (200 KSH residents), stunning Rift Valley viewpoints accessible by car, and challenging 4-5 hour crater hikes."
+    },
+    {
+      "id": 32,
+      "slug": "arabuko-sokoke",
+      "name": "Arabuko Sokoke Forest",
+      "coordinates": [-3.3333, 39.9],
+      "category": "wildlife",
+      "order": 32,
+      "icon": "🦉",
+      "shortDescription": "East Africa's largest intact coastal forest spanning 420 sq km, home to the rare Sokoke Scops Owl found nowhere else, with budget guides at $25/day and camping at Gede Ruins Camp."
+    },
+    {
+      "id": 33,
+      "slug": "kisite-mpunguti",
+      "name": "Kisite-Mpunguti Marine Park",
+      "coordinates": [-4.7167, 39.3667],
+      "category": "coastal",
+      "order": 33,
+      "icon": "🐬",
+      "shortDescription": "Kenya's most magnificent marine park near Shimoni featuring 250+ fish species, 200+ dolphins in wild pods, crystal-clear snorkeling, and boat trips to Wasini Island with fresh seafood lunches."
+    },
+    {
+      "id": 34,
+      "slug": "karura-forest",
+      "name": "Karura Forest",
+      "coordinates": [-1.2522, 36.8478],
+      "category": "wildlife",
+      "order": 34,
+      "icon": "🌲",
+      "shortDescription": "Nairobi's 1,000-hectare urban forest sanctuary with entrance as low as $1, featuring a 14-meter waterfall, Mau Mau freedom fighter caves, 50km of trails, and over 200 bird species."
+    },
+    {
+      "id": 35,
+      "slug": "taita-hills",
+      "name": "Taita Hills Wildlife Sanctuary",
+      "coordinates": [-3.4167, 38.35],
+      "category": "wildlife",
+      "order": 35,
+      "icon": "🦒",
+      "shortDescription": "UNESCO biodiversity hotspot in the Eastern Arc Mountains spanning 113 sq km, home to 50+ mammal species including Big Five, 300+ bird species, and endangered Taita thrush, apalis, and white-eye."
+    },
+    {
+      "id": 36,
+      "slug": "saiwa-swamp",
+      "name": "Saiwa Swamp National Park",
+      "coordinates": [1.0833, 35.1167],
+      "category": "wildlife",
+      "order": 36,
+      "icon": "🦌",
+      "shortDescription": "Kenya's smallest national park at just 3 sq km near Kitale, created to protect the rare aquatic sitatunga antelope with elongated hooves, featuring 372 bird species and walking-only trails with observation platforms."
+    },
+    {
+      "id": 37,
+      "slug": "nairobi-national-park",
+      "name": "Nairobi National Park",
+      "coordinates": [-1.3733, 36.8581],
+      "category": "wildlife",
+      "order": 37,
+      "icon": "🦁",
+      "shortDescription": "The world's only national park within a capital city, just 7km from Nairobi's CBD, featuring lions, black rhinos, giraffes against the city skyline, with entrance $80 for international visitors."
+    },
+    {
+      "id": 38,
+      "slug": "gedi-ruins",
+      "name": "Gedi Ruins",
+      "coordinates": [-3.3, 40.0167],
+      "category": "cultural",
+      "order": 38,
+      "icon": "🏛️",
+      "shortDescription": "Kenya's 8th UNESCO World Heritage Site featuring a mysterious 15th-17th century Swahili city with palace, mosque, and stone houses, entrance 1,000 KSH, surrounded by Arabuko Sokoke Forest with Sykes' monkeys."
     }
   ]
 }

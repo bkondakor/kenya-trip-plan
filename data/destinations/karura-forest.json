@@ -1,0 +1,46 @@
+{
+  "id": 34,
+  "slug": "karura-forest",
+  "name": "Karura Forest",
+  "coordinates": [-1.2522, 36.8478],
+  "category": "wildlife",
+  "order": 34,
+  "icon": "🌲",
+  "shortDescription": "Nairobi's 1,000-hectare urban forest sanctuary with entrance as low as $1, featuring a 14-meter waterfall, Mau Mau freedom fighter caves, 50km of trails, and over 200 bird species.",
+  "fullDescription": "Karura Forest is a tranquil 1,000-hectare (2,500-acre) urban sanctuary in the heart of Nairobi, making it one of the world's largest urban forests. With entrance fees as low as $1 USD (approximately 100 KSH), this is Kenya's most budget-friendly natural attraction. The forest features over 50km of well-marked scenic trails through indigenous forest, catering to all fitness levels. The stunning 14-meter Karura Waterfall is especially vibrant during rainy seasons (April-June, November-December), accessible via the popular Waterfall Trail. History enthusiasts can explore the Mau Mau Caves used by freedom fighters during Kenya's independence struggle. Bird watchers can spot over 200 species including hornbills, kingfishers, and sunbirds. The Sykes' Monkey Trail Loop (2.7 miles, 387ft elevation gain) is rated 4.7 stars on AllTrails. The forest offers cycling trails, jogging paths, and picnic areas. A cafe inside the forest provides refreshments. All payments are cashless via M-Pesa or card (KES 100 parking fee). Gates operate 6am-7pm daily. Located just minutes from Nairobi's CBD, it's perfect for a peaceful escape without leaving the city.",
+  "activities": [
+    "Hiking 50km of well-maintained forest trails",
+    "Visiting the 14-meter Karura Waterfall",
+    "Exploring historic Mau Mau Caves",
+    "Bird watching (200+ species)",
+    "Mountain biking on forest paths",
+    "Jogging and fitness walks",
+    "Picnicking in designated areas",
+    "Wildlife spotting (Sykes' monkeys, bushbucks)"
+  ],
+  "lodges": [
+    {
+      "name": "Nairobi City Accommodation",
+      "description": "Stay anywhere in Nairobi - forest is centrally located",
+      "link": "https://www.booking.com/city/ke/nairobi.html"
+    },
+    {
+      "name": "Westlands Area Hotels",
+      "description": "Closest to Karura Forest northern gates",
+      "link": "https://www.booking.com/district/ke/nairobi/westlands.html"
+    }
+  ],
+  "links": [
+    {
+      "text": "Karura Forest Complete Guide",
+      "url": "https://nairobipark.org/karura-forest/",
+      "icon": "🌳"
+    },
+    {
+      "text": "AllTrails Karura Maps",
+      "url": "https://www.alltrails.com/parks/kenya/nairobi/karura-forest",
+      "icon": "🗺️"
+    }
+  ],
+  "amenities": ["Ultra Budget", "Urban Forest", "Waterfall", "Historic Caves", "Cycling Trails", "Family-Friendly"]
+}

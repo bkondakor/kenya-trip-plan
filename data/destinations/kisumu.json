@@ -1,0 +1,50 @@
+{
+  "id": 29,
+  "slug": "kisumu",
+  "name": "Kisumu",
+  "coordinates": [0.0917, 34.7680],
+  "category": "cultural",
+  "order": 29,
+  "icon": "🌅",
+  "shortDescription": "Kenya's lakeside gem on Lake Victoria's shores, offering sunset boat cruises, fresh tilapia, Kit Mikayi rock formations, and authentic Luo culture - all at budget-friendly prices.",
+  "fullDescription": "Kisumu, Kenya's third-largest city, sits on the shores of Lake Victoria, Africa's largest lake. This vibrant port city offers incredible value for budget travelers, with accommodation ranging from $15-30/night for guesthouses and mid-range hotels at $40-80/night. Morning boat tours reveal traditional fishermen casting nets for tilapia and Nile perch, while evening cruises showcase spectacular sunsets over the lake. The city serves as a gateway to cultural experiences including Kit Mikayi, an impressive rock formation with spiritual significance to the Luo community (entrance $2-5), and Dunga Beach where you can observe traditional fishing techniques. Ndere Island National Park, a 45-minute boat ride away, offers hiking trails with views of monitor lizards and rare sitatunga antelopes. The Kisumu Impala Sanctuary provides budget-friendly wildlife viewing with impalas, zebras, and over 115 bird species. Average costs are remarkably affordable: $8 for lunch, $2 for local beer, and $1.50 for coffee.",
+  "activities": [
+    "Sunrise and sunset boat cruises on Lake Victoria",
+    "Kit Mikayi rock formation hiking and cultural tours",
+    "Dunga Beach fishing village cultural immersion",
+    "Kisumu Impala Sanctuary wildlife viewing",
+    "Ndere Island National Park hiking and boat safari",
+    "Kibuye Market shopping and local food tasting",
+    "Lakeside walking and bird watching"
+  ],
+  "lodges": [
+    {
+      "name": "Imperial Hotel Kisumu",
+      "description": "Mid-range lakeside hotel with great views, $40-80/night",
+      "link": "https://www.imperialhotels.co.ke/kisumu/"
+    },
+    {
+      "name": "Budget Guesthouses",
+      "description": "Various budget accommodations from $15-30/night",
+      "link": "https://www.booking.com/city/ke/kisumu.html"
+    },
+    {
+      "name": "Acacia Premier Hotel",
+      "description": "Luxury lakeside option at $100-150/night",
+      "link": "https://www.acaciapremier.com"
+    }
+  ],
+  "links": [
+    {
+      "text": "Kisumu Tourism Guide",
+      "url": "https://www.magicalkenya.com/destinations/kisumu",
+      "icon": "🌍"
+    },
+    {
+      "text": "Lake Victoria Tours",
+      "url": "https://www.jaynevytours.com/lake-victoria-tour-in-kenya.html",
+      "icon": "⛵"
+    }
+  ],
+  "amenities": ["Budget-Friendly", "Lake Victoria", "Cultural Tours", "Fresh Fish", "Boat Safaris", "City Amenities"]
+}

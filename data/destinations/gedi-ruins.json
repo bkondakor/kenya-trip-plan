@@ -1,0 +1,56 @@
+{
+  "id": 38,
+  "slug": "gedi-ruins",
+  "name": "Gedi Ruins",
+  "coordinates": [-3.3, 40.0167],
+  "category": "cultural",
+  "order": 38,
+  "icon": "🏛️",
+  "shortDescription": "Kenya's 8th UNESCO World Heritage Site featuring a mysterious 15th-17th century Swahili city with palace, mosque, and stone houses, entrance 1,000 KSH, surrounded by Arabuko Sokoke Forest with Sykes' monkeys.",
+  "fullDescription": "The Historic Town and Archaeological Site of Gedi, inscribed as Kenya's 8th UNESCO World Heritage Site in July 2024, is one of East Africa's most important Swahili cities from the 10th-17th centuries. Located 16km south of Malindi and 90km north of Mombasa within Arabuko Sokoke Forest, Gedi was a wealthy trading center connected to vast Indian Ocean networks, evidenced by discoveries of Chinese Ming Dynasty pottery, Venetian beads, Spanish scissors, and Islamic ceramics. The ruins feature two irregular wall rings enclosing an elaborate palace complex, Grand Mosque, stone houses, tombs, and street patterns of a once-opulent settlement. The mystery deepens as no historical records mention Gedi - it simply disappeared around the 17th century, possibly due to Galla invasions or Portuguese conflicts. Entry costs 1,000 KSH for tourists (500 KSH residents), with the site open 7am-6pm daily. The ruins are surrounded by indigenous forest inhabited by Sykes' monkeys who playfully interact with visitors. Allow 2-3 hours to explore the atmospheric ruins and absorb the history of this lost civilization. Easily combined with Arabuko Sokoke Forest birdwatching and Watamu beach visits. The site brings to life Swahili coastal culture and East African trade history.",
+  "activities": [
+    "Guided historical tours of Swahili ruins",
+    "Exploring the Grand Mosque and Palace complex",
+    "Walking ancient streets and stone house remains",
+    "Photography of atmospheric ruins and forest setting",
+    "Sykes' monkey watching in surrounding forest",
+    "Archaeological interpretation and learning",
+    "Combining with Arabuko Sokoke Forest visit",
+    "Tomb and pillar exploration"
+  ],
+  "lodges": [
+    {
+      "name": "Gede Ruins Camp",
+      "description": "Budget camping adjacent to the ruins",
+      "link": "https://www.booking.com/city/ke/gede.html"
+    },
+    {
+      "name": "Watamu Accommodation",
+      "description": "Beach accommodations 16km away",
+      "link": "https://www.booking.com/city/ke/watamu.html"
+    },
+    {
+      "name": "Malindi Hotels",
+      "description": "Various options 16km north",
+      "link": "https://www.booking.com/city/ke/malindi.html"
+    }
+  ],
+  "links": [
+    {
+      "text": "UNESCO Gedi World Heritage",
+      "url": "https://whc.unesco.org/en/list/1720/",
+      "icon": "🌍"
+    },
+    {
+      "text": "National Museums Kenya - Gede",
+      "url": "https://museums.or.ke/gede-museum/",
+      "icon": "🏛️"
+    },
+    {
+      "text": "Gedi Ruins Complete Guide",
+      "url": "https://africanspicesafaris.com/tour/gede-ruins-museum/",
+      "icon": "📖"
+    }
+  ],
+  "amenities": ["UNESCO Site", "Budget Entry", "Swahili History", "Archaeological Wonder", "Forest Setting", "Easy Access"]
+}

@@ -1,0 +1,51 @@
+{
+  "id": 37,
+  "slug": "nairobi-national-park",
+  "name": "Nairobi National Park",
+  "coordinates": [-1.3733, 36.8581],
+  "category": "wildlife",
+  "order": 37,
+  "icon": "🦁",
+  "shortDescription": "The world's only national park within a capital city, just 7km from Nairobi's CBD, featuring lions, black rhinos, giraffes against the city skyline, with entrance $80 for international visitors.",
+  "fullDescription": "Nairobi National Park holds the unique distinction of being the world's only national park located within a capital city's limits, just 7 kilometers from Nairobi's Central Business District. This 117 square kilometer park offers the surreal experience of photographing lions, giraffes, and rhinos with Nairobi's skyline as backdrop. Home to over 100 mammal species including black rhinos (one of Kenya's most successful rhino sanctuaries), lions, leopards, cheetahs, hyenas, buffaloes, zebras, and wildebeest, plus over 400 bird species. Current entrance fees are $80 per adult international visitor (East African citizens pay KSH 2,000 adults, KSH 500 children) following court rulings that suspended proposed increases. Budget group tours average $120 per person when traveling together. The park operates 6am-7pm daily with only cashless payments accepted (M-Pesa, Visa, MasterCard). Half-day game drives are popular, with many tours returning by 1pm. The park's proximity makes it perfect for early morning or late afternoon safaris without long drives. The Animal Orphanage and Safari Walk offer close-up wildlife experiences. Despite being urban, wildlife sightings are excellent year-round. Ideal for travelers with limited time or those wanting to maximize safari experiences on arrival/departure days.",
+  "activities": [
+    "Game drives with city skyline backdrop",
+    "Black rhino tracking and photography",
+    "Bird watching (400+ species)",
+    "Visit to Ivory Burning Site Monument",
+    "Nairobi Safari Walk educational experience",
+    "Animal Orphanage viewing",
+    "Early morning and sunset game drives",
+    "Picnicking at designated sites"
+  ],
+  "lodges": [
+    {
+      "name": "Nairobi City Hotels",
+      "description": "Stay anywhere in Nairobi - park is 15-30 minutes away",
+      "link": "https://www.booking.com/city/ke/nairobi.html"
+    },
+    {
+      "name": "Emakoko Lodge",
+      "description": "Luxury lodge on the park's edge",
+      "link": "https://www.emakoko.com"
+    },
+    {
+      "name": "Nairobi Tented Camp",
+      "description": "Budget camping inside the park",
+      "link": "https://www.kws.go.ke/content/nairobi-national-park"
+    }
+  ],
+  "links": [
+    {
+      "text": "KWS Nairobi Park",
+      "url": "https://www.kws.go.ke/content/nairobi-national-park",
+      "icon": "🦏"
+    },
+    {
+      "text": "Nairobi Park Complete Guide",
+      "url": "https://nairobipark.org/",
+      "icon": "🌍"
+    }
+  ],
+  "amenities": ["Urban Wildlife", "Black Rhino Sanctuary", "City Skyline Views", "Easy Access", "Half-Day Safaris", "400+ Birds"]
+}

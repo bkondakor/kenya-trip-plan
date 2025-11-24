@@ -1,0 +1,45 @@
+{
+  "id": 31,
+  "slug": "menengai-crater",
+  "name": "Menengai Crater",
+  "coordinates": [0.2, 36.0667],
+  "category": "mountains",
+  "order": 31,
+  "icon": "🌋",
+  "shortDescription": "One of the world's largest volcanic calderas just 10km from Nakuru, with budget-friendly KFS entrance (200 KSH residents), stunning Rift Valley viewpoints accessible by car, and challenging 4-5 hour crater hikes.",
+  "fullDescription": "Menengai Crater, located just 10km north of Nakuru city, is one of the largest volcanic calderas in the world and a hidden gem for budget travelers. The crater rim sits at 2,278m above sea level, offering breathtaking panoramic views of Lakes Nakuru, Bogoria, and Elementaita on clear days. The Kenya Forest Service charges a modest 200 KSH for residents (reports vary, with some mentioning 500-800 KSH), and viewpoints at the rim are accessible by car for those wanting stunning views without hiking. For adventurers, the challenging crater hike is a 4.1-mile loop taking 2-5 hours depending on your route and fitness level. The hike descends from the rim at 2,278m to the crater floor, revealing volcanic features, indigenous forest, and diverse birdlife. Located just 2 hours from Nairobi and minutes from Lake Nakuru National Park, Menengai makes an excellent add-on to Rift Valley itineraries. The name 'Menengai' means 'place of corpses' in Maasai, referring to a 19th-century battle. Steam vents on the crater floor remind visitors this volcano is merely dormant, with its last eruption occurring around 8,000 years ago.",
+  "activities": [
+    "Driving to rim viewpoints for panoramic vistas",
+    "Challenging crater floor hiking expedition (4-5 hours)",
+    "Photography of Rift Valley lakes and landscapes",
+    "Geological exploration of volcanic features",
+    "Bird watching in crater forests",
+    "Guided nature walks with KFS rangers",
+    "Sunrise and sunset viewing from the rim"
+  ],
+  "lodges": [
+    {
+      "name": "Nakuru Accommodation",
+      "description": "Stay in nearby Nakuru city with budget to mid-range options",
+      "link": "https://www.booking.com/city/ke/nakuru.html"
+    },
+    {
+      "name": "Lake Nakuru Lodge",
+      "description": "Combine with Lake Nakuru National Park visit",
+      "link": "https://www.lakenakurulodge.com"
+    }
+  ],
+  "links": [
+    {
+      "text": "Menengai Crater Hiking Guide",
+      "url": "https://lakenakuru.org/menengai-crater-kenya/",
+      "icon": "🥾"
+    },
+    {
+      "text": "AllTrails Menengai",
+      "url": "https://www.alltrails.com/trail/kenya/nakuru/menengai-crater",
+      "icon": "🗺️"
+    }
+  ],
+  "amenities": ["Budget Entry", "Car-Accessible Views", "Challenging Hikes", "Rift Valley Panoramas", "Day Trip Friendly", "Geological Wonder"]
+}
