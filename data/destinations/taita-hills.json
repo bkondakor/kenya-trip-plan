@@ -1,0 +1,50 @@
+{
+  "id": 35,
+  "slug": "taita-hills",
+  "name": "Taita Hills Wildlife Sanctuary",
+  "coordinates": [-3.4167, 38.35],
+  "category": "wildlife",
+  "order": 35,
+  "icon": "🦒",
+  "shortDescription": "UNESCO biodiversity hotspot in the Eastern Arc Mountains spanning 113 sq km, home to 50+ mammal species including Big Five, 300+ bird species, and endangered Taita thrush, apalis, and white-eye.",
+  "fullDescription": "Taita Hills Wildlife Sanctuary is a 113 square kilometer privately-owned sanctuary nestled within the Eastern Arc Mountains at 1,200 meters elevation, inscribed by UNESCO as a biodiversity hotspot. Located on the periphery of Tsavo West National Park near the Kenyan-Tanzanian border, this sanctuary hosts over 50 species of large mammals and 300+ bird species. Wildlife includes all Big Five (buffalo, elephant, leopard, lion, and sometimes rhino), plus cheetah, Masai giraffe, zebra, hartebeest, impala, waterbuck, Thomson's gazelle, lesser kudu, dik-dik, and hyena. Bird enthusiasts can spot critically endangered endemic species: Taita thrush, Taita apalis, and Taita white-eye found nowhere else on Earth, plus seven endangered species including the Lappet-faced vulture. The sanctuary's conservation partnerships protect endangered species while maintaining ecological balance. The dramatic landscape features ancient volcanic rock formations, indigenous forests, and savannah. Budget travelers should note there's no day-visit option - overnight stays are required, so pre-booking is essential as accommodation is limited. Best wildlife viewing occurs during the dry season (June-October). The sanctuary offers a less-crowded alternative to major parks with authentic safari experiences.",
+  "activities": [
+    "Game drives seeking Big Five and cheetah",
+    "Endemic bird watching (Taita thrush, apalis, white-eye)",
+    "Guided nature walks through diverse habitats",
+    "Night game drives for nocturnal wildlife",
+    "Photography of volcanic rock formations",
+    "Conservation education programs",
+    "Scenic viewpoint visits"
+  ],
+  "lodges": [
+    {
+      "name": "Taita Hills Safari Resort",
+      "description": "Main accommodation within the sanctuary",
+      "link": "https://taitahillswildlifesanctuary.com/"
+    },
+    {
+      "name": "Salt Lick Safari Lodge",
+      "description": "Unique stilted lodge overlooking waterholes",
+      "link": "https://www.saltlicksafarilodge.com"
+    },
+    {
+      "name": "Campsites",
+      "description": "Budget camping options available (pre-booking required)",
+      "link": "https://taitahillswildlifesanctuary.com/"
+    }
+  ],
+  "links": [
+    {
+      "text": "Taita Hills Official Site",
+      "url": "https://taitahillswildlifesanctuary.com/",
+      "icon": "🦁"
+    },
+    {
+      "text": "Taita Hills Wildlife Guide",
+      "url": "https://africanspicesafaris.com/tour/taita-hills-wildlife-sanctuary/",
+      "icon": "🌍"
+    }
+  ],
+  "amenities": ["Big Five", "UNESCO Hotspot", "Endemic Birds", "Less Crowded", "Mountain Scenery", "Conservation Focus"]
+}

@@ -1,0 +1,51 @@
+{
+  "id": 36,
+  "slug": "saiwa-swamp",
+  "name": "Saiwa Swamp National Park",
+  "coordinates": [1.0833, 35.1167],
+  "category": "wildlife",
+  "order": 36,
+  "icon": "🦌",
+  "shortDescription": "Kenya's smallest national park at just 3 sq km near Kitale, created to protect the rare aquatic sitatunga antelope with elongated hooves, featuring 372 bird species and walking-only trails with observation platforms.",
+  "fullDescription": "Saiwa Swamp National Park, Kenya's smallest national park at just 3 square kilometers, was specifically created to protect the rare sitatunga (Tragelaphus spekii), an aquatic antelope adapted to swamp living with elongated, splayed hooves for navigating muddy terrain. Located near Kitale in Trans-Nzoia County, Rift Valley Province, this unique park can only be explored on foot via walking trails and elevated observation platforms - no roads exist. The park entrance fee is $25 per adult non-resident and $15 per child. Despite its tiny size, Saiwa boasts over 372 bird species, making it an exceptional birding destination. The swamp habitat supports De Brazza's monkeys, giant forest squirrels, mongooses, otters, and various amphibians. Multiple observation towers allow visitors to quietly watch sitatunga emerging from papyrus reeds to feed, especially during early morning and late afternoon. The intimate setting provides a completely different safari experience - peaceful, walking-based, and focused on rare swamp specialists. The park's trails wind through pristine wetlands with viewing platforms strategically positioned for wildlife observation and photography. Best visited as a day trip from Kitale or as an add-on to western Kenya itineraries including Kakamega Forest.",
+  "activities": [
+    "Walking trails through swamp habitats (vehicle-free park)",
+    "Sitatunga antelope observation from platforms",
+    "Bird watching (372+ species recorded)",
+    "De Brazza's monkey spotting",
+    "Photography from elevated viewing towers",
+    "Nature walks with armed rangers",
+    "Otter and mongoose tracking",
+    "Educational wetland ecology tours"
+  ],
+  "lodges": [
+    {
+      "name": "Kitale Accommodation",
+      "description": "Stay in nearby Kitale town with budget to mid-range options",
+      "link": "https://www.booking.com/city/ke/kitale.html"
+    },
+    {
+      "name": "Sirikwa Safaris Lodge",
+      "description": "Closest lodge to the park",
+      "link": "https://www.sirikwa.com"
+    },
+    {
+      "name": "Park Campsite",
+      "description": "Basic camping facilities within the park",
+      "link": "https://www.kws.go.ke/saiwa-swamp-national-park"
+    }
+  ],
+  "links": [
+    {
+      "text": "KWS Saiwa Swamp",
+      "url": "https://www.kws.go.ke/saiwa-swamp-national-park",
+      "icon": "🦌"
+    },
+    {
+      "text": "Saiwa Swamp Guide",
+      "url": "https://africanspicesafaris.com/tour/saiwa-swamp-national-park/",
+      "icon": "🌍"
+    }
+  ],
+  "amenities": ["Smallest Park", "Rare Sitatunga", "Walking Only", "Birdwatching", "Unique Swamp", "Observation Platforms"]
+}

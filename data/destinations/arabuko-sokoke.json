@@ -1,0 +1,50 @@
+{
+  "id": 32,
+  "slug": "arabuko-sokoke",
+  "name": "Arabuko Sokoke Forest",
+  "coordinates": [-3.3333, 39.9],
+  "category": "wildlife",
+  "order": 32,
+  "icon": "🦉",
+  "shortDescription": "East Africa's largest intact coastal forest spanning 420 sq km, home to the rare Sokoke Scops Owl found nowhere else, with budget guides at $25/day and camping at Gede Ruins Camp.",
+  "fullDescription": "Arabuko Sokoke Forest Reserve, located 110km north of Mombasa and 20km south of Malindi, is the largest and most intact coastal forest remaining in East Africa, covering 420 square kilometers. This biodiversity hotspot hosts over 270 bird species, including five endemic species found only in the East African coastal forests: the critically endangered Sokoke Scops Owl (Africa's rarest owl), Clarke's Weaver (one of Kenya's most endangered birds), Sokoke Pipit, Amani Sunbird, and East Coast Akalat. Budget travelers can hire local guides for $25/day (far more affordable than official rates) and stay at Gede Ruins Camp for budget-friendly accommodation. The forest contains three distinct habitat types - mixed forest, Brachystegia woodland, and Cynometra forest - each supporting unique wildlife. Beyond birds, visitors may spot Aders' duiker, golden-rumped elephant shrew, and the elusive Sokoke bushy-tailed mongoose. The best time for birdwatching is October to April when migrants arrive. Located adjacent to the ancient Gedi Ruins, visitors can easily combine forest exploration with historical site visits. Important: Carry Kenyan shillings as many services only accept cash.",
+  "activities": [
+    "Guided birdwatching for endemic and rare species",
+    "Sokoke Scops Owl night viewing",
+    "Forest walks through three distinct habitats",
+    "Photography of unique coastal forest biodiversity",
+    "Golden-rumped elephant shrew spotting",
+    "Butterfly watching (over 260 species)",
+    "Combining visit with nearby Gedi Ruins"
+  ],
+  "lodges": [
+    {
+      "name": "Gede Ruins Camp",
+      "description": "Budget-friendly camping near the forest",
+      "link": "https://budgetbirders.com/2021/06/10/this-flock-is-alone-arabuko-sokoke-forest-kenya/"
+    },
+    {
+      "name": "Watamu Accommodation",
+      "description": "30-minute drive to Watamu beach accommodations",
+      "link": "https://www.booking.com/city/ke/watamu.html"
+    },
+    {
+      "name": "Malindi Hotels",
+      "description": "Various budget to mid-range options 30 minutes away",
+      "link": "https://www.booking.com/city/ke/malindi.html"
+    }
+  ],
+  "links": [
+    {
+      "text": "Arabuko Sokoke Birdwatching Guide",
+      "url": "https://birdwatchingkenya.com/birdwatching-safaris-in-arabuko-sokoke-forest-a-hidden-birding-gem-in-kenya/",
+      "icon": "🦅"
+    },
+    {
+      "text": "Avian Safaris Arabuko Sokoke",
+      "url": "https://aviansafaris.com/arabuko-sokoke-forest-reserve/",
+      "icon": "🌳"
+    }
+  ],
+  "amenities": ["Budget Guides", "Endemic Species", "Coastal Forest", "Birdwatching Paradise", "Budget Camping", "Rare Wildlife"]
+}

@@ -1,0 +1,51 @@
+{
+  "id": 33,
+  "slug": "kisite-mpunguti",
+  "name": "Kisite-Mpunguti Marine Park",
+  "coordinates": [-4.7167, 39.3667],
+  "category": "coastal",
+  "order": 33,
+  "icon": "🐬",
+  "shortDescription": "Kenya's most magnificent marine park near Shimoni featuring 250+ fish species, 200+ dolphins in wild pods, crystal-clear snorkeling, and boat trips to Wasini Island with fresh seafood lunches.",
+  "fullDescription": "Kisite-Mpunguti Marine National Park, located on Kenya's southern coast near Shimoni and the Tanzanian border, is renowned as Kenya's most magnificent marine park with crystal-clear waters and thriving coral reefs. The park is home to approximately 250 recorded fish species and over 200 dolphins including spinner, humpback, and bottle-nosed dolphins, typically encountered in pods of 2-25 individuals. Budget-conscious snorkelers will find tours averaging $150 per person (KWS entrance: adults $117, children 3-12 years $30), which typically include snorkeling gear, guidance for beginners, and boat transport. The reef offers sanctuary to sea turtles, reef fish, and occasional whale sightings. Most tours include a visit to nearby Wasini Island where you can enjoy fresh seafood lunches (typically crab, lobster, and fish) and explore Swahili culture. The best snorkeling conditions occur during calm seas from October to March. Dhow sailing trips add traditional authenticity to the experience. The park's clear visibility and gentle currents make it perfect for first-time snorkelers, while experienced divers can explore deeper coral gardens. KWS offers self-catering accommodation options for budget travelers wanting to stay overnight.",
+  "activities": [
+    "Snorkeling in crystal-clear coral gardens",
+    "Dolphin watching and swimming with dolphins",
+    "Glass-bottom boat tours for non-swimmers",
+    "Traditional dhow sailing expeditions",
+    "Wasini Island cultural visits and seafood lunches",
+    "Sea turtle and whale spotting (seasonal)",
+    "Exploring mangrove forests",
+    "Scuba diving for certified divers"
+  ],
+  "lodges": [
+    {
+      "name": "KWS Self-Catering Bandas",
+      "description": "Budget accommodation options near the park",
+      "link": "https://www.kws.go.ke/kisite-mpunguti-marine-park-reserve"
+    },
+    {
+      "name": "Shimoni Budget Lodges",
+      "description": "Various affordable guesthouses in Shimoni town",
+      "link": "https://www.booking.com/city/ke/shimoni.html"
+    },
+    {
+      "name": "Wasini Island Lodges",
+      "description": "Eco-lodges on Wasini Island",
+      "link": "https://wasini.net/"
+    }
+  ],
+  "links": [
+    {
+      "text": "KWS Kisite-Mpunguti",
+      "url": "https://www.kws.go.ke/kisite-mpunguti-marine-park-reserve",
+      "icon": "🌊"
+    },
+    {
+      "text": "Wasini Island Guide",
+      "url": "https://wasini.net/kisite-mpunguti-marine-national-park/",
+      "icon": "🏝️"
+    }
+  ],
+  "amenities": ["Snorkeling Paradise", "Dolphin Encounters", "Beginner-Friendly", "Wasini Island", "Fresh Seafood", "Clear Waters"]
+}

@@ -1,0 +1,50 @@
+{
+  "id": 30,
+  "slug": "kericho",
+  "name": "Kericho Tea Plantations",
+  "coordinates": [-0.3676, 35.2838],
+  "category": "cultural",
+  "order": 30,
+  "icon": "🍵",
+  "shortDescription": "Kenya's tea capital with rolling green plantations, factory tours from picking to processing, budget camping at Chesumot for 1000 KSH, and authentic agro-tourism experiences in the highlands.",
+  "fullDescription": "Kericho, nestled in Kenya's Western Highlands, is the heart of the country's tea industry with vast emerald-green plantations stretching across rolling hills. This budget-friendly destination offers unique agro-tourism experiences where visitors can walk through tea estates, learn about cultivation and plucking techniques from local workers, and tour factories to see the complete tea production process. Chesumot Tea Plantation provides budget accommodation with camping at the water dam for 1000 KSH per person and guesthouse rooms for 4000 KSH, plus complimentary horseback riding and quad bike activities. Tea factories offer free tours to small groups when arranged in advance (avoid end-of-month when staff are busy). The journey from Nairobi takes five hours, or fly to Kisumu International Airport and drive one hour. Kericho town has all major services including petrol stations, shopping malls, and supermarkets. The climate is cool and misty, perfect for tea cultivation, with temperatures averaging 19°C year-round. The experience combines agricultural education, scenic beauty, and authentic rural Kenyan hospitality.",
+  "activities": [
+    "Walking tours through vast tea plantations",
+    "Tea factory tours from leaf to cup",
+    "Learning tea plucking techniques with workers",
+    "Horseback riding at Chesumot Plantation",
+    "Quad biking through tea estates",
+    "Photography of endless green landscapes",
+    "Tasting fresh Kenyan tea at source"
+  ],
+  "lodges": [
+    {
+      "name": "Chesumot Tea Plantation",
+      "description": "Budget camping 1000 KSH/person, guesthouse rooms 4000 KSH with free activities",
+      "link": "https://africanlanders.com/en/kenya-en/kenya-kericho-and-the-tea-plantations/"
+    },
+    {
+      "name": "Tea Hotel Kericho",
+      "description": "Historic hotel in the heart of tea country",
+      "link": "https://www.teahotel.co.ke"
+    },
+    {
+      "name": "Budget Guesthouses",
+      "description": "Various affordable options in Kericho town",
+      "link": "https://www.booking.com/city/ke/kericho.html"
+    }
+  ],
+  "links": [
+    {
+      "text": "Kericho Tea Tours",
+      "url": "https://www.kenyatourbudgetsafari.com/3-Days-best-of-kericho-safari.html",
+      "icon": "🍵"
+    },
+    {
+      "text": "Kenya Tea Farms Guide",
+      "url": "https://naicef.com/kenya-tea-farm-tours-nairobi-limuru-kericho-staycations/",
+      "icon": "🌍"
+    }
+  ],
+  "amenities": ["Budget Camping", "Free Factory Tours", "Agro-Tourism", "Highland Scenery", "Horseback Riding", "Authentic Experience"]
+}
