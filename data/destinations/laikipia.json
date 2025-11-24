@@ -1,0 +1,39 @@
+{
+  "id": 2,
+  "slug": "laikipia",
+  "name": "Laikipia Plateau / Lewa",
+  "coordinates": [0.2167, 37.4500],
+  "dates": "January 18-20, 2026",
+  "category": "wildlife",
+  "order": 2,
+  "icon": "🦏",
+  "shortDescription": "A UNESCO World Heritage Site protecting 10% of Kenya's entire rhino population and 20% of critically endangered Grevy's zebra. Experience exclusive wildlife encounters with only 2-3 other vehicles maximum.",
+  "fullDescription": "The Laikipia Plateau represents Kenya's second-largest wildlife area, yet receives less than 10% of Masai Mara's visitor numbers. Lewa Wildlife Conservancy stands as the crown jewel, protecting over 200 black and white rhinos. Founded by the Craig family in 1983, Lewa pioneered the community-based conservation model, channeling 40% of revenues directly to surrounding communities for healthcare, education, and water projects. With only three lodges across 65,000 acres, you'll experience game drives with minimal vehicle congestion. Activities include horseback safaris with 40+ horses at Lewa Wilderness, vintage biplane flights in a 1929 WACO, camel trekking, and guided walks with Maasai trackers.",
+  "activities": [
+    "Rhino tracking on foot with expert guides",
+    "Game drives across 65,000 acres of pristine wilderness",
+    "Camel walks through conservancy terrain",
+    "Samburu cultural visits at authentic communities",
+    "Horseback safari (at Lewa Wilderness)"
+  ],
+  "lodges": [
+    {
+      "name": "Il Ngwesi Eco-Lodge",
+      "description": "100% community-owned lodge with 6 open-sided bandas",
+      "link": "https://www.ilngwesi.com"
+    },
+    {
+      "name": "Lewa Safari Camp",
+      "description": "Conservancy-owned with 13 tented suites",
+      "link": "https://lewa.org/visit/lewa-safari-camp"
+    }
+  ],
+  "links": [
+    {
+      "text": "Lewa Wildlife Conservancy",
+      "url": "https://lewa.org",
+      "icon": "🌍"
+    }
+  ],
+  "amenities": ["Big Five", "Community-Owned", "Walking Safaris", "Horseback Riding", "Conservation Activities"]
+}

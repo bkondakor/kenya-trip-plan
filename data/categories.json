@@ -1,0 +1,24 @@
+{
+  "categories": {
+    "wildlife": {
+      "name": "Wildlife & Safari",
+      "color": "#059669",
+      "icon": "🦁"
+    },
+    "cultural": {
+      "name": "Cultural",
+      "color": "#d97706",
+      "icon": "🎭"
+    },
+    "coastal": {
+      "name": "Coastal",
+      "color": "#0ea5e9",
+      "icon": "🏖️"
+    },
+    "mountains": {
+      "name": "Mountains",
+      "color": "#7c3aed",
+      "icon": "⛰️"
+    }
+  }
+}

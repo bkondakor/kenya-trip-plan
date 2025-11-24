@@ -1,0 +1,50 @@
+{
+  "id": 13,
+  "slug": "hells-gate",
+  "name": "Hell's Gate National Park",
+  "coordinates": [-0.9167, 36.3167],
+  "dates": "Year-round, June - March ideal",
+  "category": "wildlife",
+  "order": 13,
+  "icon": "🚴",
+  "shortDescription": "Kenya's only park where you can walk, cycle, and climb among wild animals. Dramatic gorges, geothermal activity, and the inspiration for The Lion King scenery.",
+  "fullDescription": "Hell's Gate National Park is one of Kenya's most unique and adventurous destinations. Named for the intense geothermal activity beneath its surface, this 68-square-kilometer park is the only Kenyan national park where visitors can walk, cycle, and rock climb freely among wildlife. The park's dramatic landscape of towering red cliffs, volcanic rock formations, and geothermal steam vents inspired the scenery in Disney's 'The Lion King.' The two massive red-tinged cliffs forming the 'Hell's Gate' gorge rise dramatically from the valley floor, while Fischer's Tower and Central Tower provide world-class rock climbing routes. The narrow Hell's Gate Gorge, with its towering walls and naturally-heated springs, offers an unforgettable hiking experience through water-carved passages barely three meters wide.",
+  "activities": [
+    "Cycling safari among zebras and giraffes",
+    "Hell's Gate Gorge hiking through narrow canyon",
+    "Rock climbing on Fischer's Tower and Central Tower",
+    "Bird watching with 100+ species",
+    "Geothermal exploration of steam vents",
+    "Wildlife photography on foot"
+  ],
+  "lodges": [
+    {
+      "name": "Hell's Gate Cottages & Campsite",
+      "description": "KWS-operated accommodation inside the park",
+      "link": "https://www.kws.go.ke/content/hells-gate-national-park"
+    },
+    {
+      "name": "Lake Naivasha Sopa Resort",
+      "description": "Luxury resort 15 minutes from park entrance",
+      "link": "https://www.sopalodges.com/lake-naivasha-sopa-resort"
+    },
+    {
+      "name": "Naivasha Kongoni Lodge",
+      "description": "Eco-friendly tented camp adjacent to park",
+      "link": "https://www.kongonilodge.com"
+    }
+  ],
+  "links": [
+    {
+      "text": "Kenya Wildlife Service",
+      "url": "https://www.kws.go.ke/content/hells-gate-national-park",
+      "icon": "🌍"
+    },
+    {
+      "text": "Magical Kenya Guide",
+      "url": "https://www.magicalkenya.com",
+      "icon": "🇰🇪"
+    }
+  ],
+  "amenities": ["Cycling Among Wildlife", "Walking Safaris", "Rock Climbing", "Dramatic Gorge", "Geothermal Activity", "Lion King Scenery"]
+}

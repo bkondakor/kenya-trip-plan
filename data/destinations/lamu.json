@@ -1,0 +1,45 @@
+{
+  "id": 6,
+  "slug": "lamu",
+  "name": "Lamu Archipelago",
+  "coordinates": [-2.2717, 40.9020],
+  "dates": "January 27-31, 2026",
+  "category": "coastal",
+  "order": 6,
+  "icon": "⛵",
+  "shortDescription": "A UNESCO World Heritage Site with over 700 years of Swahili culture. Lamu Old Town remains car-free, navigated only by donkeys and dhows with pristine beaches and perfect diving conditions.",
+  "fullDescription": "Lamu Archipelago, a UNESCO World Heritage Site, represents the oldest continuously inhabited Swahili settlement in Kenya at over 700 years old. Lamu Town remains gloriously car-free - only donkeys and dhows navigate the narrow stone streets lined with coral buildings featuring intricately carved wooden doors with brass studs. The architecture fuses Swahili, Arabic, Persian, and Indian influences into a living heritage site where residents still practice traditional crafts: dhow building in Matondoni village, elaborate furniture carving, basket weaving, and calligraphy. Shela Beach offers miles of pristine white sand and towering dunes. January delivers perfect coastal conditions: 28-32°C temperatures, 28°C sea temperatures, only three rain days monthly, and peak water clarity for diving and snorkeling as the dry season eliminates river runoff. Activities include dhow sailing, exploring UNESCO Old Town, snorkeling, and Swahili cooking classes.",
+  "activities": [
+    "Dhow sailing on traditional wooden vessels",
+    "Lamu Old Town UNESCO heritage site exploration",
+    "Shela Beach relaxation and swimming",
+    "Snorkeling in crystal-clear waters",
+    "Swahili cooking class",
+    "Optional day trip to Pate Island ruins or Kiwayu Island"
+  ],
+  "lodges": [
+    {
+      "name": "Peponi Hotel",
+      "description": "Family-run since 1967, iconic beachfront location",
+      "link": "https://peponi-lamu.com"
+    },
+    {
+      "name": "The Majlis Resort",
+      "description": "25-room boutique luxury on Manda Island",
+      "link": "https://themajlisresort.com"
+    }
+  ],
+  "links": [
+    {
+      "text": "Peponi Hotel",
+      "url": "https://peponi-lamu.com",
+      "icon": "🏨"
+    },
+    {
+      "text": "Lamu Cultural Heritage",
+      "url": "https://www.kws.go.ke",
+      "icon": "🏛️"
+    }
+  ],
+  "amenities": ["UNESCO Site", "Pristine Beaches", "Dhow Sailing", "Snorkeling", "Swahili Culture"]
+}

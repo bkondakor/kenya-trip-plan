@@ -1,0 +1,50 @@
+{
+  "id": 14,
+  "slug": "lake-naivasha",
+  "name": "Lake Naivasha",
+  "coordinates": [-0.7667, 36.3667],
+  "dates": "Year-round, November - March peak birds",
+  "category": "wildlife",
+  "order": 14,
+  "icon": "🦛",
+  "shortDescription": "Freshwater oasis in the Rift Valley with boat safaris, Crescent Island walks among wildlife, and over 400 bird species in a serene lakeside paradise.",
+  "fullDescription": "Lake Naivasha is a stunning freshwater lake nestled in the Great Rift Valley at 1,884 meters elevation, just 90 kilometers northwest of Nairobi. Unlike many Rift Valley lakes, Naivasha's fresh water supports a completely different ecosystem, creating a verdant oasis teeming with wildlife and birdlife. The lake supports over 400 bird species, making it one of Kenya's premier birding destinations. The papyrus-fringed shores harbor one of East Africa's largest hippo populations. What sets Lake Naivasha apart is Crescent Island, a private sanctuary where visitors can walk freely among zebras, wildebeests, giraffes, and waterbucks without fences or vehicles - an extraordinarily rare experience in Kenya. The lake's proximity to Nairobi and adjacent Hell's Gate National Park makes it an ideal weekend escape.",
+  "activities": [
+    "Boat safari to observe hippos and birdlife",
+    "Crescent Island walking safari among wildlife",
+    "Bird watching with 400+ species",
+    "Elsamere Conservation Centre visit",
+    "Hell's Gate National Park day trips",
+    "Fishing for black bass and tilapia"
+  ],
+  "lodges": [
+    {
+      "name": "Loldia House",
+      "description": "Exclusive boutique retreat with 7 rooms on cattle ranch",
+      "link": "https://www.loldiahouse.com"
+    },
+    {
+      "name": "Great Rift Valley Lodge & Golf Resort",
+      "description": "Luxury resort with spectacular lake views and golf",
+      "link": "https://www.grvlodge.com"
+    },
+    {
+      "name": "Chui Lodge",
+      "description": "Intimate 7-cottage lodge on lake shore",
+      "link": "https://www.chuilodge.com"
+    }
+  ],
+  "links": [
+    {
+      "text": "Magical Kenya Guide",
+      "url": "https://www.magicalkenya.com/destination/lake-naivasha",
+      "icon": "🌍"
+    },
+    {
+      "text": "Elsamere Conservation",
+      "url": "https://www.elsamere.com",
+      "icon": "🌺"
+    }
+  ],
+  "amenities": ["Boat Safaris", "Walking Safari", "400+ Bird Species", "Hippo Herds", "Elsamere Centre", "Rift Valley Beauty"]
+}

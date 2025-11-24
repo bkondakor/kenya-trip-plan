@@ -2,21 +2,34 @@
 let destinations = [];
 let categoriesData = {};
 
-// Load destinations from JSON file
+// Load destinations from index file
 async function loadDestinations() {
     try {
-        const response = await fetch('data/destinations.json');
-        if (!response.ok) {
-            throw new Error(`HTTP error! status: ${response.status}`);
+        // Load destinations index
+        const destResponse = await fetch('data/destinations/index.json');
+        if (!destResponse.ok) {
+            throw new Error(`HTTP error! status: ${destResponse.status}`);
         }
-        const data = await response.json();
-        destinations = data.destinations;
-        categoriesData = data.categories;
+        const destData = await destResponse.json();
+        destinations = destData.destinations;
 
-        // Calculate category counts
+        // Load categories
+        const catResponse = await fetch('data/categories.json');
+        if (!catResponse.ok) {
+            throw new Error(`HTTP error! status: ${catResponse.status}`);
+        }
+        const catData = await catResponse.json();
+        categoriesData = catData.categories;
+
+        // Merge category data into categories object
         Object.keys(categories).forEach(key => {
+            if (categoriesData[key]) {
+                categories[key] = { ...categories[key], ...categoriesData[key] };
+            }
             categories[key].count = 0;
         });
+
+        // Calculate category counts
         destinations.forEach(dest => {
             if (categories[dest.category]) {
                 categories[dest.category].count++;

@@ -38,13 +38,19 @@ kenya-trip-plan/
 ├── pro-tips.html              # Travel advice page
 ├── destination.html           # ✨ Dynamic destination page (all destinations)
 ├── data/
-│   └── destinations.json      # 📝 All destination data (EDIT THIS FILE)
+│   ├── categories.json        # Category definitions (colors, icons)
+│   └── destinations/
+│       ├── index.json         # 📝 List of all destinations (lightweight)
+│       ├── nairobi.json       # 📝 Individual destination files
+│       ├── laikipia.json
+│       ├── samburu.json
+│       └── ...                # One file per destination
 ├── css/
 │   └── styles.css             # Custom styles and responsive design
 ├── js/
-│   ├── destination-loader.js  # ✨ Dynamic content loader
-│   ├── map.js                 # Leaflet map (loads from JSON)
-│   └── places.js              # Places page (loads from JSON)
+│   ├── destination-loader.js  # ✨ Loads individual destination files
+│   ├── map.js                 # Leaflet map (loads from index)
+│   └── places.js              # Places page (loads from index)
 ├── images/                    # Destination images
 ├── .github/
 │   └── workflows/
@@ -61,7 +67,7 @@ kenya-trip-plan/
     └── itinerary-plan-1.md    # Trip itinerary data
 ```
 
-**Important**: This project has been refactored to use dynamic content loading. Individual destination HTML files (nairobi.html, masai-mara.html, etc.) are no longer used. All destinations are now managed through a single `data/destinations.json` file.
+**Important**: This project uses a modular data structure with split JSON files. Individual destination HTML files are no longer used. Each destination is stored in its own JSON file within `data/destinations/`, and a lightweight index file (`data/destinations/index.json`) lists all destinations for efficient loading.
 
 ## Key Features
 
@@ -73,7 +79,7 @@ kenya-trip-plan/
 
 ### 2. Destination Pages
 - **Dynamic single-page system**: All destinations use `destination.html`
-- Content loaded from `data/destinations.json` based on URL parameter
+- Content loaded from individual JSON files (`data/destinations/{slug}.json`) based on URL parameter
 - URL format: `destination.html?slug=destination-name`
 - Images stored in `/images/` directory
 - No code changes needed to add new destinations
@@ -103,15 +109,16 @@ npx http-server
 ### Making Changes
 
 1. **Adding a New Destination** (NO CODE CHANGES REQUIRED):
-   - Edit `data/destinations.json` only
-   - Add new destination object to the `destinations` array
+   - Create new file: `data/destinations/{slug}.json`
+   - Add destination entry to `data/destinations/index.json`
    - Follow the structure documented in `CONTENT_GUIDE.md`
    - Add image to `images/` directory (named `{slug}.jpg`)
    - Destination automatically appears on map, places page, and has its own page
    - **See `CONTENT_GUIDE.md` for complete instructions**
 
 2. **Modifying Existing Destination**:
-   - Edit the destination object in `data/destinations.json`
+   - Edit the individual file: `data/destinations/{slug}.json`
+   - If changing metadata (name, coordinates, etc.), also update `data/destinations/index.json`
    - Changes apply immediately to all pages (map, places, destination page)
 
 3. **Modifying Styles**:

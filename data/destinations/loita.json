@@ -1,0 +1,34 @@
+{
+  "id": 5,
+  "slug": "loita",
+  "name": "Loita Hills",
+  "coordinates": [-1.5833, 35.6667],
+  "dates": "January 25-26, 2026",
+  "category": "cultural",
+  "order": 5,
+  "icon": "🌳",
+  "shortDescription": "Experience the sacred 'Forest of the Lost Child' with authentic Maasai cultural immersion. 100% community-owned where tourism revenue directly funds schools and women's empowerment programs.",
+  "fullDescription": "Loita Hills protects the sacred 'Forest of the Lost Child' - 33,000 hectares of pristine montane forest managed exclusively by the local Maasai community, making it one of Kenya's few ungazetted forests. Multi-day treks traverse rolling hills at 2,000-2,600m elevation through dense cedar forests sheltering 2,000+ colobus monkeys, forest elephants, leopards, and over 180 bird species. The Entasopia Falls provide refreshing swimming opportunities, while panoramic viewpoints reveal Mount Kilimanjaro, Ol Donyo Lengai volcano, and Lake Magadi. Maji Moto Maasai Cultural Camp implements a pure social enterprise model where 100% of tourism revenue funds the Enkiteng Lepa primary school, widow support programs, and girls' dormitories protecting against FGM and early marriage. Multi-day immersive stays allow genuine integration into daily life: learning medicinal plant identification, participating in livestock herding, and understanding the balance between cultural preservation and modern development.",
+  "activities": [
+    "Multi-day hiking through sacred Maasai forest",
+    "Maasai cultural immersion with authentic communities",
+    "Entasopia Falls swimming and exploration",
+    "Medicinal plant identification with traditional healers",
+    "Traditional ceremonies (when timing allows)"
+  ],
+  "lodges": [
+    {
+      "name": "Maji Moto Maasai Cultural Camp",
+      "description": "Community-owned, traditional manyatta cottages",
+      "link": "https://www.majimoto.org"
+    }
+  ],
+  "links": [
+    {
+      "text": "Community Conservation Info",
+      "url": "https://www.kws.go.ke",
+      "icon": "🤝"
+    }
+  ],
+  "amenities": ["Cultural Immersion", "Sacred Forest", "Waterfall Swimming", "Traditional Healing", "Community-Led"]
+}

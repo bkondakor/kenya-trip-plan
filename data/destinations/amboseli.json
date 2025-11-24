@@ -1,0 +1,50 @@
+{
+  "id": 8,
+  "slug": "amboseli",
+  "name": "Amboseli National Park",
+  "coordinates": [-2.65, 37.25],
+  "dates": "June - October & January - February",
+  "category": "wildlife",
+  "order": 8,
+  "icon": "🐘",
+  "shortDescription": "Land of the Giants featuring iconic elephant herds against the backdrop of Mount Kilimanjaro. Home to over 1,000 elephants and the longest-running elephant research project in the world.",
+  "fullDescription": "Amboseli National Park, situated at the foot of Africa's highest peak, Mount Kilimanjaro, offers one of the most iconic safari experiences in Kenya. The park's name comes from the Maasai word 'Empusel,' meaning 'salty dust,' referring to the dry lake bed that dominates the landscape during dry seasons. The park is world-renowned for its large elephant herds, often numbering over 1,000 individuals. These magnificent creatures can be photographed against the stunning backdrop of snow-capped Kilimanjaro, creating Africa's most recognizable safari image. The elephants of Amboseli have been studied continuously since 1972, making this one of the longest-running wildlife research projects in the world. Beyond elephants, Amboseli hosts over 400 bird species, including numerous waterbirds in the swamps fed by Kilimanjaro's melting snows. The park's diverse habitats support lions, cheetahs, buffalo, and rare opportunities to spot all of Africa's Big Five.",
+  "activities": [
+    "Elephant watching with the largest herds in Kenya",
+    "Kilimanjaro photography at sunrise and sunset",
+    "Bird watching with over 400 species",
+    "Maasai cultural experiences",
+    "Observation Hill hikes for panoramic views",
+    "Game drives through diverse habitats"
+  ],
+  "lodges": [
+    {
+      "name": "Tortilis Camp",
+      "description": "Award-winning tented camp with unobstructed Kilimanjaro views",
+      "link": "https://www.tortilis.com"
+    },
+    {
+      "name": "Amboseli Serena Safari Lodge",
+      "description": "Maasai-inspired architecture with natural spring waterhole",
+      "link": "https://www.serenahotels.com/amboseli"
+    },
+    {
+      "name": "Tawi Lodge",
+      "description": "Intimate eco-lodge on 6,000-acre private conservancy",
+      "link": "https://www.tawi.co.ke"
+    }
+  ],
+  "links": [
+    {
+      "text": "Kenya Wildlife Service",
+      "url": "https://www.kws.go.ke/amboseli-national-park",
+      "icon": "🌍"
+    },
+    {
+      "text": "Amboseli Elephant Research",
+      "url": "https://www.amboseliresearch.com",
+      "icon": "🐘"
+    }
+  ],
+  "amenities": ["Elephant Paradise", "Kilimanjaro Views", "Big Five", "400+ Bird Species", "Maasai Culture", "Iconic Photography"]
+}

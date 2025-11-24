@@ -1,0 +1,50 @@
+{
+  "id": 10,
+  "slug": "lake-nakuru",
+  "name": "Lake Nakuru National Park",
+  "coordinates": [-0.3667, 36.0833],
+  "dates": "Year-round, June - March peak",
+  "category": "wildlife",
+  "order": 10,
+  "icon": "🦩",
+  "shortDescription": "The Pink Paradise featuring millions of flamingos and one of Africa's finest rhino sanctuaries in the Great Rift Valley with over 450 bird species.",
+  "fullDescription": "Lake Nakuru National Park, nestled in the Great Rift Valley, is one of Kenya's most spectacular bird sanctuaries and rhino reserves. Covering 188 square kilometers, the park surrounds the shallow, alkaline Lake Nakuru, which has become world-famous for its stunning display of millions of flamingos that create a spectacular pink fringe along the shoreline. Beyond the flamingos, Lake Nakuru is recognized as one of Africa's finest rhino sanctuaries, hosting both black and white rhinos with some of the highest rhino densities on the continent. The park's diverse habitats include rocky cliffs, acacia forests, euphorbia forests, and the lake itself, supporting over 450 bird species and a rich variety of wildlife including lions, leopards, endangered Rothschild's giraffes, waterbucks, and buffaloes. The stunning viewpoints from Baboon Cliff and Lion Hill offer breathtaking panoramas of the lake and the surrounding Rift Valley escarpment.",
+  "activities": [
+    "Flamingo spectacle viewing with millions of birds",
+    "Rhino tracking in premier sanctuary",
+    "Bird watching paradise with 450+ species",
+    "Scenic viewpoints at Baboon Cliff and Lion Hill",
+    "Wildlife game drives for Big Five",
+    "Photography safari opportunities"
+  ],
+  "lodges": [
+    {
+      "name": "Lake Nakuru Lodge",
+      "description": "Historic lodge within the park with stunning lake views",
+      "link": "https://www.lakenakurulodge.com"
+    },
+    {
+      "name": "Sarova Lion Hill Game Lodge",
+      "description": "Hilltop lodge with panoramic views and infinity pool",
+      "link": "https://www.sarovahotels.com/lionhill-nakuru"
+    },
+    {
+      "name": "Flamingo Hill Camp",
+      "description": "Intimate tented camp with spectacular lake views",
+      "link": "https://www.flamingohillcamp.com"
+    }
+  ],
+  "links": [
+    {
+      "text": "Kenya Wildlife Service",
+      "url": "https://www.kws.go.ke/content/lake-nakuru-national-park",
+      "icon": "🌍"
+    },
+    {
+      "text": "UNESCO World Heritage",
+      "url": "https://whc.unesco.org/en/list/1060",
+      "icon": "🏛️"
+    }
+  ],
+  "amenities": ["Flamingo Paradise", "Rhino Sanctuary", "450+ Bird Species", "Rift Valley Views", "Rothschild's Giraffes", "Photography Heaven"]
+}

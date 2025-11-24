@@ -1,0 +1,50 @@
+{
+  "id": 11,
+  "slug": "tsavo",
+  "name": "Tsavo National Parks",
+  "coordinates": [-3.0, 38.5],
+  "dates": "June - October & January - March",
+  "category": "wildlife",
+  "order": 11,
+  "icon": "🐘",
+  "shortDescription": "Kenya's largest wilderness featuring the legendary red elephants and untamed African landscapes across nearly 22,000 square kilometers.",
+  "fullDescription": "Tsavo National Parks, divided into Tsavo East and Tsavo West, together form one of the world's largest wildlife sanctuaries covering nearly 22,000 square kilometers. This vast wilderness represents one of Africa's last great untamed frontiers where wildlife roams across seemingly endless horizons. Tsavo is world-famous for its legendary 'red elephants' - so named because they dust-bathe in the park's distinctive red volcanic soil. With over 12,000 elephants, Tsavo hosts Kenya's largest elephant population. Tsavo East features vast, flat, semi-arid plains dotted with baobab trees, while Tsavo West showcases more varied topography including the stunning Mzima Springs, volcanic landscapes, and the dramatic Sheitani lava flows. Together, these parks offer an authentic wilderness experience with fewer crowds than Kenya's more famous reserves, allowing visitors to experience the raw, untamed beauty of Africa.",
+  "activities": [
+    "Red elephant encounters in vast herds",
+    "Mzima Springs exploration with underwater viewing",
+    "Volcanic landscapes and Sheitani lava flows",
+    "Big cat tracking including legendary lions",
+    "Lugard Falls and Galana River visits",
+    "Bird watching with 500+ species"
+  ],
+  "lodges": [
+    {
+      "name": "Finch Hattons Luxury Safari Camp",
+      "description": "Exclusive tented camp in Tsavo West with spring views",
+      "link": "https://www.finchattons.com"
+    },
+    {
+      "name": "Satao Camp",
+      "description": "Authentic camp in Tsavo East overlooking waterhole",
+      "link": "https://www.sataocamp.com"
+    },
+    {
+      "name": "Kilaguni Serena Safari Lodge",
+      "description": "Historic 1962 lodge with Kilimanjaro views",
+      "link": "https://www.serenahotels.com/tsavo-west"
+    }
+  ],
+  "links": [
+    {
+      "text": "Tsavo East - KWS",
+      "url": "https://www.kws.go.ke/content/tsavo-east-national-park",
+      "icon": "🌍"
+    },
+    {
+      "text": "Tsavo West - KWS",
+      "url": "https://www.kws.go.ke/content/tsavo-west-national-park",
+      "icon": "🌍"
+    }
+  ],
+  "amenities": ["Red Elephants", "Largest Park", "Big Five", "Mzima Springs", "Volcanic Landscapes", "500+ Bird Species"]
+}

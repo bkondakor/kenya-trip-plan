@@ -17,28 +17,19 @@ function getCategoryColor(category) {
     return colors[category] || '#059669';
 }
 
-// Load destinations from JSON file
-async function loadDestinations() {
+// Load single destination from its individual JSON file
+async function loadDestination(slug) {
     try {
-        const response = await fetch('data/destinations.json');
+        const response = await fetch(`data/destinations/${slug}.json`);
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
-        const data = await response.json();
-        return data.destinations;
+        const destination = await response.json();
+        return destination;
     } catch (error) {
-        console.error('Error loading destinations:', error);
+        console.error('Error loading destination:', error);
         throw error;
     }
-}
-
-// Find destination by slug
-function findDestinationBySlug(destinations, slug) {
-    return destinations.find(dest =>
-        dest.slug === slug ||
-        dest.slug.toLowerCase() === slug.toLowerCase() ||
-        dest.name.toLowerCase().replace(/\s+/g, '-') === slug.toLowerCase()
-    );
 }
 
 // Render destination page
@@ -155,8 +146,7 @@ async function initializePage() {
     }
 
     try {
-        const destinations = await loadDestinations();
-        const destination = findDestinationBySlug(destinations, slug);
+        const destination = await loadDestination(slug);
 
         if (!destination) {
             console.error('Destination not found:', slug);

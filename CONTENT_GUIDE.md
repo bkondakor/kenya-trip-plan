@@ -2,7 +2,7 @@
 
 ## Overview
 
-This website has been refactored to support **dynamic content loading**. You can now add, edit, or remove destinations without modifying any code. All destination data is managed through a single JSON file.
+This website has been refactored to support **dynamic content loading** with a **modular file structure**. You can now add, edit, or remove destinations without modifying any code. Each destination is stored in its own JSON file for easier management and version control.
 
 ## Table of Contents
 
@@ -19,9 +19,11 @@ This website has been refactored to support **dynamic content loading**. You can
 
 ## Quick Start: Adding a New Destination
 
-### Step 1: Edit the JSON File
+### Step 1: Create Individual Destination File
 
-Open `data/destinations.json` and add a new destination object to the `destinations` array:
+Create a new JSON file in `data/destinations/` named after your destination slug:
+
+**File**: `data/destinations/new-destination.json`
 
 ```json
 {
@@ -58,11 +60,27 @@ Open `data/destinations.json` and add a new destination object to the `destinati
 }
 ```
 
-### Step 2: Save and Test
+### Step 2: Add to Index
 
-1. Save the `destinations.json` file
-2. Open your website in a browser
-3. Your new destination will automatically appear on:
+Open `data/destinations/index.json` and add your destination to the `destinations` array:
+
+```json
+{
+  "id": 15,
+  "slug": "new-destination",
+  "name": "New Destination Name",
+  "coordinates": [-1.2921, 36.8219],
+  "category": "wildlife",
+  "order": 15,
+  "icon": "🦁",
+  "shortDescription": "Brief 1-2 sentence description"
+}
+```
+
+### Step 3: Test
+
+1. Open your website in a browser
+2. Your new destination will automatically appear on:
    - The interactive map (`map.html`)
    - The places directory (`places.html`)
    - Its own dedicated page (`destination.html?slug=new-destination`)
@@ -78,19 +96,27 @@ Open `data/destinations.json` and add a new destination object to the `destinati
 ```
 kenya-trip-plan/
 ├── data/
-│   └── destinations.json          # 📝 EDIT THIS FILE to manage content
+│   ├── categories.json            # Category definitions (colors, icons)
+│   └── destinations/
+│       ├── index.json             # 📝 List of all destinations (edit when adding)
+│       ├── nairobi.json           # 📝 Individual destination files
+│       ├── laikipia.json
+│       ├── samburu.json
+│       └── ...                    # One file per destination
 ├── destination.html                # Dynamic destination page template
 ├── js/
-│   ├── destination-loader.js      # Loads destination data dynamically
-│   ├── map.js                     # Map functionality (auto-loads from JSON)
-│   └── places.js                  # Places page (auto-loads from JSON)
+│   ├── destination-loader.js      # Loads individual destination files
+│   ├── map.js                     # Map functionality (loads from index)
+│   └── places.js                  # Places page (loads from index)
 ├── images/                        # Destination images
 └── CONTENT_GUIDE.md              # This file
 ```
 
 ### What You Edit
 
-- **`data/destinations.json`** - All destination content (the only file you need to edit)
+- **`data/destinations/index.json`** - Add new destination entries here
+- **`data/destinations/{slug}.json`** - Create/edit individual destination files
+- **`data/categories.json`** - Edit categories (rare, usually don't touch)
 - **`images/`** - Add destination images here
 
 ### What You Don't Touch
@@ -310,13 +336,16 @@ If the slug is `masai-mara`, it loads `images/masai-mara.jpg`.
 **Problem**: "Error loading destination data" alert appears
 
 **Solutions**:
-1. **Validate JSON**: Copy your `destinations.json` content to https://jsonlint.com
-2. **Common mistakes**:
-   - Missing comma between objects
+1. **Validate JSON**: Copy your JSON file content to https://jsonlint.com
+2. **Check both files**:
+   - Validate `data/destinations/index.json`
+   - Validate the individual destination file `data/destinations/{slug}.json`
+3. **Common mistakes**:
+   - Missing comma between objects (in index.json)
    - Trailing comma after last item
    - Unescaped quotes in strings (use `\"` for quotes in text)
    - Missing closing brackets `]` or braces `}`
-3. **Fix format**: Use a code editor with JSON validation (VS Code, Sublime Text)
+4. **Fix format**: Use a code editor with JSON validation (VS Code, Sublime Text)
 
 ### Destination Page Shows Error
 
@@ -531,6 +560,7 @@ If you encounter issues not covered in this guide:
 
 ## Version History
 
+- **v3.0** (2025-11-24) - Split destinations into individual JSON files for easier management
 - **v2.0** (2025-11-24) - Refactored to dynamic JSON-based content system
 - **v1.0** - Initial static HTML version with individual destination pages
 
@@ -538,4 +568,4 @@ If you encounter issues not covered in this guide:
 
 **Last Updated**: November 24, 2025
 
-**Remember**: You only need to edit `data/destinations.json` to manage all destination content. No code changes required!
+**Remember**: Each destination now has its own JSON file in `data/destinations/`. Add new destinations by creating a new file and updating the index. No code changes required!

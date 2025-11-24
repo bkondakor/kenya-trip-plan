@@ -1,0 +1,51 @@
+{
+  "id": 9,
+  "slug": "diani",
+  "name": "Diani Beach",
+  "coordinates": [-4.29, 39.58],
+  "dates": "July - March",
+  "category": "coastal",
+  "order": 9,
+  "icon": "🏖️",
+  "shortDescription": "Kenya's tropical paradise featuring 17 kilometers of pristine white sand beaches and crystal-clear turquoise waters. Perfect coastal retreat combining relaxation with water sports and marine adventures.",
+  "fullDescription": "Diani Beach, located 30 kilometers south of Mombasa on Kenya's Indian Ocean coastline, consistently ranks among Africa's best beaches. Stretching for 17 kilometers, this pristine paradise features powdery white coral sand, crystal-clear turquoise waters protected by coral reefs, and swaying palm trees. Beyond its postcard-perfect beaches, Diani offers diverse ecosystems. The ancient Kaya Kinondo sacred forest, just inland, protects rare coastal forest and represents the spiritual heritage of the Digo people. The coral reefs teem with marine life attracting snorkelers and divers, while warm waters host dolphins, sea turtles, and seasonally whale sharks and humpback whales. Diani seamlessly blends relaxation with adventure, offering kite surfing, skydiving, deep-sea fishing, and visits to the Colobus Conservation Center protecting endangered monkeys. The blend of Swahili culture, fresh seafood, and warm hospitality makes Diani the perfect coastal retreat.",
+  "activities": [
+    "Snorkeling and diving on vibrant coral reefs",
+    "Kitesurfing with world-class conditions",
+    "Dolphin spotting and marine wildlife encounters",
+    "Kaya Kinondo sacred forest walks",
+    "Colobus Conservation sanctuary visits",
+    "Deep sea fishing expeditions",
+    "Traditional dhow sailing at sunset"
+  ],
+  "lodges": [
+    {
+      "name": "The Sands at Nomad",
+      "description": "Boutique beachfront hotel with 42 rooms and infinity pool",
+      "link": "https://www.thesandskenya.com"
+    },
+    {
+      "name": "Almanara Luxury Resort",
+      "description": "Exclusive adults-only resort with 12 private villas",
+      "link": "https://www.almanaraluxuryresort.com"
+    },
+    {
+      "name": "Leopard Beach Resort",
+      "description": "Family-friendly resort with 158 rooms in tropical gardens",
+      "link": "https://www.leopardbeachresort.com"
+    }
+  ],
+  "links": [
+    {
+      "text": "Magical Kenya Guide",
+      "url": "https://www.magicalkenya.com/destination/diani-beach",
+      "icon": "🌍"
+    },
+    {
+      "text": "Colobus Conservation",
+      "url": "https://www.colobusconservation.org",
+      "icon": "🐒"
+    }
+  ],
+  "amenities": ["White Sand Beaches", "Coral Reefs", "Water Sports", "Marine Wildlife", "Sacred Forests", "Fresh Seafood"]
+}

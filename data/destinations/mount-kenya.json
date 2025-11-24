@@ -1,0 +1,50 @@
+{
+  "id": 12,
+  "slug": "mount-kenya",
+  "name": "Mount Kenya",
+  "coordinates": [-0.1521, 37.3084],
+  "dates": "January - February & July - October",
+  "category": "mountains",
+  "order": 12,
+  "icon": "🏔️",
+  "shortDescription": "Africa's second-highest mountain, a UNESCO World Heritage Site with glaciers, alpine lakes, and unique afro-alpine ecosystems found nowhere else on Earth.",
+  "fullDescription": "Mount Kenya, rising to 5,199 meters at its highest peak Batian, is Africa's second-highest mountain and a UNESCO World Heritage Site. This ancient volcano has been sculpted by millions of years of glacial erosion into a spectacular alpine landscape featuring jagged peaks, hanging valleys, glacial lakes, and unique afro-alpine vegetation. The mountain is sacred to Kenya's Kikuyu people, and the name 'Kenya' itself derives from 'Kirinyaga,' meaning 'mountain of whiteness.' The park features 11 distinct vegetation zones from lowland forest through bamboo, heath, moorland, and finally to the glacial peaks. While the twin peaks of Batian and Nelion require technical rock climbing, Point Lenana (4,985m) can be reached by trekkers without climbing experience. The mountain's lower slopes harbor elephants, buffaloes, giant forest hogs, and the rare bongo antelope.",
+  "activities": [
+    "Point Lenana summit trek (4,985m)",
+    "Technical climbing to Batian and Nelion peaks",
+    "Afro-alpine ecosystem exploration",
+    "Glaciers and alpine lakes viewing",
+    "Wildlife encounters in montane forests",
+    "High-altitude bird watching with 130+ species"
+  ],
+  "lodges": [
+    {
+      "name": "Fairmont Mount Kenya Safari Club",
+      "description": "Luxury base with 120 rooms and animal orphanage",
+      "link": "https://www.fairmont.com/mount-kenya-safari"
+    },
+    {
+      "name": "Serena Mountain Lodge",
+      "description": "Tree lodge at 2,194m with wildlife viewing bunker",
+      "link": "https://www.serenahotels.com/mountain-lodge"
+    },
+    {
+      "name": "Mountain Huts",
+      "description": "Trek accommodations at various altitudes",
+      "link": "https://www.kws.go.ke/content/mount-kenya-national-park"
+    }
+  ],
+  "links": [
+    {
+      "text": "Kenya Wildlife Service",
+      "url": "https://www.kws.go.ke/content/mount-kenya-national-park",
+      "icon": "🌍"
+    },
+    {
+      "text": "UNESCO World Heritage",
+      "url": "https://whc.unesco.org/en/list/800",
+      "icon": "🏛️"
+    }
+  ],
+  "amenities": ["Africa's 2nd Highest", "UNESCO Heritage", "Equatorial Glaciers", "Afro-Alpine Flora", "Epic Trekking", "Unique Wildlife"]
+}
