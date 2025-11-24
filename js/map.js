@@ -155,8 +155,9 @@ function addMarkers() {
         const popupContent = `
             <div class="popup-content">
                 <div class="popup-title">${dest.icon} ${dest.name}</div>
-                <div class="popup-dates">📅 ${dest.dates}</div>
+                ${dest.dates ? `<div class="popup-dates">📅 ${dest.dates}</div>` : ''}
                 <div class="popup-description">${dest.shortDescription}</div>
+                ${dest.activities && dest.activities.length > 0 ? `
                 <div class="popup-activities">
                     <h4>Key Activities:</h4>
                     ${dest.activities.slice(0, 3).map(activity =>
@@ -167,6 +168,7 @@ function addMarkers() {
                         : ''
                     }
                 </div>
+                ` : ''}
                 <button
                     id="tripBtn-${dest.id}"
                     class="popup-trip-btn"
@@ -282,7 +284,7 @@ function renderDestinationsList() {
             <div class="destination-icon ${dest.category}">${dest.icon}</div>
             <div class="destination-info">
                 <h4>${dest.name}</h4>
-                <p>${dest.dates}</p>
+                ${dest.dates ? `<p>${dest.dates}</p>` : `<p>${dest.category}</p>`}
             </div>
         </div>
     `).join('');
